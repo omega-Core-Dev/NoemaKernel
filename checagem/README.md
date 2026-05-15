@@ -17,7 +17,8 @@ testes, manifesto de dependencias ou repositorio Git inicializado.
 - `prototipo-v0.md`: estado do primeiro prototipo executavel do Bankmap.
 - `gemma-api.md`: integracao opcional com Gemma via Gemini API.
 - `openai-api.md`: integracao opcional com OpenAI/GPT via Responses API.
-- `grafo-arquitetura.html`: grafo visual autocontido da arquitetura.
+- `grafo-arquitetura.svg`: grafo visual renderizavel diretamente no GitHub.
+- `grafo-arquitetura.html`: pagina simples que carrega o SVG do grafo.
 - `grafo-arquitetura-mermaid.md`: versao Mermaid do grafo.
 - `context-judge-test-flow.svg`: fluxo simples de teste do ContextJudge.
 - `stress-test.md`: resultado do teste local com 4, 10, 20 e 40 contextos.

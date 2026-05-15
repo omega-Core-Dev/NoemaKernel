@@ -1,28 +1,14 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NoemaKernel - Grafo Visual</title>
+  <title>NoemaKernel Architecture Graph</title>
   <style>
-    :root {
-      --bg: #f7f7f2;
-      --ink: #1e2528;
-      --muted: #657174;
-      --line: #839194;
-      --input: #d8efe7;
-      --core: #f5d98b;
-      --reason: #d8def7;
-      --llm: #ffd7c2;
-      --output: #d7ecd0;
-      --audit: #ece3f2;
-      --risk: #f3c9c9;
-    }
-
     body {
       margin: 0;
-      background: var(--bg);
-      color: var(--ink);
+      background: #f7f7f2;
+      color: #1e2528;
       font-family: Arial, Helvetica, sans-serif;
     }
 
@@ -33,41 +19,19 @@
     }
 
     h1 {
-      margin: 0 0 6px;
+      margin: 0 0 8px;
       font-size: 28px;
-      letter-spacing: 0;
     }
 
     p {
       margin: 0 0 18px;
-      color: var(--muted);
-      max-width: 900px;
+      color: #657174;
+      max-width: 980px;
       line-height: 1.45;
     }
 
-    .legend {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px 16px;
-      margin: 0 0 18px;
-      font-size: 13px;
-      color: var(--muted);
-    }
-
-    .legend span {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-    }
-
-    .swatch {
-      width: 14px;
-      height: 14px;
-      border: 1px solid #9aa4a6;
-      border-radius: 3px;
-    }
-
-    svg {
+    img {
+      display: block;
       width: 100%;
       height: auto;
       background: #fffef8;
@@ -75,258 +39,17 @@
       border-radius: 8px;
       box-shadow: 0 12px 32px rgba(30, 37, 40, 0.08);
     }
-
-    .node rect {
-      stroke: #5e686b;
-      stroke-width: 1.4;
-      rx: 8;
-    }
-
-    .node text {
-      fill: var(--ink);
-      font-size: 14px;
-    }
-
-    .node .title {
-      font-weight: 700;
-      font-size: 15px;
-    }
-
-    .edge {
-      stroke: var(--line);
-      stroke-width: 2;
-      fill: none;
-      marker-end: url(#arrow);
-    }
-
-    .edge-strong {
-      stroke: #455154;
-      stroke-width: 2.8;
-      fill: none;
-      marker-end: url(#arrow-strong);
-    }
-
-    .edge-dashed {
-      stroke: #8d7a9f;
-      stroke-width: 2;
-      fill: none;
-      stroke-dasharray: 7 6;
-      marker-end: url(#arrow-purple);
-    }
-
-    .label {
-      fill: #566164;
-      font-size: 12px;
-      font-weight: 700;
-    }
-
-    .group-label {
-      fill: #7d8789;
-      font-size: 13px;
-      font-weight: 700;
-      letter-spacing: 0;
-    }
   </style>
 </head>
 <body>
   <main>
     <h1>NoemaKernel / Bankmap</h1>
     <p>
-      Grafo visual da arquitetura atual: varios contextos entram, o Bankmap calcula carga contextual
-      e ancoras semanticas, o bootloader monta uma inferencia unica, e o output volta separado com
-      metricas embutidas. O ContextJudge avalia cada contexto antes da compactacao para
-      decidir promote, compact, audit ou discard.
+      Architecture graph for Bankmap, bidirectional context evaluation,
+      ContextJudge, compact context preparation and multi-flow LLM output.
+      The SVG version renders directly on GitHub and in browsers.
     </p>
-
-    <div class="legend">
-      <span><i class="swatch" style="background: var(--input)"></i>Entrada</span>
-      <span><i class="swatch" style="background: var(--core)"></i>Nucleo Bankmap</span>
-      <span><i class="swatch" style="background: var(--reason)"></i>Contexto bidirecional</span>
-      <span><i class="swatch" style="background: var(--llm)"></i>LLM/Gemma</span>
-      <span><i class="swatch" style="background: var(--output)"></i>Output</span>
-      <span><i class="swatch" style="background: var(--audit)"></i>Auditoria/metricas</span>
-    </div>
-
-    <svg viewBox="0 0 1220 940" role="img" aria-label="Grafo da arquitetura NoemaKernel Bankmap">
-      <defs>
-        <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-          <path d="M 0 0 L 10 5 L 0 10 z" fill="#839194"></path>
-        </marker>
-        <marker id="arrow-strong" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-          <path d="M 0 0 L 10 5 L 0 10 z" fill="#455154"></path>
-        </marker>
-        <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-          <path d="M 0 0 L 10 5 L 0 10 z" fill="#8d7a9f"></path>
-        </marker>
-      </defs>
-
-      <text x="42" y="42" class="group-label">INPUT: multiplos fluxos contextuais</text>
-      <text x="390" y="42" class="group-label">NUCLEO: compressao e sustentacao</text>
-      <text x="780" y="42" class="group-label">INFERENCIA UNICA</text>
-      <text x="960" y="42" class="group-label">OUTPUT MULTI-FLUXO</text>
-
-      <g class="node">
-        <rect x="40" y="78" width="210" height="74" fill="var(--input)"></rect>
-        <text x="58" y="106" class="title">Contextos C1..Cn</text>
-        <text x="58" y="129">texto, memoria, sinais</text>
-      </g>
-
-      <g class="node">
-        <rect x="40" y="184" width="210" height="78" fill="var(--input)"></rect>
-        <text x="58" y="212" class="title">Objetivo / pergunta</text>
-        <text x="58" y="235">estado final desejado</text>
-      </g>
-
-      <g class="node">
-        <rect x="40" y="294" width="210" height="86" fill="var(--input)"></rect>
-        <text x="58" y="322" class="title">Axiomas base</text>
-        <text x="58" y="345">sentido, privacidade,</text>
-        <text x="58" y="364">nao intrusao</text>
-      </g>
-
-      <g class="node">
-        <rect x="320" y="92" width="220" height="92" fill="var(--core)"></rect>
-        <text x="340" y="121" class="title">Bankmap</text>
-        <text x="340" y="145">roteia, pesa, agrupa</text>
-        <text x="340" y="164">mantem fronteiras</text>
-      </g>
-
-      <g class="node">
-        <rect x="320" y="220" width="220" height="104" fill="var(--reason)"></rect>
-        <text x="340" y="249" class="title">Contexto regressivo</text>
-        <text x="340" y="273">parte do final/objetivo</text>
-        <text x="340" y="292">acha sustentadores</text>
-      </g>
-
-      <g class="node">
-        <rect x="320" y="360" width="220" height="96" fill="var(--reason)"></rect>
-        <text x="340" y="389" class="title">Contexto progressivo</text>
-        <text x="340" y="413">projeta proximos passos</text>
-        <text x="340" y="432">ativa caminhos futuros</text>
-      </g>
-
-      <g class="node">
-        <rect x="600" y="92" width="220" height="92" fill="var(--reason)"></rect>
-        <text x="620" y="121" class="title">Ancoras semanticas</text>
-        <text x="620" y="145">alta carga contextual</text>
-        <text x="620" y="164">noemas abertos</text>
-      </g>
-
-      <g class="node">
-        <rect x="600" y="220" width="220" height="92" fill="var(--reason)"></rect>
-        <text x="620" y="249" class="title">Estabilidade bidirecional</text>
-        <text x="620" y="273">72.50% estavel</text>
-        <text x="620" y="292">75.30% score medio</text>
-      </g>
-
-      <g class="node">
-        <rect x="600" y="348" width="220" height="108" fill="var(--audit)"></rect>
-        <text x="620" y="377" class="title">ContextJudge</text>
-        <text x="620" y="401">Semantic Sustainment</text>
-        <text x="620" y="420">promote / compact</text>
-        <text x="620" y="439">audit / discard</text>
-      </g>
-
-      <g class="node">
-        <rect x="600" y="492" width="220" height="92" fill="var(--core)"></rect>
-        <text x="620" y="521" class="title">Contexto compacto</text>
-        <text x="620" y="545">ativos: 22.50%</text>
-        <text x="620" y="564">potencial ativo: 45.82%</text>
-      </g>
-
-      <g class="node">
-        <rect x="600" y="620" width="220" height="96" fill="var(--core)"></rect>
-        <text x="620" y="649" class="title">Bootloader</text>
-        <text x="620" y="673">monta prompt final</text>
-        <text x="620" y="692">schema + metricas</text>
-      </g>
-
-      <g class="node">
-        <rect x="878" y="196" width="190" height="110" fill="var(--llm)"></rect>
-        <text x="900" y="226" class="title">LLM / Gemma</text>
-        <text x="900" y="250">1 inferencia</text>
-        <text x="900" y="269">gera resposta</text>
-        <text x="900" y="288">multi-fluxo</text>
-      </g>
-
-      <g class="node">
-        <rect x="990" y="78" width="190" height="80" fill="var(--output)"></rect>
-        <text x="1010" y="106" class="title">Resposta usuario</text>
-        <text x="1010" y="130">texto final</text>
-      </g>
-
-      <g class="node">
-        <rect x="990" y="184" width="190" height="80" fill="var(--output)"></rect>
-        <text x="1010" y="212" class="title">Memoria</text>
-        <text x="1010" y="236">updates opcionais</text>
-      </g>
-
-      <g class="node">
-        <rect x="990" y="290" width="190" height="80" fill="var(--output)"></rect>
-        <text x="1010" y="318" class="title">Noemas ativados</text>
-        <text x="1010" y="342">ambiguidade fertil</text>
-      </g>
-
-      <g class="node">
-        <rect x="990" y="396" width="190" height="80" fill="var(--audit)"></rect>
-        <text x="1010" y="424" class="title">Metricas no output</text>
-        <text x="1010" y="448">%, throughput, validade</text>
-      </g>
-
-      <g class="node">
-        <rect x="990" y="502" width="190" height="80" fill="var(--audit)"></rect>
-        <text x="1010" y="530" class="title">Proximas acoes</text>
-        <text x="1010" y="554">lacunas e testes</text>
-      </g>
-
-      <g class="node">
-        <rect x="320" y="752" width="260" height="156" fill="var(--audit)"></rect>
-        <text x="342" y="782" class="title">Metricas atuais</text>
-        <text x="342" y="808">semantic_sustainment: 50.83%</text>
-        <text x="342" y="832">poder semantico: 43.88%</text>
-        <text x="342" y="856">contextos ativos: 22.50%</text>
-        <text x="342" y="880">auditoria/descarte: 42.50/35%</text>
-      </g>
-
-      <g class="node">
-        <rect x="640" y="752" width="280" height="156" fill="var(--risk)"></rect>
-        <text x="662" y="782" class="title">Riscos conhecidos</text>
-        <text x="662" y="808">calibragem ainda heuristica</text>
-        <text x="662" y="832">auditoria precisa judge externo</text>
-        <text x="662" y="856">API instavel / 500</text>
-        <text x="662" y="880">metricas nao sao benchmark</text>
-      </g>
-
-      <path class="edge-strong" d="M250 115 C285 115 285 138 320 138"></path>
-      <path class="edge" d="M250 223 C285 223 285 250 320 250"></path>
-      <path class="edge" d="M250 337 C286 337 288 174 320 158"></path>
-      <path class="edge-strong" d="M430 184 L430 220"></path>
-      <path class="edge-strong" d="M430 324 L430 360"></path>
-      <path class="edge-strong" d="M540 270 C570 270 570 138 600 138"></path>
-      <path class="edge-strong" d="M540 408 C570 408 570 158 600 158"></path>
-      <path class="edge-strong" d="M710 184 L710 220"></path>
-      <path class="edge-strong" d="M710 312 L710 348"></path>
-      <path class="edge-strong" d="M710 456 L710 492"></path>
-      <path class="edge-strong" d="M710 584 L710 620"></path>
-      <path class="edge-strong" d="M820 668 C850 668 850 270 878 270"></path>
-
-      <path class="edge-strong" d="M1068 250 C1110 250 1110 118 990 118"></path>
-      <path class="edge" d="M1068 250 C1110 250 1110 224 990 224"></path>
-      <path class="edge" d="M1068 250 C1110 250 1110 330 990 330"></path>
-      <path class="edge" d="M1068 250 C1120 250 1120 436 990 436"></path>
-      <path class="edge" d="M1068 250 C1140 250 1140 542 990 542"></path>
-
-      <path class="edge-dashed" d="M820 402 C900 442 900 436 990 436"></path>
-      <path class="edge-dashed" d="M990 436 C880 650 735 700 760 752"></path>
-      <path class="edge-dashed" d="M600 668 C560 700 510 724 470 752"></path>
-
-      <text x="274" y="107" class="label">N contextos</text>
-      <text x="456" y="207" class="label">regressao</text>
-      <text x="560" y="382" class="label">progresso</text>
-      <text x="832" y="392" class="label">julgamento</text>
-      <text x="834" y="184" class="label">1 chamada</text>
-      <text x="1096" y="385" class="label">output separado</text>
-    </svg>
+    <img src="grafo-arquitetura.svg" alt="NoemaKernel architecture graph">
   </main>
 </body>
 </html>

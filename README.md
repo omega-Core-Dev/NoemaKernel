@@ -62,6 +62,7 @@ Context blocks
 
 Visual files:
 
+- `checagem/grafo-arquitetura.svg`
 - `checagem/grafo-arquitetura-mermaid.md`
 - `checagem/grafo-arquitetura.html`
 - `checagem/context-judge-test-flow.svg`
