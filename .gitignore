@@ -1,0 +1,11 @@
+.env
+local_api_key.py
+artifacts/gemma/*.json
+artifacts/gemma/*.md
+artifacts/openai/*.json
+artifacts/openai/*.md
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/

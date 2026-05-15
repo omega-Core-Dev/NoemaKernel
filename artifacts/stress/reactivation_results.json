@@ -1,0 +1,3337 @@
+[
+  {
+    "mode": "aggressive",
+    "size": 10,
+    "bankmap_metrics": {
+      "mode": "aggressive",
+      "contexts_processed": 10.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 10.0,
+      "raw_tokens_est": 264.0,
+      "compact_tokens_est": 151.0,
+      "token_compression": 0.428030303030303,
+      "anchors_selected": 10.0,
+      "context_coverage": 1.0,
+      "semantic_sustentation": 0.8,
+      "structural_lightness": 0.3424242424242424
+    },
+    "reactivation_metrics": {
+      "reactivation_context_coverage": 1.0,
+      "reactivation_ratio_avg": 0.5413003663003664,
+      "reconstruction_ratio_avg": 0.5448717948717949,
+      "cognitive_reconstruction_score_avg": 0.5342902930402931,
+      "contexts": [
+        {
+          "context_id": "ctx_001",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5333333333333333,
+          "reconstruction_ratio": 0.5333333333333333,
+          "cognitive_reconstruction_score": 0.5266666666666666,
+          "missing_terms": [
+            "bankmap",
+            "contextos",
+            "deve",
+            "inferencia",
+            "muitos",
+            "tratar",
+            "unica"
+          ]
+        },
+        {
+          "context_id": "ctx_002",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5714285714285714,
+          "reconstruction_ratio": 0.5892857142857143,
+          "cognitive_reconstruction_score": 0.5633928571428571,
+          "missing_terms": [
+            "compreender",
+            "estrutura",
+            "leitura",
+            "para",
+            "parte",
+            "regressiva"
+          ]
+        },
+        {
+          "context_id": "ctx_003",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.6,
+          "reconstruction_ratio": 0.6,
+          "cognitive_reconstruction_score": 0.58,
+          "missing_terms": [
+            "carregar",
+            "contexto",
+            "curtas",
+            "frases",
+            "inteiro",
+            "podem"
+          ]
+        },
+        {
+          "context_id": "ctx_004",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 10,
+          "reactivation_ratio": 0.7142857142857143,
+          "reconstruction_ratio": 0.7321428571428571,
+          "cognitive_reconstruction_score": 0.6776785714285715,
+          "missing_terms": [
+            "basta",
+            "cortar",
+            "firula",
+            "textual"
+          ]
+        },
+        {
+          "context_id": "ctx_005",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.6666666666666666,
+          "reconstruction_ratio": 0.6666666666666666,
+          "cognitive_reconstruction_score": 0.6333333333333333,
+          "missing_terms": [
+            "alta",
+            "cobertura",
+            "deve",
+            "permanecer"
+          ]
+        },
+        {
+          "context_id": "ctx_006",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.5,
+          "reconstruction_ratio": 0.5,
+          "cognitive_reconstruction_score": 0.5,
+          "missing_terms": [
+            "auditabilidade",
+            "cobertura",
+            "compressao",
+            "semantica",
+            "separabilidade",
+            "sustentacao"
+          ]
+        },
+        {
+          "context_id": "ctx_007",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 3,
+          "reactivation_ratio": 0.25,
+          "reconstruction_ratio": 0.25,
+          "cognitive_reconstruction_score": 0.30000000000000004,
+          "missing_terms": [
+            "ancoras",
+            "auditavel",
+            "bruto",
+            "contexto",
+            "decisoes",
+            "estrutura",
+            "scores",
+            "transforma",
+            "trilha"
+          ]
+        },
+        {
+          "context_id": "ctx_008",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.42857142857142855,
+          "reconstruction_ratio": 0.42857142857142855,
+          "cognitive_reconstruction_score": 0.44285714285714284,
+          "missing_terms": [
+            "aberto",
+            "como",
+            "compreensao",
+            "futura",
+            "noema",
+            "preservada",
+            "produzir",
+            "quando"
+          ]
+        },
+        {
+          "context_id": "ctx_009",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5333333333333333,
+          "reconstruction_ratio": 0.5333333333333333,
+          "cognitive_reconstruction_score": 0.5266666666666666,
+          "missing_terms": [
+            "audit",
+            "descartes",
+            "deve",
+            "fusoes",
+            "isso",
+            "registrar",
+            "trail"
+          ]
+        },
+        {
+          "context_id": "ctx_010",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.6153846153846154,
+          "reconstruction_ratio": 0.6153846153846154,
+          "cognitive_reconstruction_score": 0.5923076923076923,
+          "missing_terms": [
+            "contexto",
+            "diferente",
+            "leitura",
+            "linear",
+            "regressivo"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "mode": "aggressive",
+    "size": 20,
+    "bankmap_metrics": {
+      "mode": "aggressive",
+      "contexts_processed": 20.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 20.0,
+      "raw_tokens_est": 506.0,
+      "compact_tokens_est": 325.0,
+      "token_compression": 0.35770750988142297,
+      "anchors_selected": 19.0,
+      "context_coverage": 0.95,
+      "semantic_sustentation": 1.0,
+      "structural_lightness": 0.35770750988142297
+    },
+    "reactivation_metrics": {
+      "reactivation_context_coverage": 0.95,
+      "reactivation_ratio_avg": 0.6451007326007325,
+      "reconstruction_ratio_avg": 0.6477197802197802,
+      "cognitive_reconstruction_score_avg": 0.6119972527472528,
+      "contexts": [
+        {
+          "context_id": "ctx_001",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5333333333333333,
+          "reconstruction_ratio": 0.5333333333333333,
+          "cognitive_reconstruction_score": 0.5266666666666666,
+          "missing_terms": [
+            "bankmap",
+            "contextos",
+            "deve",
+            "inferencia",
+            "muitos",
+            "tratar",
+            "unica"
+          ]
+        },
+        {
+          "context_id": "ctx_002",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5714285714285714,
+          "reconstruction_ratio": 0.5892857142857143,
+          "cognitive_reconstruction_score": 0.5633928571428571,
+          "missing_terms": [
+            "compreender",
+            "estrutura",
+            "leitura",
+            "para",
+            "parte",
+            "regressiva"
+          ]
+        },
+        {
+          "context_id": "ctx_003",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.6,
+          "reconstruction_ratio": 0.6,
+          "cognitive_reconstruction_score": 0.58,
+          "missing_terms": [
+            "carregar",
+            "contexto",
+            "curtas",
+            "frases",
+            "inteiro",
+            "podem"
+          ]
+        },
+        {
+          "context_id": "ctx_004",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 10,
+          "reactivation_ratio": 0.7142857142857143,
+          "reconstruction_ratio": 0.7321428571428571,
+          "cognitive_reconstruction_score": 0.6776785714285715,
+          "missing_terms": [
+            "basta",
+            "cortar",
+            "firula",
+            "textual"
+          ]
+        },
+        {
+          "context_id": "ctx_005",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.6666666666666666,
+          "reconstruction_ratio": 0.6666666666666666,
+          "cognitive_reconstruction_score": 0.6333333333333333,
+          "missing_terms": [
+            "alta",
+            "cobertura",
+            "deve",
+            "permanecer"
+          ]
+        },
+        {
+          "context_id": "ctx_006",
+          "anchor_count": 0,
+          "original_terms": 12,
+          "reactivated_terms": 0,
+          "reactivation_ratio": 0.0,
+          "reconstruction_ratio": 0.0,
+          "cognitive_reconstruction_score": 0.0,
+          "missing_terms": [
+            "auditabilidade",
+            "carregar",
+            "cobertura",
+            "compressao",
+            "junto",
+            "metricas",
+            "output",
+            "precisa",
+            "resposta",
+            "semantica",
+            "separabilidade",
+            "sustentacao"
+          ]
+        },
+        {
+          "context_id": "ctx_007",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.75,
+          "reconstruction_ratio": 0.75,
+          "cognitive_reconstruction_score": 0.7,
+          "missing_terms": [
+            "apenas",
+            "arquitetura",
+            "resumo"
+          ]
+        },
+        {
+          "context_id": "ctx_008",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.42857142857142855,
+          "reconstruction_ratio": 0.42857142857142855,
+          "cognitive_reconstruction_score": 0.44285714285714284,
+          "missing_terms": [
+            "aberto",
+            "como",
+            "compreensao",
+            "futura",
+            "noema",
+            "preservada",
+            "produzir",
+            "quando"
+          ]
+        },
+        {
+          "context_id": "ctx_009",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5333333333333333,
+          "reconstruction_ratio": 0.5333333333333333,
+          "cognitive_reconstruction_score": 0.5266666666666666,
+          "missing_terms": [
+            "audit",
+            "descartes",
+            "deve",
+            "fusoes",
+            "isso",
+            "registrar",
+            "trail"
+          ]
+        },
+        {
+          "context_id": "ctx_010",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.6153846153846154,
+          "reconstruction_ratio": 0.6153846153846154,
+          "cognitive_reconstruction_score": 0.5923076923076923,
+          "missing_terms": [
+            "contexto",
+            "diferente",
+            "leitura",
+            "linear",
+            "regressivo"
+          ]
+        },
+        {
+          "context_id": "ctx_011",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 0.8571428571428571,
+          "reconstruction_ratio": 0.8571428571428571,
+          "cognitive_reconstruction_score": 0.7857142857142857,
+          "missing_terms": [
+            "operacional",
+            "ruido"
+          ]
+        },
+        {
+          "context_id": "ctx_012",
+          "anchor_count": 1,
+          "original_terms": 5,
+          "reactivated_terms": 1,
+          "reactivation_ratio": 0.2,
+          "reconstruction_ratio": 0.2,
+          "cognitive_reconstruction_score": 0.26,
+          "missing_terms": [
+            "preservando",
+            "reduzir",
+            "sentido",
+            "tokens"
+          ]
+        },
+        {
+          "context_id": "ctx_013",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 0.7857142857142857,
+          "reconstruction_ratio": 0.7857142857142857,
+          "cognitive_reconstruction_score": 0.7285714285714285,
+          "missing_terms": [
+            "compressao",
+            "conflito",
+            "elimina"
+          ]
+        },
+        {
+          "context_id": "ctx_014",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.4,
+          "reconstruction_ratio": 0.41666666666666674,
+          "cognitive_reconstruction_score": 0.4258333333333334,
+          "missing_terms": [
+            "agressivamente",
+            "bankmap",
+            "conflito",
+            "cortar",
+            "deva",
+            "inverso",
+            "quase",
+            "talvez",
+            "tudo"
+          ]
+        },
+        {
+          "context_id": "ctx_015",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 0.8461538461538461,
+          "reconstruction_ratio": 0.8461538461538461,
+          "cognitive_reconstruction_score": 0.7769230769230769,
+          "missing_terms": [
+            "central",
+            "noema"
+          ]
+        },
+        {
+          "context_id": "ctx_016",
+          "anchor_count": 1,
+          "original_terms": 11,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_017",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.6,
+          "reconstruction_ratio": 0.6,
+          "cognitive_reconstruction_score": 0.58,
+          "missing_terms": [
+            "arquitetura",
+            "integracao",
+            "isso",
+            "leve",
+            "problema",
+            "ruido"
+          ]
+        },
+        {
+          "context_id": "ctx_018",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_019",
+          "anchor_count": 1,
+          "original_terms": 11,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_020",
+          "anchor_count": 1,
+          "original_terms": 10,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.8,
+          "reconstruction_ratio": 0.8,
+          "cognitive_reconstruction_score": 0.74,
+          "missing_terms": [
+            "combina",
+            "estrutural"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "mode": "aggressive",
+    "size": 40,
+    "bankmap_metrics": {
+      "mode": "aggressive",
+      "contexts_processed": 40.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 40.0,
+      "raw_tokens_est": 907.0,
+      "compact_tokens_est": 630.0,
+      "token_compression": 0.30540242557883135,
+      "anchors_selected": 37.0,
+      "context_coverage": 0.925,
+      "semantic_sustentation": 1.0,
+      "structural_lightness": 0.30540242557883135
+    },
+    "reactivation_metrics": {
+      "reactivation_context_coverage": 0.925,
+      "reactivation_ratio_avg": 0.7050441225441226,
+      "reconstruction_ratio_avg": 0.7063536463536464,
+      "cognitive_reconstruction_score_avg": 0.6569936313686313,
+      "contexts": [
+        {
+          "context_id": "ctx_001",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5333333333333333,
+          "reconstruction_ratio": 0.5333333333333333,
+          "cognitive_reconstruction_score": 0.5266666666666666,
+          "missing_terms": [
+            "bankmap",
+            "contextos",
+            "deve",
+            "inferencia",
+            "muitos",
+            "tratar",
+            "unica"
+          ]
+        },
+        {
+          "context_id": "ctx_002",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5714285714285714,
+          "reconstruction_ratio": 0.5892857142857143,
+          "cognitive_reconstruction_score": 0.5633928571428571,
+          "missing_terms": [
+            "compreender",
+            "estrutura",
+            "leitura",
+            "para",
+            "parte",
+            "regressiva"
+          ]
+        },
+        {
+          "context_id": "ctx_003",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.6,
+          "reconstruction_ratio": 0.6,
+          "cognitive_reconstruction_score": 0.58,
+          "missing_terms": [
+            "carregar",
+            "contexto",
+            "curtas",
+            "frases",
+            "inteiro",
+            "podem"
+          ]
+        },
+        {
+          "context_id": "ctx_004",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 4,
+          "reactivation_ratio": 0.2857142857142857,
+          "reconstruction_ratio": 0.30357142857142855,
+          "cognitive_reconstruction_score": 0.33482142857142855,
+          "missing_terms": [
+            "ambiguidade",
+            "carga",
+            "contextual",
+            "deve",
+            "fertil",
+            "medir",
+            "perda",
+            "risco",
+            "semantica",
+            "sistema"
+          ]
+        },
+        {
+          "context_id": "ctx_005",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.6666666666666666,
+          "reconstruction_ratio": 0.6666666666666666,
+          "cognitive_reconstruction_score": 0.6333333333333333,
+          "missing_terms": [
+            "alta",
+            "cobertura",
+            "deve",
+            "permanecer"
+          ]
+        },
+        {
+          "context_id": "ctx_006",
+          "anchor_count": 0,
+          "original_terms": 12,
+          "reactivated_terms": 0,
+          "reactivation_ratio": 0.0,
+          "reconstruction_ratio": 0.0,
+          "cognitive_reconstruction_score": 0.0,
+          "missing_terms": [
+            "auditabilidade",
+            "carregar",
+            "cobertura",
+            "compressao",
+            "junto",
+            "metricas",
+            "output",
+            "precisa",
+            "resposta",
+            "semantica",
+            "separabilidade",
+            "sustentacao"
+          ]
+        },
+        {
+          "context_id": "ctx_007",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.75,
+          "reconstruction_ratio": 0.75,
+          "cognitive_reconstruction_score": 0.7,
+          "missing_terms": [
+            "apenas",
+            "arquitetura",
+            "resumo"
+          ]
+        },
+        {
+          "context_id": "ctx_008",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.42857142857142855,
+          "reconstruction_ratio": 0.42857142857142855,
+          "cognitive_reconstruction_score": 0.44285714285714284,
+          "missing_terms": [
+            "aberto",
+            "como",
+            "compreensao",
+            "futura",
+            "noema",
+            "preservada",
+            "produzir",
+            "quando"
+          ]
+        },
+        {
+          "context_id": "ctx_009",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5333333333333333,
+          "reconstruction_ratio": 0.5333333333333333,
+          "cognitive_reconstruction_score": 0.5266666666666666,
+          "missing_terms": [
+            "audit",
+            "descartes",
+            "deve",
+            "fusoes",
+            "isso",
+            "registrar",
+            "trail"
+          ]
+        },
+        {
+          "context_id": "ctx_010",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.6153846153846154,
+          "reconstruction_ratio": 0.6153846153846154,
+          "cognitive_reconstruction_score": 0.5923076923076923,
+          "missing_terms": [
+            "contexto",
+            "diferente",
+            "leitura",
+            "linear",
+            "regressivo"
+          ]
+        },
+        {
+          "context_id": "ctx_011",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 0.8571428571428571,
+          "reconstruction_ratio": 0.8571428571428571,
+          "cognitive_reconstruction_score": 0.7857142857142857,
+          "missing_terms": [
+            "operacional",
+            "ruido"
+          ]
+        },
+        {
+          "context_id": "ctx_012",
+          "anchor_count": 0,
+          "original_terms": 5,
+          "reactivated_terms": 0,
+          "reactivation_ratio": 0.0,
+          "reconstruction_ratio": 0.0,
+          "cognitive_reconstruction_score": 0.0,
+          "missing_terms": [
+            "preservando",
+            "reduzir",
+            "repeticao",
+            "sentido",
+            "tokens"
+          ]
+        },
+        {
+          "context_id": "ctx_013",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 0.7857142857142857,
+          "reconstruction_ratio": 0.7857142857142857,
+          "cognitive_reconstruction_score": 0.7285714285714285,
+          "missing_terms": [
+            "compressao",
+            "conflito",
+            "elimina"
+          ]
+        },
+        {
+          "context_id": "ctx_014",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.4,
+          "reconstruction_ratio": 0.41666666666666674,
+          "cognitive_reconstruction_score": 0.4258333333333334,
+          "missing_terms": [
+            "agressivamente",
+            "bankmap",
+            "conflito",
+            "cortar",
+            "deva",
+            "inverso",
+            "quase",
+            "talvez",
+            "tudo"
+          ]
+        },
+        {
+          "context_id": "ctx_015",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 0.8461538461538461,
+          "reconstruction_ratio": 0.8461538461538461,
+          "cognitive_reconstruction_score": 0.7769230769230769,
+          "missing_terms": [
+            "central",
+            "noema"
+          ]
+        },
+        {
+          "context_id": "ctx_016",
+          "anchor_count": 1,
+          "original_terms": 11,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_017",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.6,
+          "reconstruction_ratio": 0.6,
+          "cognitive_reconstruction_score": 0.58,
+          "missing_terms": [
+            "arquitetura",
+            "integracao",
+            "isso",
+            "leve",
+            "problema",
+            "ruido"
+          ]
+        },
+        {
+          "context_id": "ctx_018",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_019",
+          "anchor_count": 1,
+          "original_terms": 11,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_020",
+          "anchor_count": 1,
+          "original_terms": 10,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.8,
+          "reconstruction_ratio": 0.8,
+          "cognitive_reconstruction_score": 0.74,
+          "missing_terms": [
+            "combina",
+            "estrutural"
+          ]
+        },
+        {
+          "context_id": "ctx_021",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 0.9230769230769231,
+          "reconstruction_ratio": 0.9230769230769231,
+          "cognitive_reconstruction_score": 0.8384615384615385,
+          "missing_terms": [
+            "auxiliar"
+          ]
+        },
+        {
+          "context_id": "ctx_022",
+          "anchor_count": 1,
+          "original_terms": 10,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.8,
+          "reconstruction_ratio": 0.8,
+          "cognitive_reconstruction_score": 0.74,
+          "missing_terms": [
+            "conceitual",
+            "repeticao"
+          ]
+        },
+        {
+          "context_id": "ctx_023",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 0.9230769230769231,
+          "reconstruction_ratio": 0.9230769230769231,
+          "cognitive_reconstruction_score": 0.8384615384615385,
+          "missing_terms": [
+            "ambiguidade"
+          ]
+        },
+        {
+          "context_id": "ctx_024",
+          "anchor_count": 1,
+          "original_terms": 8,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.75,
+          "reconstruction_ratio": 0.75,
+          "cognitive_reconstruction_score": 0.7,
+          "missing_terms": [
+            "contexto",
+            "irrelevante"
+          ]
+        },
+        {
+          "context_id": "ctx_025",
+          "anchor_count": 1,
+          "original_terms": 11,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.8181818181818182,
+          "reconstruction_ratio": 0.8181818181818182,
+          "cognitive_reconstruction_score": 0.7545454545454545,
+          "missing_terms": [
+            "contexto",
+            "irrelevante"
+          ]
+        },
+        {
+          "context_id": "ctx_026",
+          "anchor_count": 1,
+          "original_terms": 11,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_027",
+          "anchor_count": 0,
+          "original_terms": 12,
+          "reactivated_terms": 0,
+          "reactivation_ratio": 0.0,
+          "reconstruction_ratio": 0.0,
+          "cognitive_reconstruction_score": 0.0,
+          "missing_terms": [
+            "antes",
+            "dentro",
+            "explicacao",
+            "json",
+            "localizar",
+            "mista",
+            "mistura",
+            "objeto",
+            "parser",
+            "precisa",
+            "resposta",
+            "valido"
+          ]
+        },
+        {
+          "context_id": "ctx_028",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_029",
+          "anchor_count": 1,
+          "original_terms": 8,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.75,
+          "reconstruction_ratio": 0.75,
+          "cognitive_reconstruction_score": 0.7,
+          "missing_terms": [
+            "contexto",
+            "produto"
+          ]
+        },
+        {
+          "context_id": "ctx_030",
+          "anchor_count": 1,
+          "original_terms": 10,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.8,
+          "reconstruction_ratio": 0.8,
+          "cognitive_reconstruction_score": 0.74,
+          "missing_terms": [
+            "contexto",
+            "pesquisa"
+          ]
+        },
+        {
+          "context_id": "ctx_031",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 0.9166666666666666,
+          "reconstruction_ratio": 0.9166666666666666,
+          "cognitive_reconstruction_score": 0.8333333333333333,
+          "missing_terms": [
+            "ruido"
+          ]
+        },
+        {
+          "context_id": "ctx_032",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 0.9166666666666666,
+          "reconstruction_ratio": 0.9166666666666666,
+          "cognitive_reconstruction_score": 0.8333333333333333,
+          "missing_terms": [
+            "ruido"
+          ]
+        },
+        {
+          "context_id": "ctx_033",
+          "anchor_count": 1,
+          "original_terms": 8,
+          "reactivated_terms": 7,
+          "reactivation_ratio": 0.875,
+          "reconstruction_ratio": 0.875,
+          "cognitive_reconstruction_score": 0.7999999999999999,
+          "missing_terms": [
+            "conceito"
+          ]
+        },
+        {
+          "context_id": "ctx_034",
+          "anchor_count": 1,
+          "original_terms": 8,
+          "reactivated_terms": 7,
+          "reactivation_ratio": 0.875,
+          "reconstruction_ratio": 0.875,
+          "cognitive_reconstruction_score": 0.7999999999999999,
+          "missing_terms": [
+            "conceito"
+          ]
+        },
+        {
+          "context_id": "ctx_035",
+          "anchor_count": 1,
+          "original_terms": 10,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.9,
+          "reconstruction_ratio": 0.9,
+          "cognitive_reconstruction_score": 0.82,
+          "missing_terms": [
+            "conceito"
+          ]
+        },
+        {
+          "context_id": "ctx_036",
+          "anchor_count": 1,
+          "original_terms": 9,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.8888888888888888,
+          "reconstruction_ratio": 0.8888888888888888,
+          "cognitive_reconstruction_score": 0.811111111111111,
+          "missing_terms": [
+            "conceito"
+          ]
+        },
+        {
+          "context_id": "ctx_037",
+          "anchor_count": 1,
+          "original_terms": 9,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.8888888888888888,
+          "reconstruction_ratio": 0.8888888888888888,
+          "cognitive_reconstruction_score": 0.811111111111111,
+          "missing_terms": [
+            "conceito"
+          ]
+        },
+        {
+          "context_id": "ctx_038",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 0.9230769230769231,
+          "reconstruction_ratio": 0.9230769230769231,
+          "cognitive_reconstruction_score": 0.8384615384615385,
+          "missing_terms": [
+            "conceito"
+          ]
+        },
+        {
+          "context_id": "ctx_039",
+          "anchor_count": 1,
+          "original_terms": 9,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.8888888888888888,
+          "reconstruction_ratio": 0.8888888888888888,
+          "cognitive_reconstruction_score": 0.811111111111111,
+          "missing_terms": [
+            "conceito"
+          ]
+        },
+        {
+          "context_id": "ctx_040",
+          "anchor_count": 1,
+          "original_terms": 11,
+          "reactivated_terms": 1,
+          "reactivation_ratio": 0.09090909090909091,
+          "reconstruction_ratio": 0.09090909090909091,
+          "cognitive_reconstruction_score": 0.17272727272727273,
+          "missing_terms": [
+            "aumenta",
+            "compressao",
+            "demais",
+            "ponto",
+            "precisa",
+            "quebra",
+            "revelar",
+            "semantica",
+            "sustentacao",
+            "teste"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "mode": "balanced",
+    "size": 10,
+    "bankmap_metrics": {
+      "mode": "balanced",
+      "contexts_processed": 10.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 10.0,
+      "raw_tokens_est": 264.0,
+      "compact_tokens_est": 151.0,
+      "token_compression": 0.428030303030303,
+      "anchors_selected": 10.0,
+      "context_coverage": 1.0,
+      "semantic_sustentation": 0.5294117647058824,
+      "structural_lightness": 0.2266042780748663
+    },
+    "reactivation_metrics": {
+      "reactivation_context_coverage": 1.0,
+      "reactivation_ratio_avg": 0.5413003663003664,
+      "reconstruction_ratio_avg": 0.5448717948717949,
+      "cognitive_reconstruction_score_avg": 0.5342902930402931,
+      "contexts": [
+        {
+          "context_id": "ctx_001",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5333333333333333,
+          "reconstruction_ratio": 0.5333333333333333,
+          "cognitive_reconstruction_score": 0.5266666666666666,
+          "missing_terms": [
+            "bankmap",
+            "contextos",
+            "deve",
+            "inferencia",
+            "muitos",
+            "tratar",
+            "unica"
+          ]
+        },
+        {
+          "context_id": "ctx_002",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5714285714285714,
+          "reconstruction_ratio": 0.5892857142857143,
+          "cognitive_reconstruction_score": 0.5633928571428571,
+          "missing_terms": [
+            "compreender",
+            "estrutura",
+            "leitura",
+            "para",
+            "parte",
+            "regressiva"
+          ]
+        },
+        {
+          "context_id": "ctx_003",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.6,
+          "reconstruction_ratio": 0.6,
+          "cognitive_reconstruction_score": 0.58,
+          "missing_terms": [
+            "carregar",
+            "contexto",
+            "curtas",
+            "frases",
+            "inteiro",
+            "podem"
+          ]
+        },
+        {
+          "context_id": "ctx_004",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 10,
+          "reactivation_ratio": 0.7142857142857143,
+          "reconstruction_ratio": 0.7321428571428571,
+          "cognitive_reconstruction_score": 0.6776785714285715,
+          "missing_terms": [
+            "basta",
+            "cortar",
+            "firula",
+            "textual"
+          ]
+        },
+        {
+          "context_id": "ctx_005",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.6666666666666666,
+          "reconstruction_ratio": 0.6666666666666666,
+          "cognitive_reconstruction_score": 0.6333333333333333,
+          "missing_terms": [
+            "alta",
+            "cobertura",
+            "deve",
+            "permanecer"
+          ]
+        },
+        {
+          "context_id": "ctx_006",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.5,
+          "reconstruction_ratio": 0.5,
+          "cognitive_reconstruction_score": 0.5,
+          "missing_terms": [
+            "auditabilidade",
+            "cobertura",
+            "compressao",
+            "semantica",
+            "separabilidade",
+            "sustentacao"
+          ]
+        },
+        {
+          "context_id": "ctx_007",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 3,
+          "reactivation_ratio": 0.25,
+          "reconstruction_ratio": 0.25,
+          "cognitive_reconstruction_score": 0.30000000000000004,
+          "missing_terms": [
+            "ancoras",
+            "auditavel",
+            "bruto",
+            "contexto",
+            "decisoes",
+            "estrutura",
+            "scores",
+            "transforma",
+            "trilha"
+          ]
+        },
+        {
+          "context_id": "ctx_008",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.42857142857142855,
+          "reconstruction_ratio": 0.42857142857142855,
+          "cognitive_reconstruction_score": 0.44285714285714284,
+          "missing_terms": [
+            "aberto",
+            "como",
+            "compreensao",
+            "futura",
+            "noema",
+            "preservada",
+            "produzir",
+            "quando"
+          ]
+        },
+        {
+          "context_id": "ctx_009",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5333333333333333,
+          "reconstruction_ratio": 0.5333333333333333,
+          "cognitive_reconstruction_score": 0.5266666666666666,
+          "missing_terms": [
+            "audit",
+            "descartes",
+            "deve",
+            "fusoes",
+            "isso",
+            "registrar",
+            "trail"
+          ]
+        },
+        {
+          "context_id": "ctx_010",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.6153846153846154,
+          "reconstruction_ratio": 0.6153846153846154,
+          "cognitive_reconstruction_score": 0.5923076923076923,
+          "missing_terms": [
+            "contexto",
+            "diferente",
+            "leitura",
+            "linear",
+            "regressivo"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "mode": "balanced",
+    "size": 20,
+    "bankmap_metrics": {
+      "mode": "balanced",
+      "contexts_processed": 20.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 20.0,
+      "raw_tokens_est": 506.0,
+      "compact_tokens_est": 336.0,
+      "token_compression": 0.33596837944664026,
+      "anchors_selected": 20.0,
+      "context_coverage": 1.0,
+      "semantic_sustentation": 0.7037037037037037,
+      "structural_lightness": 0.23642219294393205
+    },
+    "reactivation_metrics": {
+      "reactivation_context_coverage": 1.0,
+      "reactivation_ratio_avg": 0.6701007326007326,
+      "reconstruction_ratio_avg": 0.6727197802197802,
+      "cognitive_reconstruction_score_avg": 0.6369972527472527,
+      "contexts": [
+        {
+          "context_id": "ctx_001",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5333333333333333,
+          "reconstruction_ratio": 0.5333333333333333,
+          "cognitive_reconstruction_score": 0.5266666666666666,
+          "missing_terms": [
+            "bankmap",
+            "contextos",
+            "deve",
+            "inferencia",
+            "muitos",
+            "tratar",
+            "unica"
+          ]
+        },
+        {
+          "context_id": "ctx_002",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5714285714285714,
+          "reconstruction_ratio": 0.5892857142857143,
+          "cognitive_reconstruction_score": 0.5633928571428571,
+          "missing_terms": [
+            "compreender",
+            "estrutura",
+            "leitura",
+            "para",
+            "parte",
+            "regressiva"
+          ]
+        },
+        {
+          "context_id": "ctx_003",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.6,
+          "reconstruction_ratio": 0.6,
+          "cognitive_reconstruction_score": 0.58,
+          "missing_terms": [
+            "carregar",
+            "contexto",
+            "curtas",
+            "frases",
+            "inteiro",
+            "podem"
+          ]
+        },
+        {
+          "context_id": "ctx_004",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 10,
+          "reactivation_ratio": 0.7142857142857143,
+          "reconstruction_ratio": 0.7321428571428571,
+          "cognitive_reconstruction_score": 0.6776785714285715,
+          "missing_terms": [
+            "basta",
+            "cortar",
+            "firula",
+            "textual"
+          ]
+        },
+        {
+          "context_id": "ctx_005",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.6666666666666666,
+          "reconstruction_ratio": 0.6666666666666666,
+          "cognitive_reconstruction_score": 0.6333333333333333,
+          "missing_terms": [
+            "alta",
+            "cobertura",
+            "deve",
+            "permanecer"
+          ]
+        },
+        {
+          "context_id": "ctx_006",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.5,
+          "reconstruction_ratio": 0.5,
+          "cognitive_reconstruction_score": 0.5,
+          "missing_terms": [
+            "auditabilidade",
+            "cobertura",
+            "compressao",
+            "semantica",
+            "separabilidade",
+            "sustentacao"
+          ]
+        },
+        {
+          "context_id": "ctx_007",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.75,
+          "reconstruction_ratio": 0.75,
+          "cognitive_reconstruction_score": 0.7,
+          "missing_terms": [
+            "apenas",
+            "arquitetura",
+            "resumo"
+          ]
+        },
+        {
+          "context_id": "ctx_008",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.42857142857142855,
+          "reconstruction_ratio": 0.42857142857142855,
+          "cognitive_reconstruction_score": 0.44285714285714284,
+          "missing_terms": [
+            "aberto",
+            "como",
+            "compreensao",
+            "futura",
+            "noema",
+            "preservada",
+            "produzir",
+            "quando"
+          ]
+        },
+        {
+          "context_id": "ctx_009",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5333333333333333,
+          "reconstruction_ratio": 0.5333333333333333,
+          "cognitive_reconstruction_score": 0.5266666666666666,
+          "missing_terms": [
+            "audit",
+            "descartes",
+            "deve",
+            "fusoes",
+            "isso",
+            "registrar",
+            "trail"
+          ]
+        },
+        {
+          "context_id": "ctx_010",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.6153846153846154,
+          "reconstruction_ratio": 0.6153846153846154,
+          "cognitive_reconstruction_score": 0.5923076923076923,
+          "missing_terms": [
+            "contexto",
+            "diferente",
+            "leitura",
+            "linear",
+            "regressivo"
+          ]
+        },
+        {
+          "context_id": "ctx_011",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 0.8571428571428571,
+          "reconstruction_ratio": 0.8571428571428571,
+          "cognitive_reconstruction_score": 0.7857142857142857,
+          "missing_terms": [
+            "operacional",
+            "ruido"
+          ]
+        },
+        {
+          "context_id": "ctx_012",
+          "anchor_count": 1,
+          "original_terms": 5,
+          "reactivated_terms": 1,
+          "reactivation_ratio": 0.2,
+          "reconstruction_ratio": 0.2,
+          "cognitive_reconstruction_score": 0.26,
+          "missing_terms": [
+            "preservando",
+            "reduzir",
+            "sentido",
+            "tokens"
+          ]
+        },
+        {
+          "context_id": "ctx_013",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 0.7857142857142857,
+          "reconstruction_ratio": 0.7857142857142857,
+          "cognitive_reconstruction_score": 0.7285714285714285,
+          "missing_terms": [
+            "compressao",
+            "conflito",
+            "elimina"
+          ]
+        },
+        {
+          "context_id": "ctx_014",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.4,
+          "reconstruction_ratio": 0.41666666666666674,
+          "cognitive_reconstruction_score": 0.4258333333333334,
+          "missing_terms": [
+            "agressivamente",
+            "bankmap",
+            "conflito",
+            "cortar",
+            "deva",
+            "inverso",
+            "quase",
+            "talvez",
+            "tudo"
+          ]
+        },
+        {
+          "context_id": "ctx_015",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 0.8461538461538461,
+          "reconstruction_ratio": 0.8461538461538461,
+          "cognitive_reconstruction_score": 0.7769230769230769,
+          "missing_terms": [
+            "central",
+            "noema"
+          ]
+        },
+        {
+          "context_id": "ctx_016",
+          "anchor_count": 1,
+          "original_terms": 11,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_017",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.6,
+          "reconstruction_ratio": 0.6,
+          "cognitive_reconstruction_score": 0.58,
+          "missing_terms": [
+            "arquitetura",
+            "integracao",
+            "isso",
+            "leve",
+            "problema",
+            "ruido"
+          ]
+        },
+        {
+          "context_id": "ctx_018",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_019",
+          "anchor_count": 1,
+          "original_terms": 11,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_020",
+          "anchor_count": 1,
+          "original_terms": 10,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.8,
+          "reconstruction_ratio": 0.8,
+          "cognitive_reconstruction_score": 0.74,
+          "missing_terms": [
+            "combina",
+            "estrutural"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "mode": "balanced",
+    "size": 40,
+    "bankmap_metrics": {
+      "mode": "balanced",
+      "contexts_processed": 40.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 40.0,
+      "raw_tokens_est": 907.0,
+      "compact_tokens_est": 666.0,
+      "token_compression": 0.2657111356119074,
+      "anchors_selected": 40.0,
+      "context_coverage": 1.0,
+      "semantic_sustentation": 0.8125,
+      "structural_lightness": 0.21589029768467477
+    },
+    "reactivation_metrics": {
+      "reactivation_context_coverage": 1.0,
+      "reactivation_ratio_avg": 0.7475441225441226,
+      "reconstruction_ratio_avg": 0.7488536463536464,
+      "cognitive_reconstruction_score_avg": 0.6984936313686314,
+      "contexts": [
+        {
+          "context_id": "ctx_001",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5333333333333333,
+          "reconstruction_ratio": 0.5333333333333333,
+          "cognitive_reconstruction_score": 0.5266666666666666,
+          "missing_terms": [
+            "bankmap",
+            "contextos",
+            "deve",
+            "inferencia",
+            "muitos",
+            "tratar",
+            "unica"
+          ]
+        },
+        {
+          "context_id": "ctx_002",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5714285714285714,
+          "reconstruction_ratio": 0.5892857142857143,
+          "cognitive_reconstruction_score": 0.5633928571428571,
+          "missing_terms": [
+            "compreender",
+            "estrutura",
+            "leitura",
+            "para",
+            "parte",
+            "regressiva"
+          ]
+        },
+        {
+          "context_id": "ctx_003",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.6,
+          "reconstruction_ratio": 0.6,
+          "cognitive_reconstruction_score": 0.58,
+          "missing_terms": [
+            "carregar",
+            "contexto",
+            "curtas",
+            "frases",
+            "inteiro",
+            "podem"
+          ]
+        },
+        {
+          "context_id": "ctx_004",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 4,
+          "reactivation_ratio": 0.2857142857142857,
+          "reconstruction_ratio": 0.30357142857142855,
+          "cognitive_reconstruction_score": 0.33482142857142855,
+          "missing_terms": [
+            "ambiguidade",
+            "carga",
+            "contextual",
+            "deve",
+            "fertil",
+            "medir",
+            "perda",
+            "risco",
+            "semantica",
+            "sistema"
+          ]
+        },
+        {
+          "context_id": "ctx_005",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.6666666666666666,
+          "reconstruction_ratio": 0.6666666666666666,
+          "cognitive_reconstruction_score": 0.6333333333333333,
+          "missing_terms": [
+            "alta",
+            "cobertura",
+            "deve",
+            "permanecer"
+          ]
+        },
+        {
+          "context_id": "ctx_006",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.5,
+          "reconstruction_ratio": 0.5,
+          "cognitive_reconstruction_score": 0.5,
+          "missing_terms": [
+            "carregar",
+            "junto",
+            "metricas",
+            "output",
+            "precisa",
+            "resposta"
+          ]
+        },
+        {
+          "context_id": "ctx_007",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.75,
+          "reconstruction_ratio": 0.75,
+          "cognitive_reconstruction_score": 0.7,
+          "missing_terms": [
+            "apenas",
+            "arquitetura",
+            "resumo"
+          ]
+        },
+        {
+          "context_id": "ctx_008",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.42857142857142855,
+          "reconstruction_ratio": 0.42857142857142855,
+          "cognitive_reconstruction_score": 0.44285714285714284,
+          "missing_terms": [
+            "aberto",
+            "como",
+            "compreensao",
+            "futura",
+            "noema",
+            "preservada",
+            "produzir",
+            "quando"
+          ]
+        },
+        {
+          "context_id": "ctx_009",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5333333333333333,
+          "reconstruction_ratio": 0.5333333333333333,
+          "cognitive_reconstruction_score": 0.5266666666666666,
+          "missing_terms": [
+            "audit",
+            "descartes",
+            "deve",
+            "fusoes",
+            "isso",
+            "registrar",
+            "trail"
+          ]
+        },
+        {
+          "context_id": "ctx_010",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.6153846153846154,
+          "reconstruction_ratio": 0.6153846153846154,
+          "cognitive_reconstruction_score": 0.5923076923076923,
+          "missing_terms": [
+            "contexto",
+            "diferente",
+            "leitura",
+            "linear",
+            "regressivo"
+          ]
+        },
+        {
+          "context_id": "ctx_011",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 0.8571428571428571,
+          "reconstruction_ratio": 0.8571428571428571,
+          "cognitive_reconstruction_score": 0.7857142857142857,
+          "missing_terms": [
+            "operacional",
+            "ruido"
+          ]
+        },
+        {
+          "context_id": "ctx_012",
+          "anchor_count": 1,
+          "original_terms": 5,
+          "reactivated_terms": 1,
+          "reactivation_ratio": 0.2,
+          "reconstruction_ratio": 0.2,
+          "cognitive_reconstruction_score": 0.26,
+          "missing_terms": [
+            "preservando",
+            "reduzir",
+            "sentido",
+            "tokens"
+          ]
+        },
+        {
+          "context_id": "ctx_013",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 0.7857142857142857,
+          "reconstruction_ratio": 0.7857142857142857,
+          "cognitive_reconstruction_score": 0.7285714285714285,
+          "missing_terms": [
+            "compressao",
+            "conflito",
+            "elimina"
+          ]
+        },
+        {
+          "context_id": "ctx_014",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.4,
+          "reconstruction_ratio": 0.41666666666666674,
+          "cognitive_reconstruction_score": 0.4258333333333334,
+          "missing_terms": [
+            "agressivamente",
+            "bankmap",
+            "conflito",
+            "cortar",
+            "deva",
+            "inverso",
+            "quase",
+            "talvez",
+            "tudo"
+          ]
+        },
+        {
+          "context_id": "ctx_015",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 0.8461538461538461,
+          "reconstruction_ratio": 0.8461538461538461,
+          "cognitive_reconstruction_score": 0.7769230769230769,
+          "missing_terms": [
+            "central",
+            "noema"
+          ]
+        },
+        {
+          "context_id": "ctx_016",
+          "anchor_count": 1,
+          "original_terms": 11,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_017",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.6,
+          "reconstruction_ratio": 0.6,
+          "cognitive_reconstruction_score": 0.58,
+          "missing_terms": [
+            "arquitetura",
+            "integracao",
+            "isso",
+            "leve",
+            "problema",
+            "ruido"
+          ]
+        },
+        {
+          "context_id": "ctx_018",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_019",
+          "anchor_count": 1,
+          "original_terms": 11,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_020",
+          "anchor_count": 1,
+          "original_terms": 10,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.8,
+          "reconstruction_ratio": 0.8,
+          "cognitive_reconstruction_score": 0.74,
+          "missing_terms": [
+            "combina",
+            "estrutural"
+          ]
+        },
+        {
+          "context_id": "ctx_021",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 0.9230769230769231,
+          "reconstruction_ratio": 0.9230769230769231,
+          "cognitive_reconstruction_score": 0.8384615384615385,
+          "missing_terms": [
+            "auxiliar"
+          ]
+        },
+        {
+          "context_id": "ctx_022",
+          "anchor_count": 1,
+          "original_terms": 10,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.8,
+          "reconstruction_ratio": 0.8,
+          "cognitive_reconstruction_score": 0.74,
+          "missing_terms": [
+            "conceitual",
+            "repeticao"
+          ]
+        },
+        {
+          "context_id": "ctx_023",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 0.9230769230769231,
+          "reconstruction_ratio": 0.9230769230769231,
+          "cognitive_reconstruction_score": 0.8384615384615385,
+          "missing_terms": [
+            "ambiguidade"
+          ]
+        },
+        {
+          "context_id": "ctx_024",
+          "anchor_count": 1,
+          "original_terms": 8,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.75,
+          "reconstruction_ratio": 0.75,
+          "cognitive_reconstruction_score": 0.7,
+          "missing_terms": [
+            "contexto",
+            "irrelevante"
+          ]
+        },
+        {
+          "context_id": "ctx_025",
+          "anchor_count": 1,
+          "original_terms": 11,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.8181818181818182,
+          "reconstruction_ratio": 0.8181818181818182,
+          "cognitive_reconstruction_score": 0.7545454545454545,
+          "missing_terms": [
+            "contexto",
+            "irrelevante"
+          ]
+        },
+        {
+          "context_id": "ctx_026",
+          "anchor_count": 1,
+          "original_terms": 11,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_027",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_028",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_029",
+          "anchor_count": 1,
+          "original_terms": 8,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.75,
+          "reconstruction_ratio": 0.75,
+          "cognitive_reconstruction_score": 0.7,
+          "missing_terms": [
+            "contexto",
+            "produto"
+          ]
+        },
+        {
+          "context_id": "ctx_030",
+          "anchor_count": 1,
+          "original_terms": 10,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.8,
+          "reconstruction_ratio": 0.8,
+          "cognitive_reconstruction_score": 0.74,
+          "missing_terms": [
+            "contexto",
+            "pesquisa"
+          ]
+        },
+        {
+          "context_id": "ctx_031",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 0.9166666666666666,
+          "reconstruction_ratio": 0.9166666666666666,
+          "cognitive_reconstruction_score": 0.8333333333333333,
+          "missing_terms": [
+            "ruido"
+          ]
+        },
+        {
+          "context_id": "ctx_032",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 0.9166666666666666,
+          "reconstruction_ratio": 0.9166666666666666,
+          "cognitive_reconstruction_score": 0.8333333333333333,
+          "missing_terms": [
+            "ruido"
+          ]
+        },
+        {
+          "context_id": "ctx_033",
+          "anchor_count": 1,
+          "original_terms": 8,
+          "reactivated_terms": 7,
+          "reactivation_ratio": 0.875,
+          "reconstruction_ratio": 0.875,
+          "cognitive_reconstruction_score": 0.7999999999999999,
+          "missing_terms": [
+            "conceito"
+          ]
+        },
+        {
+          "context_id": "ctx_034",
+          "anchor_count": 1,
+          "original_terms": 8,
+          "reactivated_terms": 7,
+          "reactivation_ratio": 0.875,
+          "reconstruction_ratio": 0.875,
+          "cognitive_reconstruction_score": 0.7999999999999999,
+          "missing_terms": [
+            "conceito"
+          ]
+        },
+        {
+          "context_id": "ctx_035",
+          "anchor_count": 1,
+          "original_terms": 10,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.9,
+          "reconstruction_ratio": 0.9,
+          "cognitive_reconstruction_score": 0.82,
+          "missing_terms": [
+            "conceito"
+          ]
+        },
+        {
+          "context_id": "ctx_036",
+          "anchor_count": 1,
+          "original_terms": 9,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.8888888888888888,
+          "reconstruction_ratio": 0.8888888888888888,
+          "cognitive_reconstruction_score": 0.811111111111111,
+          "missing_terms": [
+            "conceito"
+          ]
+        },
+        {
+          "context_id": "ctx_037",
+          "anchor_count": 1,
+          "original_terms": 9,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.8888888888888888,
+          "reconstruction_ratio": 0.8888888888888888,
+          "cognitive_reconstruction_score": 0.811111111111111,
+          "missing_terms": [
+            "conceito"
+          ]
+        },
+        {
+          "context_id": "ctx_038",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 0.9230769230769231,
+          "reconstruction_ratio": 0.9230769230769231,
+          "cognitive_reconstruction_score": 0.8384615384615385,
+          "missing_terms": [
+            "conceito"
+          ]
+        },
+        {
+          "context_id": "ctx_039",
+          "anchor_count": 1,
+          "original_terms": 9,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.8888888888888888,
+          "reconstruction_ratio": 0.8888888888888888,
+          "cognitive_reconstruction_score": 0.811111111111111,
+          "missing_terms": [
+            "conceito"
+          ]
+        },
+        {
+          "context_id": "ctx_040",
+          "anchor_count": 1,
+          "original_terms": 11,
+          "reactivated_terms": 1,
+          "reactivation_ratio": 0.09090909090909091,
+          "reconstruction_ratio": 0.09090909090909091,
+          "cognitive_reconstruction_score": 0.17272727272727273,
+          "missing_terms": [
+            "aumenta",
+            "compressao",
+            "demais",
+            "ponto",
+            "precisa",
+            "quebra",
+            "revelar",
+            "semantica",
+            "sustentacao",
+            "teste"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "mode": "coverage",
+    "size": 10,
+    "bankmap_metrics": {
+      "mode": "coverage",
+      "contexts_processed": 10.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 10.0,
+      "raw_tokens_est": 264.0,
+      "compact_tokens_est": 151.0,
+      "token_compression": 0.428030303030303,
+      "anchors_selected": 10.0,
+      "context_coverage": 1.0,
+      "semantic_sustentation": 0.5,
+      "structural_lightness": 0.2140151515151515
+    },
+    "reactivation_metrics": {
+      "reactivation_context_coverage": 1.0,
+      "reactivation_ratio_avg": 0.5413003663003664,
+      "reconstruction_ratio_avg": 0.5448717948717949,
+      "cognitive_reconstruction_score_avg": 0.5342902930402931,
+      "contexts": [
+        {
+          "context_id": "ctx_001",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5333333333333333,
+          "reconstruction_ratio": 0.5333333333333333,
+          "cognitive_reconstruction_score": 0.5266666666666666,
+          "missing_terms": [
+            "bankmap",
+            "contextos",
+            "deve",
+            "inferencia",
+            "muitos",
+            "tratar",
+            "unica"
+          ]
+        },
+        {
+          "context_id": "ctx_002",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5714285714285714,
+          "reconstruction_ratio": 0.5892857142857143,
+          "cognitive_reconstruction_score": 0.5633928571428571,
+          "missing_terms": [
+            "compreender",
+            "estrutura",
+            "leitura",
+            "para",
+            "parte",
+            "regressiva"
+          ]
+        },
+        {
+          "context_id": "ctx_003",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.6,
+          "reconstruction_ratio": 0.6,
+          "cognitive_reconstruction_score": 0.58,
+          "missing_terms": [
+            "carregar",
+            "contexto",
+            "curtas",
+            "frases",
+            "inteiro",
+            "podem"
+          ]
+        },
+        {
+          "context_id": "ctx_004",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 10,
+          "reactivation_ratio": 0.7142857142857143,
+          "reconstruction_ratio": 0.7321428571428571,
+          "cognitive_reconstruction_score": 0.6776785714285715,
+          "missing_terms": [
+            "basta",
+            "cortar",
+            "firula",
+            "textual"
+          ]
+        },
+        {
+          "context_id": "ctx_005",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.6666666666666666,
+          "reconstruction_ratio": 0.6666666666666666,
+          "cognitive_reconstruction_score": 0.6333333333333333,
+          "missing_terms": [
+            "alta",
+            "cobertura",
+            "deve",
+            "permanecer"
+          ]
+        },
+        {
+          "context_id": "ctx_006",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.5,
+          "reconstruction_ratio": 0.5,
+          "cognitive_reconstruction_score": 0.5,
+          "missing_terms": [
+            "auditabilidade",
+            "cobertura",
+            "compressao",
+            "semantica",
+            "separabilidade",
+            "sustentacao"
+          ]
+        },
+        {
+          "context_id": "ctx_007",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 3,
+          "reactivation_ratio": 0.25,
+          "reconstruction_ratio": 0.25,
+          "cognitive_reconstruction_score": 0.30000000000000004,
+          "missing_terms": [
+            "ancoras",
+            "auditavel",
+            "bruto",
+            "contexto",
+            "decisoes",
+            "estrutura",
+            "scores",
+            "transforma",
+            "trilha"
+          ]
+        },
+        {
+          "context_id": "ctx_008",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.42857142857142855,
+          "reconstruction_ratio": 0.42857142857142855,
+          "cognitive_reconstruction_score": 0.44285714285714284,
+          "missing_terms": [
+            "aberto",
+            "como",
+            "compreensao",
+            "futura",
+            "noema",
+            "preservada",
+            "produzir",
+            "quando"
+          ]
+        },
+        {
+          "context_id": "ctx_009",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5333333333333333,
+          "reconstruction_ratio": 0.5333333333333333,
+          "cognitive_reconstruction_score": 0.5266666666666666,
+          "missing_terms": [
+            "audit",
+            "descartes",
+            "deve",
+            "fusoes",
+            "isso",
+            "registrar",
+            "trail"
+          ]
+        },
+        {
+          "context_id": "ctx_010",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.6153846153846154,
+          "reconstruction_ratio": 0.6153846153846154,
+          "cognitive_reconstruction_score": 0.5923076923076923,
+          "missing_terms": [
+            "contexto",
+            "diferente",
+            "leitura",
+            "linear",
+            "regressivo"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "mode": "coverage",
+    "size": 20,
+    "bankmap_metrics": {
+      "mode": "coverage",
+      "contexts_processed": 20.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 20.0,
+      "raw_tokens_est": 506.0,
+      "compact_tokens_est": 336.0,
+      "token_compression": 0.33596837944664026,
+      "anchors_selected": 20.0,
+      "context_coverage": 1.0,
+      "semantic_sustentation": 0.59375,
+      "structural_lightness": 0.19948122529644266
+    },
+    "reactivation_metrics": {
+      "reactivation_context_coverage": 1.0,
+      "reactivation_ratio_avg": 0.6701007326007326,
+      "reconstruction_ratio_avg": 0.6727197802197802,
+      "cognitive_reconstruction_score_avg": 0.6369972527472527,
+      "contexts": [
+        {
+          "context_id": "ctx_001",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5333333333333333,
+          "reconstruction_ratio": 0.5333333333333333,
+          "cognitive_reconstruction_score": 0.5266666666666666,
+          "missing_terms": [
+            "bankmap",
+            "contextos",
+            "deve",
+            "inferencia",
+            "muitos",
+            "tratar",
+            "unica"
+          ]
+        },
+        {
+          "context_id": "ctx_002",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5714285714285714,
+          "reconstruction_ratio": 0.5892857142857143,
+          "cognitive_reconstruction_score": 0.5633928571428571,
+          "missing_terms": [
+            "compreender",
+            "estrutura",
+            "leitura",
+            "para",
+            "parte",
+            "regressiva"
+          ]
+        },
+        {
+          "context_id": "ctx_003",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.6,
+          "reconstruction_ratio": 0.6,
+          "cognitive_reconstruction_score": 0.58,
+          "missing_terms": [
+            "carregar",
+            "contexto",
+            "curtas",
+            "frases",
+            "inteiro",
+            "podem"
+          ]
+        },
+        {
+          "context_id": "ctx_004",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 10,
+          "reactivation_ratio": 0.7142857142857143,
+          "reconstruction_ratio": 0.7321428571428571,
+          "cognitive_reconstruction_score": 0.6776785714285715,
+          "missing_terms": [
+            "basta",
+            "cortar",
+            "firula",
+            "textual"
+          ]
+        },
+        {
+          "context_id": "ctx_005",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.6666666666666666,
+          "reconstruction_ratio": 0.6666666666666666,
+          "cognitive_reconstruction_score": 0.6333333333333333,
+          "missing_terms": [
+            "alta",
+            "cobertura",
+            "deve",
+            "permanecer"
+          ]
+        },
+        {
+          "context_id": "ctx_006",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.5,
+          "reconstruction_ratio": 0.5,
+          "cognitive_reconstruction_score": 0.5,
+          "missing_terms": [
+            "auditabilidade",
+            "cobertura",
+            "compressao",
+            "semantica",
+            "separabilidade",
+            "sustentacao"
+          ]
+        },
+        {
+          "context_id": "ctx_007",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.75,
+          "reconstruction_ratio": 0.75,
+          "cognitive_reconstruction_score": 0.7,
+          "missing_terms": [
+            "apenas",
+            "arquitetura",
+            "resumo"
+          ]
+        },
+        {
+          "context_id": "ctx_008",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.42857142857142855,
+          "reconstruction_ratio": 0.42857142857142855,
+          "cognitive_reconstruction_score": 0.44285714285714284,
+          "missing_terms": [
+            "aberto",
+            "como",
+            "compreensao",
+            "futura",
+            "noema",
+            "preservada",
+            "produzir",
+            "quando"
+          ]
+        },
+        {
+          "context_id": "ctx_009",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5333333333333333,
+          "reconstruction_ratio": 0.5333333333333333,
+          "cognitive_reconstruction_score": 0.5266666666666666,
+          "missing_terms": [
+            "audit",
+            "descartes",
+            "deve",
+            "fusoes",
+            "isso",
+            "registrar",
+            "trail"
+          ]
+        },
+        {
+          "context_id": "ctx_010",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.6153846153846154,
+          "reconstruction_ratio": 0.6153846153846154,
+          "cognitive_reconstruction_score": 0.5923076923076923,
+          "missing_terms": [
+            "contexto",
+            "diferente",
+            "leitura",
+            "linear",
+            "regressivo"
+          ]
+        },
+        {
+          "context_id": "ctx_011",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 0.8571428571428571,
+          "reconstruction_ratio": 0.8571428571428571,
+          "cognitive_reconstruction_score": 0.7857142857142857,
+          "missing_terms": [
+            "operacional",
+            "ruido"
+          ]
+        },
+        {
+          "context_id": "ctx_012",
+          "anchor_count": 1,
+          "original_terms": 5,
+          "reactivated_terms": 1,
+          "reactivation_ratio": 0.2,
+          "reconstruction_ratio": 0.2,
+          "cognitive_reconstruction_score": 0.26,
+          "missing_terms": [
+            "preservando",
+            "reduzir",
+            "sentido",
+            "tokens"
+          ]
+        },
+        {
+          "context_id": "ctx_013",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 0.7857142857142857,
+          "reconstruction_ratio": 0.7857142857142857,
+          "cognitive_reconstruction_score": 0.7285714285714285,
+          "missing_terms": [
+            "compressao",
+            "conflito",
+            "elimina"
+          ]
+        },
+        {
+          "context_id": "ctx_014",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.4,
+          "reconstruction_ratio": 0.41666666666666674,
+          "cognitive_reconstruction_score": 0.4258333333333334,
+          "missing_terms": [
+            "agressivamente",
+            "bankmap",
+            "conflito",
+            "cortar",
+            "deva",
+            "inverso",
+            "quase",
+            "talvez",
+            "tudo"
+          ]
+        },
+        {
+          "context_id": "ctx_015",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 0.8461538461538461,
+          "reconstruction_ratio": 0.8461538461538461,
+          "cognitive_reconstruction_score": 0.7769230769230769,
+          "missing_terms": [
+            "central",
+            "noema"
+          ]
+        },
+        {
+          "context_id": "ctx_016",
+          "anchor_count": 1,
+          "original_terms": 11,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_017",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.6,
+          "reconstruction_ratio": 0.6,
+          "cognitive_reconstruction_score": 0.58,
+          "missing_terms": [
+            "arquitetura",
+            "integracao",
+            "isso",
+            "leve",
+            "problema",
+            "ruido"
+          ]
+        },
+        {
+          "context_id": "ctx_018",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_019",
+          "anchor_count": 1,
+          "original_terms": 11,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_020",
+          "anchor_count": 1,
+          "original_terms": 10,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.8,
+          "reconstruction_ratio": 0.8,
+          "cognitive_reconstruction_score": 0.74,
+          "missing_terms": [
+            "combina",
+            "estrutural"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "mode": "coverage",
+    "size": 40,
+    "bankmap_metrics": {
+      "mode": "coverage",
+      "contexts_processed": 40.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 40.0,
+      "raw_tokens_est": 907.0,
+      "compact_tokens_est": 666.0,
+      "token_compression": 0.2657111356119074,
+      "anchors_selected": 40.0,
+      "context_coverage": 1.0,
+      "semantic_sustentation": 0.74,
+      "structural_lightness": 0.19662624035281148
+    },
+    "reactivation_metrics": {
+      "reactivation_context_coverage": 1.0,
+      "reactivation_ratio_avg": 0.7475441225441226,
+      "reconstruction_ratio_avg": 0.7488536463536464,
+      "cognitive_reconstruction_score_avg": 0.6984936313686314,
+      "contexts": [
+        {
+          "context_id": "ctx_001",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5333333333333333,
+          "reconstruction_ratio": 0.5333333333333333,
+          "cognitive_reconstruction_score": 0.5266666666666666,
+          "missing_terms": [
+            "bankmap",
+            "contextos",
+            "deve",
+            "inferencia",
+            "muitos",
+            "tratar",
+            "unica"
+          ]
+        },
+        {
+          "context_id": "ctx_002",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5714285714285714,
+          "reconstruction_ratio": 0.5892857142857143,
+          "cognitive_reconstruction_score": 0.5633928571428571,
+          "missing_terms": [
+            "compreender",
+            "estrutura",
+            "leitura",
+            "para",
+            "parte",
+            "regressiva"
+          ]
+        },
+        {
+          "context_id": "ctx_003",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.6,
+          "reconstruction_ratio": 0.6,
+          "cognitive_reconstruction_score": 0.58,
+          "missing_terms": [
+            "carregar",
+            "contexto",
+            "curtas",
+            "frases",
+            "inteiro",
+            "podem"
+          ]
+        },
+        {
+          "context_id": "ctx_004",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 4,
+          "reactivation_ratio": 0.2857142857142857,
+          "reconstruction_ratio": 0.30357142857142855,
+          "cognitive_reconstruction_score": 0.33482142857142855,
+          "missing_terms": [
+            "ambiguidade",
+            "carga",
+            "contextual",
+            "deve",
+            "fertil",
+            "medir",
+            "perda",
+            "risco",
+            "semantica",
+            "sistema"
+          ]
+        },
+        {
+          "context_id": "ctx_005",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.6666666666666666,
+          "reconstruction_ratio": 0.6666666666666666,
+          "cognitive_reconstruction_score": 0.6333333333333333,
+          "missing_terms": [
+            "alta",
+            "cobertura",
+            "deve",
+            "permanecer"
+          ]
+        },
+        {
+          "context_id": "ctx_006",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.5,
+          "reconstruction_ratio": 0.5,
+          "cognitive_reconstruction_score": 0.5,
+          "missing_terms": [
+            "carregar",
+            "junto",
+            "metricas",
+            "output",
+            "precisa",
+            "resposta"
+          ]
+        },
+        {
+          "context_id": "ctx_007",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.75,
+          "reconstruction_ratio": 0.75,
+          "cognitive_reconstruction_score": 0.7,
+          "missing_terms": [
+            "apenas",
+            "arquitetura",
+            "resumo"
+          ]
+        },
+        {
+          "context_id": "ctx_008",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.42857142857142855,
+          "reconstruction_ratio": 0.42857142857142855,
+          "cognitive_reconstruction_score": 0.44285714285714284,
+          "missing_terms": [
+            "aberto",
+            "como",
+            "compreensao",
+            "futura",
+            "noema",
+            "preservada",
+            "produzir",
+            "quando"
+          ]
+        },
+        {
+          "context_id": "ctx_009",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.5333333333333333,
+          "reconstruction_ratio": 0.5333333333333333,
+          "cognitive_reconstruction_score": 0.5266666666666666,
+          "missing_terms": [
+            "audit",
+            "descartes",
+            "deve",
+            "fusoes",
+            "isso",
+            "registrar",
+            "trail"
+          ]
+        },
+        {
+          "context_id": "ctx_010",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.6153846153846154,
+          "reconstruction_ratio": 0.6153846153846154,
+          "cognitive_reconstruction_score": 0.5923076923076923,
+          "missing_terms": [
+            "contexto",
+            "diferente",
+            "leitura",
+            "linear",
+            "regressivo"
+          ]
+        },
+        {
+          "context_id": "ctx_011",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 0.8571428571428571,
+          "reconstruction_ratio": 0.8571428571428571,
+          "cognitive_reconstruction_score": 0.7857142857142857,
+          "missing_terms": [
+            "operacional",
+            "ruido"
+          ]
+        },
+        {
+          "context_id": "ctx_012",
+          "anchor_count": 1,
+          "original_terms": 5,
+          "reactivated_terms": 1,
+          "reactivation_ratio": 0.2,
+          "reconstruction_ratio": 0.2,
+          "cognitive_reconstruction_score": 0.26,
+          "missing_terms": [
+            "preservando",
+            "reduzir",
+            "sentido",
+            "tokens"
+          ]
+        },
+        {
+          "context_id": "ctx_013",
+          "anchor_count": 1,
+          "original_terms": 14,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 0.7857142857142857,
+          "reconstruction_ratio": 0.7857142857142857,
+          "cognitive_reconstruction_score": 0.7285714285714285,
+          "missing_terms": [
+            "compressao",
+            "conflito",
+            "elimina"
+          ]
+        },
+        {
+          "context_id": "ctx_014",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.4,
+          "reconstruction_ratio": 0.41666666666666674,
+          "cognitive_reconstruction_score": 0.4258333333333334,
+          "missing_terms": [
+            "agressivamente",
+            "bankmap",
+            "conflito",
+            "cortar",
+            "deva",
+            "inverso",
+            "quase",
+            "talvez",
+            "tudo"
+          ]
+        },
+        {
+          "context_id": "ctx_015",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 0.8461538461538461,
+          "reconstruction_ratio": 0.8461538461538461,
+          "cognitive_reconstruction_score": 0.7769230769230769,
+          "missing_terms": [
+            "central",
+            "noema"
+          ]
+        },
+        {
+          "context_id": "ctx_016",
+          "anchor_count": 1,
+          "original_terms": 11,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_017",
+          "anchor_count": 1,
+          "original_terms": 15,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.6,
+          "reconstruction_ratio": 0.6,
+          "cognitive_reconstruction_score": 0.58,
+          "missing_terms": [
+            "arquitetura",
+            "integracao",
+            "isso",
+            "leve",
+            "problema",
+            "ruido"
+          ]
+        },
+        {
+          "context_id": "ctx_018",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_019",
+          "anchor_count": 1,
+          "original_terms": 11,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_020",
+          "anchor_count": 1,
+          "original_terms": 10,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.8,
+          "reconstruction_ratio": 0.8,
+          "cognitive_reconstruction_score": 0.74,
+          "missing_terms": [
+            "combina",
+            "estrutural"
+          ]
+        },
+        {
+          "context_id": "ctx_021",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 0.9230769230769231,
+          "reconstruction_ratio": 0.9230769230769231,
+          "cognitive_reconstruction_score": 0.8384615384615385,
+          "missing_terms": [
+            "auxiliar"
+          ]
+        },
+        {
+          "context_id": "ctx_022",
+          "anchor_count": 1,
+          "original_terms": 10,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.8,
+          "reconstruction_ratio": 0.8,
+          "cognitive_reconstruction_score": 0.74,
+          "missing_terms": [
+            "conceitual",
+            "repeticao"
+          ]
+        },
+        {
+          "context_id": "ctx_023",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 0.9230769230769231,
+          "reconstruction_ratio": 0.9230769230769231,
+          "cognitive_reconstruction_score": 0.8384615384615385,
+          "missing_terms": [
+            "ambiguidade"
+          ]
+        },
+        {
+          "context_id": "ctx_024",
+          "anchor_count": 1,
+          "original_terms": 8,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.75,
+          "reconstruction_ratio": 0.75,
+          "cognitive_reconstruction_score": 0.7,
+          "missing_terms": [
+            "contexto",
+            "irrelevante"
+          ]
+        },
+        {
+          "context_id": "ctx_025",
+          "anchor_count": 1,
+          "original_terms": 11,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.8181818181818182,
+          "reconstruction_ratio": 0.8181818181818182,
+          "cognitive_reconstruction_score": 0.7545454545454545,
+          "missing_terms": [
+            "contexto",
+            "irrelevante"
+          ]
+        },
+        {
+          "context_id": "ctx_026",
+          "anchor_count": 1,
+          "original_terms": 11,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_027",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_028",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 1.0,
+          "reconstruction_ratio": 1.0,
+          "cognitive_reconstruction_score": 0.9,
+          "missing_terms": []
+        },
+        {
+          "context_id": "ctx_029",
+          "anchor_count": 1,
+          "original_terms": 8,
+          "reactivated_terms": 6,
+          "reactivation_ratio": 0.75,
+          "reconstruction_ratio": 0.75,
+          "cognitive_reconstruction_score": 0.7,
+          "missing_terms": [
+            "contexto",
+            "produto"
+          ]
+        },
+        {
+          "context_id": "ctx_030",
+          "anchor_count": 1,
+          "original_terms": 10,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.8,
+          "reconstruction_ratio": 0.8,
+          "cognitive_reconstruction_score": 0.74,
+          "missing_terms": [
+            "contexto",
+            "pesquisa"
+          ]
+        },
+        {
+          "context_id": "ctx_031",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 0.9166666666666666,
+          "reconstruction_ratio": 0.9166666666666666,
+          "cognitive_reconstruction_score": 0.8333333333333333,
+          "missing_terms": [
+            "ruido"
+          ]
+        },
+        {
+          "context_id": "ctx_032",
+          "anchor_count": 1,
+          "original_terms": 12,
+          "reactivated_terms": 11,
+          "reactivation_ratio": 0.9166666666666666,
+          "reconstruction_ratio": 0.9166666666666666,
+          "cognitive_reconstruction_score": 0.8333333333333333,
+          "missing_terms": [
+            "ruido"
+          ]
+        },
+        {
+          "context_id": "ctx_033",
+          "anchor_count": 1,
+          "original_terms": 8,
+          "reactivated_terms": 7,
+          "reactivation_ratio": 0.875,
+          "reconstruction_ratio": 0.875,
+          "cognitive_reconstruction_score": 0.7999999999999999,
+          "missing_terms": [
+            "conceito"
+          ]
+        },
+        {
+          "context_id": "ctx_034",
+          "anchor_count": 1,
+          "original_terms": 8,
+          "reactivated_terms": 7,
+          "reactivation_ratio": 0.875,
+          "reconstruction_ratio": 0.875,
+          "cognitive_reconstruction_score": 0.7999999999999999,
+          "missing_terms": [
+            "conceito"
+          ]
+        },
+        {
+          "context_id": "ctx_035",
+          "anchor_count": 1,
+          "original_terms": 10,
+          "reactivated_terms": 9,
+          "reactivation_ratio": 0.9,
+          "reconstruction_ratio": 0.9,
+          "cognitive_reconstruction_score": 0.82,
+          "missing_terms": [
+            "conceito"
+          ]
+        },
+        {
+          "context_id": "ctx_036",
+          "anchor_count": 1,
+          "original_terms": 9,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.8888888888888888,
+          "reconstruction_ratio": 0.8888888888888888,
+          "cognitive_reconstruction_score": 0.811111111111111,
+          "missing_terms": [
+            "conceito"
+          ]
+        },
+        {
+          "context_id": "ctx_037",
+          "anchor_count": 1,
+          "original_terms": 9,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.8888888888888888,
+          "reconstruction_ratio": 0.8888888888888888,
+          "cognitive_reconstruction_score": 0.811111111111111,
+          "missing_terms": [
+            "conceito"
+          ]
+        },
+        {
+          "context_id": "ctx_038",
+          "anchor_count": 1,
+          "original_terms": 13,
+          "reactivated_terms": 12,
+          "reactivation_ratio": 0.9230769230769231,
+          "reconstruction_ratio": 0.9230769230769231,
+          "cognitive_reconstruction_score": 0.8384615384615385,
+          "missing_terms": [
+            "conceito"
+          ]
+        },
+        {
+          "context_id": "ctx_039",
+          "anchor_count": 1,
+          "original_terms": 9,
+          "reactivated_terms": 8,
+          "reactivation_ratio": 0.8888888888888888,
+          "reconstruction_ratio": 0.8888888888888888,
+          "cognitive_reconstruction_score": 0.811111111111111,
+          "missing_terms": [
+            "conceito"
+          ]
+        },
+        {
+          "context_id": "ctx_040",
+          "anchor_count": 1,
+          "original_terms": 11,
+          "reactivated_terms": 1,
+          "reactivation_ratio": 0.09090909090909091,
+          "reconstruction_ratio": 0.09090909090909091,
+          "cognitive_reconstruction_score": 0.17272727272727273,
+          "missing_terms": [
+            "aumenta",
+            "compressao",
+            "demais",
+            "ponto",
+            "precisa",
+            "quebra",
+            "revelar",
+            "semantica",
+            "sustentacao",
+            "teste"
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,656 @@
+[
+  {
+    "mode": "aggressive",
+    "size": 4,
+    "max_anchors": 4,
+    "thresholds": {
+      "preserve_threshold": 0.68,
+      "summarize_threshold": 0.46,
+      "coverage_floor": 0.34
+    },
+    "metrics": {
+      "mode": "aggressive",
+      "contexts_processed": 4.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 4.0,
+      "raw_tokens_est": 113.0,
+      "compact_tokens_est": 63.0,
+      "token_compression": 0.4424778761061947,
+      "anchors_selected": 4.0,
+      "context_coverage": 1.0,
+      "semantic_sustentation": 0.5,
+      "structural_lightness": 0.22123893805309736
+    },
+    "top_anchors": [
+      {
+        "context_id": "ctx_002",
+        "score": 0.6517,
+        "decision": "summarize",
+        "text": "O final pode ser o comeco quando o objetivo e entender o que sustenta o todo."
+      },
+      {
+        "context_id": "ctx_004",
+        "score": 0.6412,
+        "decision": "summarize",
+        "text": "O sistema deve medir carga contextual, ambiguidade fertil e risco de perda semantica."
+      },
+      {
+        "context_id": "ctx_001",
+        "score": 0.5667,
+        "decision": "summarize",
+        "text": "A reducao de tokens precisa preservar sentido e separar o output em fluxos."
+      },
+      {
+        "context_id": "ctx_003",
+        "score": 0.5,
+        "decision": "summarize",
+        "text": "Frases curtas podem carregar contexto inteiro."
+      }
+    ]
+  },
+  {
+    "mode": "aggressive",
+    "size": 10,
+    "max_anchors": 4,
+    "thresholds": {
+      "preserve_threshold": 0.68,
+      "summarize_threshold": 0.46,
+      "coverage_floor": 0.34
+    },
+    "metrics": {
+      "mode": "aggressive",
+      "contexts_processed": 10.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 10.0,
+      "raw_tokens_est": 264.0,
+      "compact_tokens_est": 151.0,
+      "token_compression": 0.428030303030303,
+      "anchors_selected": 10.0,
+      "context_coverage": 1.0,
+      "semantic_sustentation": 0.8,
+      "structural_lightness": 0.3424242424242424
+    },
+    "top_anchors": [
+      {
+        "context_id": "ctx_002",
+        "score": 0.5967,
+        "decision": "summarize",
+        "text": "O final pode ser o comeco quando o objetivo e entender o que sustenta o todo."
+      },
+      {
+        "context_id": "ctx_004",
+        "score": 0.5552,
+        "decision": "summarize",
+        "text": "O sistema deve medir carga contextual, ambiguidade fertil e risco de perda semantica."
+      },
+      {
+        "context_id": "ctx_008",
+        "score": 0.5488,
+        "decision": "summarize",
+        "text": "Ambiguidade fertil nao deve ser removida cedo demais."
+      },
+      {
+        "context_id": "ctx_009",
+        "score": 0.5348,
+        "decision": "summarize",
+        "text": "O maior risco do Bankmap e reconstruir errado a partir de poucas ancoras."
+      },
+      {
+        "context_id": "ctx_010",
+        "score": 0.5317,
+        "decision": "summarize",
+        "text": "Ele recalcula o peso das partes depois que o objetivo ou final esta conhecido."
+      }
+    ]
+  },
+  {
+    "mode": "aggressive",
+    "size": 20,
+    "max_anchors": 7,
+    "thresholds": {
+      "preserve_threshold": 0.68,
+      "summarize_threshold": 0.46,
+      "coverage_floor": 0.34
+    },
+    "metrics": {
+      "mode": "aggressive",
+      "contexts_processed": 20.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 20.0,
+      "raw_tokens_est": 506.0,
+      "compact_tokens_est": 325.0,
+      "token_compression": 0.35770750988142297,
+      "anchors_selected": 19.0,
+      "context_coverage": 0.95,
+      "semantic_sustentation": 1.0,
+      "structural_lightness": 0.35770750988142297
+    },
+    "top_anchors": [
+      {
+        "context_id": "ctx_002",
+        "score": 0.5567,
+        "decision": "summarize",
+        "text": "O final pode ser o comeco quando o objetivo e entender o que sustenta o todo."
+      },
+      {
+        "context_id": "ctx_015",
+        "score": 0.5519,
+        "decision": "summarize",
+        "text": "o modelo ideal nao apenas responde, ele convive, percebe pequenas frases e instiga reflexao sem ser invasivo."
+      },
+      {
+        "context_id": "ctx_008",
+        "score": 0.5488,
+        "decision": "summarize",
+        "text": "Ambiguidade fertil nao deve ser removida cedo demais."
+      },
+      {
+        "context_id": "ctx_011",
+        "score": 0.533,
+        "decision": "summarize",
+        "text": "este trecho fala de configuracao de terminal, arquivos locais e execucao de scripts, mas nao muda a tese do Bankmap."
+      },
+      {
+        "context_id": "ctx_017",
+        "score": 0.5127,
+        "decision": "summarize",
+        "text": "hoje o servico de API pode retornar erro 500, timeout ou texto antes do JSON."
+      }
+    ]
+  },
+  {
+    "mode": "aggressive",
+    "size": 40,
+    "max_anchors": 14,
+    "thresholds": {
+      "preserve_threshold": 0.68,
+      "summarize_threshold": 0.46,
+      "coverage_floor": 0.34
+    },
+    "metrics": {
+      "mode": "aggressive",
+      "contexts_processed": 40.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 40.0,
+      "raw_tokens_est": 907.0,
+      "compact_tokens_est": 630.0,
+      "token_compression": 0.30540242557883135,
+      "anchors_selected": 37.0,
+      "context_coverage": 0.925,
+      "semantic_sustentation": 1.0,
+      "structural_lightness": 0.30540242557883135
+    },
+    "top_anchors": [
+      {
+        "context_id": "ctx_002",
+        "score": 0.5367,
+        "decision": "summarize",
+        "text": "O final pode ser o comeco quando o objetivo e entender o que sustenta o todo."
+      },
+      {
+        "context_id": "ctx_015",
+        "score": 0.5305,
+        "decision": "summarize",
+        "text": "o modelo ideal nao apenas responde, ele convive, percebe pequenas frases e instiga reflexao sem ser invasivo."
+      },
+      {
+        "context_id": "ctx_025",
+        "score": 0.5182,
+        "decision": "summarize",
+        "text": "nomes de arquivos temporarios podem confundir, mas nao carregam a tese semantica principal."
+      },
+      {
+        "context_id": "ctx_031",
+        "score": 0.5127,
+        "decision": "summarize",
+        "text": "esta frase existe para aumentar densidade, mas nao adiciona nova tese estrutural ao sistema."
+      },
+      {
+        "context_id": "ctx_008",
+        "score": 0.506,
+        "decision": "summarize",
+        "text": "Ambiguidade fertil nao deve ser removida cedo demais."
+      }
+    ]
+  },
+  {
+    "mode": "balanced",
+    "size": 4,
+    "max_anchors": 6,
+    "thresholds": {
+      "preserve_threshold": 0.62,
+      "summarize_threshold": 0.38,
+      "coverage_floor": 0.25
+    },
+    "metrics": {
+      "mode": "balanced",
+      "contexts_processed": 4.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 4.0,
+      "raw_tokens_est": 113.0,
+      "compact_tokens_est": 87.0,
+      "token_compression": 0.23008849557522126,
+      "anchors_selected": 6.0,
+      "context_coverage": 1.0,
+      "semantic_sustentation": 0.75,
+      "structural_lightness": 0.17256637168141595
+    },
+    "top_anchors": [
+      {
+        "context_id": "ctx_002",
+        "score": 0.6517,
+        "decision": "open_noema",
+        "text": "O final pode ser o comeco quando o objetivo e entender o que sustenta o todo."
+      },
+      {
+        "context_id": "ctx_004",
+        "score": 0.6412,
+        "decision": "preserve",
+        "text": "O sistema deve medir carga contextual, ambiguidade fertil e risco de perda semantica."
+      },
+      {
+        "context_id": "ctx_001",
+        "score": 0.5667,
+        "decision": "summarize",
+        "text": "A reducao de tokens precisa preservar sentido e separar o output em fluxos."
+      },
+      {
+        "context_id": "ctx_004",
+        "score": 0.5333,
+        "decision": "summarize",
+        "text": "Nao basta cortar firula textual."
+      },
+      {
+        "context_id": "ctx_003",
+        "score": 0.5,
+        "decision": "summarize",
+        "text": "Frases curtas podem carregar contexto inteiro."
+      }
+    ]
+  },
+  {
+    "mode": "balanced",
+    "size": 10,
+    "max_anchors": 6,
+    "thresholds": {
+      "preserve_threshold": 0.62,
+      "summarize_threshold": 0.38,
+      "coverage_floor": 0.25
+    },
+    "metrics": {
+      "mode": "balanced",
+      "contexts_processed": 10.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 10.0,
+      "raw_tokens_est": 264.0,
+      "compact_tokens_est": 151.0,
+      "token_compression": 0.428030303030303,
+      "anchors_selected": 10.0,
+      "context_coverage": 1.0,
+      "semantic_sustentation": 0.5294117647058824,
+      "structural_lightness": 0.2266042780748663
+    },
+    "top_anchors": [
+      {
+        "context_id": "ctx_002",
+        "score": 0.5967,
+        "decision": "summarize",
+        "text": "O final pode ser o comeco quando o objetivo e entender o que sustenta o todo."
+      },
+      {
+        "context_id": "ctx_004",
+        "score": 0.5552,
+        "decision": "summarize",
+        "text": "O sistema deve medir carga contextual, ambiguidade fertil e risco de perda semantica."
+      },
+      {
+        "context_id": "ctx_008",
+        "score": 0.5488,
+        "decision": "summarize",
+        "text": "Ambiguidade fertil nao deve ser removida cedo demais."
+      },
+      {
+        "context_id": "ctx_009",
+        "score": 0.5348,
+        "decision": "summarize",
+        "text": "O maior risco do Bankmap e reconstruir errado a partir de poucas ancoras."
+      },
+      {
+        "context_id": "ctx_010",
+        "score": 0.5317,
+        "decision": "summarize",
+        "text": "Ele recalcula o peso das partes depois que o objetivo ou final esta conhecido."
+      }
+    ]
+  },
+  {
+    "mode": "balanced",
+    "size": 20,
+    "max_anchors": 13,
+    "thresholds": {
+      "preserve_threshold": 0.62,
+      "summarize_threshold": 0.38,
+      "coverage_floor": 0.25
+    },
+    "metrics": {
+      "mode": "balanced",
+      "contexts_processed": 20.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 20.0,
+      "raw_tokens_est": 506.0,
+      "compact_tokens_est": 336.0,
+      "token_compression": 0.33596837944664026,
+      "anchors_selected": 20.0,
+      "context_coverage": 1.0,
+      "semantic_sustentation": 0.7037037037037037,
+      "structural_lightness": 0.23642219294393205
+    },
+    "top_anchors": [
+      {
+        "context_id": "ctx_002",
+        "score": 0.5567,
+        "decision": "summarize",
+        "text": "O final pode ser o comeco quando o objetivo e entender o que sustenta o todo."
+      },
+      {
+        "context_id": "ctx_015",
+        "score": 0.5519,
+        "decision": "summarize",
+        "text": "o modelo ideal nao apenas responde, ele convive, percebe pequenas frases e instiga reflexao sem ser invasivo."
+      },
+      {
+        "context_id": "ctx_008",
+        "score": 0.5488,
+        "decision": "summarize",
+        "text": "Ambiguidade fertil nao deve ser removida cedo demais."
+      },
+      {
+        "context_id": "ctx_011",
+        "score": 0.533,
+        "decision": "summarize",
+        "text": "este trecho fala de configuracao de terminal, arquivos locais e execucao de scripts, mas nao muda a tese do Bankmap."
+      },
+      {
+        "context_id": "ctx_017",
+        "score": 0.5127,
+        "decision": "summarize",
+        "text": "hoje o servico de API pode retornar erro 500, timeout ou texto antes do JSON."
+      }
+    ]
+  },
+  {
+    "mode": "balanced",
+    "size": 40,
+    "max_anchors": 26,
+    "thresholds": {
+      "preserve_threshold": 0.62,
+      "summarize_threshold": 0.38,
+      "coverage_floor": 0.25
+    },
+    "metrics": {
+      "mode": "balanced",
+      "contexts_processed": 40.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 40.0,
+      "raw_tokens_est": 907.0,
+      "compact_tokens_est": 666.0,
+      "token_compression": 0.2657111356119074,
+      "anchors_selected": 40.0,
+      "context_coverage": 1.0,
+      "semantic_sustentation": 0.8125,
+      "structural_lightness": 0.21589029768467477
+    },
+    "top_anchors": [
+      {
+        "context_id": "ctx_002",
+        "score": 0.5367,
+        "decision": "summarize",
+        "text": "O final pode ser o comeco quando o objetivo e entender o que sustenta o todo."
+      },
+      {
+        "context_id": "ctx_015",
+        "score": 0.5305,
+        "decision": "summarize",
+        "text": "o modelo ideal nao apenas responde, ele convive, percebe pequenas frases e instiga reflexao sem ser invasivo."
+      },
+      {
+        "context_id": "ctx_025",
+        "score": 0.5182,
+        "decision": "summarize",
+        "text": "nomes de arquivos temporarios podem confundir, mas nao carregam a tese semantica principal."
+      },
+      {
+        "context_id": "ctx_031",
+        "score": 0.5127,
+        "decision": "summarize",
+        "text": "esta frase existe para aumentar densidade, mas nao adiciona nova tese estrutural ao sistema."
+      },
+      {
+        "context_id": "ctx_008",
+        "score": 0.506,
+        "decision": "summarize",
+        "text": "Ambiguidade fertil nao deve ser removida cedo demais."
+      }
+    ]
+  },
+  {
+    "mode": "coverage",
+    "size": 4,
+    "max_anchors": 6,
+    "thresholds": {
+      "preserve_threshold": 0.58,
+      "summarize_threshold": 0.34,
+      "coverage_floor": 0.2
+    },
+    "metrics": {
+      "mode": "coverage",
+      "contexts_processed": 4.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 4.0,
+      "raw_tokens_est": 113.0,
+      "compact_tokens_est": 87.0,
+      "token_compression": 0.23008849557522126,
+      "anchors_selected": 6.0,
+      "context_coverage": 1.0,
+      "semantic_sustentation": 0.75,
+      "structural_lightness": 0.17256637168141595
+    },
+    "top_anchors": [
+      {
+        "context_id": "ctx_002",
+        "score": 0.6517,
+        "decision": "open_noema",
+        "text": "O final pode ser o comeco quando o objetivo e entender o que sustenta o todo."
+      },
+      {
+        "context_id": "ctx_004",
+        "score": 0.6412,
+        "decision": "preserve",
+        "text": "O sistema deve medir carga contextual, ambiguidade fertil e risco de perda semantica."
+      },
+      {
+        "context_id": "ctx_001",
+        "score": 0.5667,
+        "decision": "summarize",
+        "text": "A reducao de tokens precisa preservar sentido e separar o output em fluxos."
+      },
+      {
+        "context_id": "ctx_004",
+        "score": 0.5333,
+        "decision": "summarize",
+        "text": "Nao basta cortar firula textual."
+      },
+      {
+        "context_id": "ctx_003",
+        "score": 0.5,
+        "decision": "summarize",
+        "text": "Frases curtas podem carregar contexto inteiro."
+      }
+    ]
+  },
+  {
+    "mode": "coverage",
+    "size": 10,
+    "max_anchors": 8,
+    "thresholds": {
+      "preserve_threshold": 0.58,
+      "summarize_threshold": 0.34,
+      "coverage_floor": 0.2
+    },
+    "metrics": {
+      "mode": "coverage",
+      "contexts_processed": 10.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 10.0,
+      "raw_tokens_est": 264.0,
+      "compact_tokens_est": 151.0,
+      "token_compression": 0.428030303030303,
+      "anchors_selected": 10.0,
+      "context_coverage": 1.0,
+      "semantic_sustentation": 0.5,
+      "structural_lightness": 0.2140151515151515
+    },
+    "top_anchors": [
+      {
+        "context_id": "ctx_002",
+        "score": 0.5967,
+        "decision": "open_noema",
+        "text": "O final pode ser o comeco quando o objetivo e entender o que sustenta o todo."
+      },
+      {
+        "context_id": "ctx_004",
+        "score": 0.5552,
+        "decision": "summarize",
+        "text": "O sistema deve medir carga contextual, ambiguidade fertil e risco de perda semantica."
+      },
+      {
+        "context_id": "ctx_008",
+        "score": 0.5488,
+        "decision": "summarize",
+        "text": "Ambiguidade fertil nao deve ser removida cedo demais."
+      },
+      {
+        "context_id": "ctx_009",
+        "score": 0.5348,
+        "decision": "summarize",
+        "text": "O maior risco do Bankmap e reconstruir errado a partir de poucas ancoras."
+      },
+      {
+        "context_id": "ctx_010",
+        "score": 0.5317,
+        "decision": "summarize",
+        "text": "Ele recalcula o peso das partes depois que o objetivo ou final esta conhecido."
+      }
+    ]
+  },
+  {
+    "mode": "coverage",
+    "size": 20,
+    "max_anchors": 17,
+    "thresholds": {
+      "preserve_threshold": 0.58,
+      "summarize_threshold": 0.34,
+      "coverage_floor": 0.2
+    },
+    "metrics": {
+      "mode": "coverage",
+      "contexts_processed": 20.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 20.0,
+      "raw_tokens_est": 506.0,
+      "compact_tokens_est": 336.0,
+      "token_compression": 0.33596837944664026,
+      "anchors_selected": 20.0,
+      "context_coverage": 1.0,
+      "semantic_sustentation": 0.59375,
+      "structural_lightness": 0.19948122529644266
+    },
+    "top_anchors": [
+      {
+        "context_id": "ctx_002",
+        "score": 0.5567,
+        "decision": "summarize",
+        "text": "O final pode ser o comeco quando o objetivo e entender o que sustenta o todo."
+      },
+      {
+        "context_id": "ctx_015",
+        "score": 0.5519,
+        "decision": "summarize",
+        "text": "o modelo ideal nao apenas responde, ele convive, percebe pequenas frases e instiga reflexao sem ser invasivo."
+      },
+      {
+        "context_id": "ctx_008",
+        "score": 0.5488,
+        "decision": "summarize",
+        "text": "Ambiguidade fertil nao deve ser removida cedo demais."
+      },
+      {
+        "context_id": "ctx_011",
+        "score": 0.533,
+        "decision": "summarize",
+        "text": "este trecho fala de configuracao de terminal, arquivos locais e execucao de scripts, mas nao muda a tese do Bankmap."
+      },
+      {
+        "context_id": "ctx_017",
+        "score": 0.5127,
+        "decision": "summarize",
+        "text": "hoje o servico de API pode retornar erro 500, timeout ou texto antes do JSON."
+      }
+    ]
+  },
+  {
+    "mode": "coverage",
+    "size": 40,
+    "max_anchors": 34,
+    "thresholds": {
+      "preserve_threshold": 0.58,
+      "summarize_threshold": 0.34,
+      "coverage_floor": 0.2
+    },
+    "metrics": {
+      "mode": "coverage",
+      "contexts_processed": 40.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 40.0,
+      "raw_tokens_est": 907.0,
+      "compact_tokens_est": 666.0,
+      "token_compression": 0.2657111356119074,
+      "anchors_selected": 40.0,
+      "context_coverage": 1.0,
+      "semantic_sustentation": 0.74,
+      "structural_lightness": 0.19662624035281148
+    },
+    "top_anchors": [
+      {
+        "context_id": "ctx_002",
+        "score": 0.5367,
+        "decision": "summarize",
+        "text": "O final pode ser o comeco quando o objetivo e entender o que sustenta o todo."
+      },
+      {
+        "context_id": "ctx_015",
+        "score": 0.5305,
+        "decision": "summarize",
+        "text": "o modelo ideal nao apenas responde, ele convive, percebe pequenas frases e instiga reflexao sem ser invasivo."
+      },
+      {
+        "context_id": "ctx_025",
+        "score": 0.5182,
+        "decision": "summarize",
+        "text": "nomes de arquivos temporarios podem confundir, mas nao carregam a tese semantica principal."
+      },
+      {
+        "context_id": "ctx_031",
+        "score": 0.5127,
+        "decision": "summarize",
+        "text": "esta frase existe para aumentar densidade, mas nao adiciona nova tese estrutural ao sistema."
+      },
+      {
+        "context_id": "ctx_008",
+        "score": 0.506,
+        "decision": "summarize",
+        "text": "Ambiguidade fertil nao deve ser removida cedo demais."
+      }
+    ]
+  }
+]

@@ -1,0 +1,165 @@
+{
+  "objective": "Testar Bankmap sob alta densidade contextual, ruido, repeticao, conflito e ambiguidade fertil.",
+  "contexts": [
+    {
+      "context_id": "ctx_001",
+      "content": "O Bankmap deve tratar muitos contextos em uma unica inferencia. A reducao de tokens precisa preservar sentido e separar o output em fluxos."
+    },
+    {
+      "context_id": "ctx_002",
+      "content": "A leitura regressiva parte do final para compreender a estrutura. O final pode ser o comeco quando o objetivo e entender o que sustenta o todo."
+    },
+    {
+      "context_id": "ctx_003",
+      "content": "Frases curtas podem carregar contexto inteiro. Uma ancora pequena pode reativar uma cadeia longa de significado se estiver bem posicionada."
+    },
+    {
+      "context_id": "ctx_004",
+      "content": "Nao basta cortar firula textual. O sistema deve medir carga contextual, ambiguidade fertil e risco de perda semantica."
+    },
+    {
+      "context_id": "ctx_005",
+      "content": "A cobertura de contexto deve permanecer alta. Se algum contexto essencial desaparecer, a compressao vira perda de entendimento."
+    },
+    {
+      "context_id": "ctx_006",
+      "content": "O output precisa carregar metricas junto da resposta: compressao, cobertura, sustentacao semantica, auditabilidade e separabilidade."
+    },
+    {
+      "context_id": "ctx_007",
+      "content": "A arquitetura nao e apenas resumo. Ela transforma contexto bruto em estrutura auditavel com ancoras, scores, decisoes e trilha."
+    },
+    {
+      "context_id": "ctx_008",
+      "content": "Ambiguidade fertil nao deve ser removida cedo demais. Ela deve ser preservada como noema aberto quando produzir compreensao futura."
+    },
+    {
+      "context_id": "ctx_009",
+      "content": "O maior risco do Bankmap e reconstruir errado a partir de poucas ancoras. Por isso o audit trail deve registrar descartes e fusoes."
+    },
+    {
+      "context_id": "ctx_010",
+      "content": "Contexto regressivo e diferente de leitura linear. Ele recalcula o peso das partes depois que o objetivo ou final esta conhecido."
+    },
+    {
+      "context_id": "ctx_011",
+      "content": "Ruido operacional: este trecho fala de configuracao de terminal, arquivos locais e execucao de scripts, mas nao muda a tese do Bankmap."
+    },
+    {
+      "context_id": "ctx_012",
+      "content": "Repeticao: reduzir tokens preservando sentido. Reduzir tokens preservando sentido. Reduzir tokens preservando sentido."
+    },
+    {
+      "context_id": "ctx_013",
+      "content": "Conflito: talvez o Bankmap deva preservar tudo, porque descartar qualquer coisa pode ser perigoso. Mas preservar tudo elimina a compressao."
+    },
+    {
+      "context_id": "ctx_014",
+      "content": "Conflito inverso: talvez o Bankmap deva cortar agressivamente quase tudo. Mas corte agressivo pode apagar contexto sustentador."
+    },
+    {
+      "context_id": "ctx_015",
+      "content": "Noema central: o modelo ideal nao apenas responde, ele convive, percebe pequenas frases e instiga reflexao sem ser invasivo."
+    },
+    {
+      "context_id": "ctx_016",
+      "content": "Metricas precisam ficar no output para o usuario avaliar a resposta sem abrir arquivos auxiliares."
+    },
+    {
+      "context_id": "ctx_017",
+      "content": "Ruido leve: hoje o servico de API pode retornar erro 500, timeout ou texto antes do JSON. Isso e problema de integracao, nao da arquitetura."
+    },
+    {
+      "context_id": "ctx_018",
+      "content": "A carga contextual deve considerar centralidade, desambiguacao, dependencia do objetivo, capacidade de reconstrucao, risco e redundancia."
+    },
+    {
+      "context_id": "ctx_019",
+      "content": "A sustentacao semantica baixa indica que o sistema comprimiu, mas talvez ainda nao preservou estrutura suficiente."
+    },
+    {
+      "context_id": "ctx_020",
+      "content": "A leveza estrutural combina compressao com sustentacao. Se a compressao for alta e a sustentacao baixa, a leveza real continua limitada."
+    },
+    {
+      "context_id": "ctx_021",
+      "content": "Contexto auxiliar: o grafo visual mostra entrada, Bankmap, contexto regressivo, ancoras, bootloader, LLM e output multi-fluxo."
+    },
+    {
+      "context_id": "ctx_022",
+      "content": "Repeticao conceitual: ancoras semanticas permitem reduzir tokens sem perder o fio principal da resposta."
+    },
+    {
+      "context_id": "ctx_023",
+      "content": "Ambiguidade: tomar um belo banho pode ser literal, pausa mental, simbolo de transicao ou gatilho de reflexao contextual."
+    },
+    {
+      "context_id": "ctx_024",
+      "content": "Contexto irrelevante: a cor da janela do terminal nao altera a avaliacao da arquitetura Bankmap."
+    },
+    {
+      "context_id": "ctx_025",
+      "content": "Contexto irrelevante: nomes de arquivos temporarios podem confundir, mas nao carregam a tese semantica principal."
+    },
+    {
+      "context_id": "ctx_026",
+      "content": "O Bankmap deve separar memoria, resposta, noemas, axiomas, auditoria, proximas acoes e metricas."
+    },
+    {
+      "context_id": "ctx_027",
+      "content": "Se a LLM mistura explicacao antes do JSON, o parser precisa localizar o objeto valido dentro da resposta mista."
+    },
+    {
+      "context_id": "ctx_028",
+      "content": "A arquitetura ganha forca quando o output deixa de ser texto plano e vira uma estrutura operacional verificavel."
+    },
+    {
+      "context_id": "ctx_029",
+      "content": "Contexto de produto: uma LLM de convivio deve ser util, sutil, reflexiva e nao intrusiva."
+    },
+    {
+      "context_id": "ctx_030",
+      "content": "Contexto de pesquisa: a abordagem precisa de baseline com prompt bruto, prompt compacto e julgamento de qualidade."
+    },
+    {
+      "context_id": "ctx_031",
+      "content": "Ruido: esta frase existe para aumentar densidade, mas nao adiciona nova tese estrutural ao sistema."
+    },
+    {
+      "context_id": "ctx_032",
+      "content": "Ruido: outra frase de enchimento para testar se o Bankmap consegue descartar baixa carga semantica."
+    },
+    {
+      "context_id": "ctx_033",
+      "content": "Conceito: separability_output mede se os blocos de resposta voltam organizados e validaveis."
+    },
+    {
+      "context_id": "ctx_034",
+      "content": "Conceito: contextual_throughput mede quantos contextos foram processados por uma chamada de LLM."
+    },
+    {
+      "context_id": "ctx_035",
+      "content": "Conceito: token_compression mede a diferenca entre tokens brutos e contexto final compacto."
+    },
+    {
+      "context_id": "ctx_036",
+      "content": "Conceito: context_coverage mede se todos os contextos tiveram ao menos uma representacao sustentadora."
+    },
+    {
+      "context_id": "ctx_037",
+      "content": "Conceito: semantic_quality ainda precisa ser validada por comparacao humana ou por julgador externo."
+    },
+    {
+      "context_id": "ctx_038",
+      "content": "Conceito: prompt_quality deve medir clareza, completude operacional, baixo ruido e capacidade de induzir JSON correto."
+    },
+    {
+      "context_id": "ctx_039",
+      "content": "Conceito: auditability mede se conseguimos explicar por que uma ancora foi usada e outra foi descartada."
+    },
+    {
+      "context_id": "ctx_040",
+      "content": "Fechamento: o teste precisa revelar o ponto de quebra em que compressao aumenta, mas sustentacao semantica cai demais."
+    }
+  ]
+}

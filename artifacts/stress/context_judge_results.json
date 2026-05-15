@@ -1,0 +1,2724 @@
+[
+  {
+    "size": 10,
+    "judge_profile": "llm_continuous",
+    "bankmap_metrics": {
+      "mode": "balanced",
+      "contexts_processed": 10.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 10.0,
+      "raw_tokens_est": 264.0,
+      "compact_tokens_est": 151.0,
+      "token_compression": 0.428030303030303,
+      "anchors_selected": 10.0,
+      "context_coverage": 1.0,
+      "semantic_sustentation": 0.5294117647058824,
+      "structural_lightness": 0.2266042780748663
+    },
+    "bidirectional_metrics": {
+      "anchors_evaluated": 10,
+      "bidirectional_stability": 0.5,
+      "regressive_score_avg": 1.0,
+      "progressive_score_avg": 0.2461539170324,
+      "bidirectional_score_avg": 0.66076926266458,
+      "anchors": [
+        {
+          "context_id": "ctx_002",
+          "anchor_text": "O final pode ser o comeco quando o objetivo e entender o que sustenta o todo.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.5,
+          "bidirectional_score": 0.775,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_004",
+          "anchor_text": "O sistema deve medir carga contextual, ambiguidade fertil e risco de perda semantica.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.47058823529411764,
+          "bidirectional_score": 0.761764705882353,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_008",
+          "anchor_text": "Ambiguidade fertil nao deve ser removida cedo demais.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.14285714285714285,
+          "bidirectional_score": 0.6142857142857143,
+          "direction": "regressive"
+        },
+        {
+          "context_id": "ctx_009",
+          "anchor_text": "O maior risco do Bankmap e reconstruir errado a partir de poucas ancoras.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.0,
+          "bidirectional_score": 0.55,
+          "direction": "regressive"
+        },
+        {
+          "context_id": "ctx_010",
+          "anchor_text": "Ele recalcula o peso das partes depois que o objetivo ou final esta conhecido.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.0,
+          "bidirectional_score": 0.55,
+          "direction": "regressive"
+        },
+        {
+          "context_id": "ctx_001",
+          "anchor_text": "A reducao de tokens precisa preservar sentido e separar o output em fluxos.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.3888888888888889,
+          "bidirectional_score": 0.7250000000000001,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_003",
+          "anchor_text": "Uma ancora pequena pode reativar uma cadeia longa de significado se estiver bem posicionada.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.2631578947368421,
+          "bidirectional_score": 0.668421052631579,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_007",
+          "anchor_text": "A arquitetura nao e apenas resumo.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.23076923076923078,
+          "bidirectional_score": 0.6538461538461539,
+          "direction": "regressive"
+        },
+        {
+          "context_id": "ctx_005",
+          "anchor_text": "Se algum contexto essencial desaparecer, a compressao vira perda de entendimento.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.2777777777777778,
+          "bidirectional_score": 0.675,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_006",
+          "anchor_text": "O output precisa carregar metricas junto da resposta:",
+          "regressive_score": 1.0,
+          "progressive_score": 0.1875,
+          "bidirectional_score": 0.634375,
+          "direction": "regressive"
+        }
+      ]
+    },
+    "judge_metrics": {
+      "semantic_sustainment_score_avg": 0.50451,
+      "semantic_power_avg": 0.35157,
+      "progressive_potentialization_avg": 0.18638000000000002,
+      "active_context_ratio": 0.1,
+      "audit_context_ratio": 0.6,
+      "discard_context_ratio": 0.3,
+      "active_progressive_potentialization_avg": 0.3457,
+      "audit_progressive_potentialization_avg": 0.2159,
+      "decisions": {
+        "promote": 0,
+        "compact": 1,
+        "audit": 6,
+        "discard": 3
+      }
+    },
+    "contexts": [
+      {
+        "context_id": "ctx_001",
+        "judge_score": 0.576,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.1173,
+          "coherence": 1.0,
+          "confidence": 0.5113,
+          "recency": 0.0,
+          "semantic_power": 0.4865,
+          "redundancy_penalty": 0.0,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0293,
+          "coherence": 0.2,
+          "confidence": 0.1278,
+          "recency": 0.0,
+          "semantic_power": 0.2189,
+          "redundancy_penalty": -0.0,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.58; decision=audit; strongest_positive=semantic_power:0.49; strongest_penalty=redundancy_penalty:0.00.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.2802
+      },
+      {
+        "context_id": "ctx_002",
+        "judge_score": 0.5521,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.0692,
+          "coherence": 1.0,
+          "confidence": 0.4858,
+          "recency": 0.1111,
+          "semantic_power": 0.4618,
+          "redundancy_penalty": 0.0,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0173,
+          "coherence": 0.2,
+          "confidence": 0.1215,
+          "recency": 0.0056,
+          "semantic_power": 0.2078,
+          "redundancy_penalty": -0.0,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.55; decision=audit; strongest_positive=semantic_power:0.46; strongest_penalty=redundancy_penalty:0.00.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.255
+      },
+      {
+        "context_id": "ctx_003",
+        "judge_score": 0.4945,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.0187,
+          "coherence": 1.0,
+          "confidence": 0.4406,
+          "recency": 0.2222,
+          "semantic_power": 0.3829,
+          "redundancy_penalty": 0.0469,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0047,
+          "coherence": 0.2,
+          "confidence": 0.1101,
+          "recency": 0.0111,
+          "semantic_power": 0.1723,
+          "redundancy_penalty": -0.0037,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.49; decision=audit; strongest_positive=coherence:1.00; strongest_penalty=redundancy_penalty:0.05.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.1893
+      },
+      {
+        "context_id": "ctx_004",
+        "judge_score": 0.6635,
+        "decision": "compact",
+        "color_state": "yellow_green",
+        "terms": {
+          "relevance": 0.2836,
+          "coherence": 1.0,
+          "confidence": 0.5816,
+          "recency": 0.3333,
+          "semantic_power": 0.5211,
+          "redundancy_penalty": 0.05,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0709,
+          "coherence": 0.2,
+          "confidence": 0.1454,
+          "recency": 0.0167,
+          "semantic_power": 0.2345,
+          "redundancy_penalty": -0.004,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.66; decision=compact; strongest_positive=semantic_power:0.52; strongest_penalty=redundancy_penalty:0.05.",
+        "repair_instruction": "Compact while preserving semantic anchors and progressive links.",
+        "progressive_potentialization": 0.3457
+      },
+      {
+        "context_id": "ctx_005",
+        "judge_score": 0.54,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.1091,
+          "coherence": 1.0,
+          "confidence": 0.4821,
+          "recency": 0.4444,
+          "semantic_power": 0.4111,
+          "redundancy_penalty": 0.1875,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0273,
+          "coherence": 0.2,
+          "confidence": 0.1205,
+          "recency": 0.0222,
+          "semantic_power": 0.185,
+          "redundancy_penalty": -0.015,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.54; decision=audit; strongest_positive=coherence:1.00; strongest_penalty=redundancy_penalty:0.19.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.222
+      },
+      {
+        "context_id": "ctx_006",
+        "judge_score": 0.4554,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.0,
+          "coherence": 1.0,
+          "confidence": 0.4189,
+          "recency": 0.5556,
+          "semantic_power": 0.3398,
+          "redundancy_penalty": 0.375,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0,
+          "coherence": 0.2,
+          "confidence": 0.1047,
+          "recency": 0.0278,
+          "semantic_power": 0.1529,
+          "redundancy_penalty": -0.03,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.46; decision=audit; strongest_positive=coherence:1.00; strongest_penalty=redundancy_penalty:0.38.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.1547
+      },
+      {
+        "context_id": "ctx_007",
+        "judge_score": 0.5133,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.0429,
+          "coherence": 1.0,
+          "confidence": 0.4475,
+          "recency": 0.6667,
+          "semantic_power": 0.3784,
+          "redundancy_penalty": 0.1607,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0107,
+          "coherence": 0.2,
+          "confidence": 0.1119,
+          "recency": 0.0333,
+          "semantic_power": 0.1703,
+          "redundancy_penalty": -0.0129,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.51; decision=audit; strongest_positive=coherence:1.00; strongest_penalty=redundancy_penalty:0.16.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.1942
+      },
+      {
+        "context_id": "ctx_008",
+        "judge_score": 0.4265,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.1276,
+          "coherence": 1.0,
+          "confidence": 0.4046,
+          "recency": 0.7778,
+          "semantic_power": 0.1713,
+          "redundancy_penalty": 0.2812,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0319,
+          "coherence": 0.2,
+          "confidence": 0.1011,
+          "recency": 0.0389,
+          "semantic_power": 0.0771,
+          "redundancy_penalty": -0.0225,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.43; decision=discard; strongest_positive=coherence:1.00; strongest_penalty=redundancy_penalty:0.28.",
+        "repair_instruction": "Discard for this query unless new evidence raises relevance.",
+        "progressive_potentialization": 0.0731
+      },
+      {
+        "context_id": "ctx_009",
+        "judge_score": 0.4238,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.0591,
+          "coherence": 1.0,
+          "confidence": 0.3868,
+          "recency": 0.8889,
+          "semantic_power": 0.189,
+          "redundancy_penalty": 0.2143,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0148,
+          "coherence": 0.2,
+          "confidence": 0.0967,
+          "recency": 0.0444,
+          "semantic_power": 0.085,
+          "redundancy_penalty": -0.0171,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.42; decision=discard; strongest_positive=coherence:1.00; strongest_penalty=redundancy_penalty:0.21.",
+        "repair_instruction": "Discard for this query unless new evidence raises relevance.",
+        "progressive_potentialization": 0.0801
+      },
+      {
+        "context_id": "ctx_010",
+        "judge_score": 0.4,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.0,
+          "coherence": 1.0,
+          "confidence": 0.3608,
+          "recency": 1.0,
+          "semantic_power": 0.1738,
+          "redundancy_penalty": 0.2308,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0,
+          "coherence": 0.2,
+          "confidence": 0.0902,
+          "recency": 0.05,
+          "semantic_power": 0.0782,
+          "redundancy_penalty": -0.0185,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.40; decision=discard; strongest_positive=coherence:1.00; strongest_penalty=redundancy_penalty:0.23.",
+        "repair_instruction": "Discard for this query unless new evidence raises relevance.",
+        "progressive_potentialization": 0.0695
+      }
+    ]
+  },
+  {
+    "size": 20,
+    "judge_profile": "llm_continuous",
+    "bankmap_metrics": {
+      "mode": "balanced",
+      "contexts_processed": 20.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 20.0,
+      "raw_tokens_est": 506.0,
+      "compact_tokens_est": 336.0,
+      "token_compression": 0.33596837944664026,
+      "anchors_selected": 20.0,
+      "context_coverage": 1.0,
+      "semantic_sustentation": 0.7037037037037037,
+      "structural_lightness": 0.23642219294393205
+    },
+    "bidirectional_metrics": {
+      "anchors_evaluated": 20,
+      "bidirectional_stability": 0.7,
+      "regressive_score_avg": 1.0,
+      "progressive_score_avg": 0.3961772998673153,
+      "bidirectional_score_avg": 0.728279784940292,
+      "anchors": [
+        {
+          "context_id": "ctx_002",
+          "anchor_text": "O final pode ser o comeco quando o objetivo e entender o que sustenta o todo.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.6666666666666666,
+          "bidirectional_score": 0.8500000000000001,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_015",
+          "anchor_text": "o modelo ideal nao apenas responde, ele convive, percebe pequenas frases e instiga reflexao sem ser invasivo.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.14285714285714285,
+          "bidirectional_score": 0.6142857142857143,
+          "direction": "regressive"
+        },
+        {
+          "context_id": "ctx_008",
+          "anchor_text": "Ambiguidade fertil nao deve ser removida cedo demais.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.5,
+          "bidirectional_score": 0.775,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_011",
+          "anchor_text": "este trecho fala de configuracao de terminal, arquivos locais e execucao de scripts, mas nao muda a tese do Bankmap.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.3333333333333333,
+          "bidirectional_score": 0.7000000000000001,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_017",
+          "anchor_text": "hoje o servico de API pode retornar erro 500, timeout ou texto antes do JSON.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.10526315789473684,
+          "bidirectional_score": 0.5973684210526317,
+          "direction": "regressive"
+        },
+        {
+          "context_id": "ctx_009",
+          "anchor_text": "O maior risco do Bankmap e reconstruir errado a partir de poucas ancoras.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.4117647058823529,
+          "bidirectional_score": 0.7352941176470589,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_010",
+          "anchor_text": "Ele recalcula o peso das partes depois que o objetivo ou final esta conhecido.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.3888888888888889,
+          "bidirectional_score": 0.7250000000000001,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_014",
+          "anchor_text": "Mas corte agressivo pode apagar contexto sustentador.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.25,
+          "bidirectional_score": 0.6625000000000001,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_004",
+          "anchor_text": "O sistema deve medir carga contextual, ambiguidade fertil e risco de perda semantica.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.8235294117647058,
+          "bidirectional_score": 0.9205882352941177,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_003",
+          "anchor_text": "Uma ancora pequena pode reativar uma cadeia longa de significado se estiver bem posicionada.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.47368421052631576,
+          "bidirectional_score": 0.7631578947368421,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_018",
+          "anchor_text": "A carga contextual deve considerar centralidade, desambiguacao, dependencia do objetivo, capacidade de reconstrucao, risco e redundancia.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.047619047619047616,
+          "bidirectional_score": 0.5714285714285715,
+          "direction": "regressive"
+        },
+        {
+          "context_id": "ctx_019",
+          "anchor_text": "A sustentacao semantica baixa indica que o sistema comprimiu, mas talvez ainda nao preservou estrutura suficiente.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.14285714285714285,
+          "bidirectional_score": 0.6142857142857143,
+          "direction": "regressive"
+        },
+        {
+          "context_id": "ctx_013",
+          "anchor_text": "talvez o Bankmap deva preservar tudo, porque descartar qualquer coisa pode ser perigoso.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.45,
+          "bidirectional_score": 0.7525000000000001,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_007",
+          "anchor_text": "Ela transforma contexto bruto em estrutura auditavel com ancoras, scores, decisoes e trilha.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.5789473684210527,
+          "bidirectional_score": 0.8105263157894738,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_005",
+          "anchor_text": "Se algum contexto essencial desaparecer, a compressao vira perda de entendimento.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.5555555555555556,
+          "bidirectional_score": 0.8,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_016",
+          "anchor_text": "Metricas precisam ficar no output para o usuario avaliar a resposta sem abrir arquivos auxiliares.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.14285714285714285,
+          "bidirectional_score": 0.6142857142857143,
+          "direction": "regressive"
+        },
+        {
+          "context_id": "ctx_012",
+          "anchor_text": "Repeticao:",
+          "regressive_score": 1.0,
+          "progressive_score": 0.5,
+          "bidirectional_score": 0.775,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_001",
+          "anchor_text": "A reducao de tokens precisa preservar sentido e separar o output em fluxos.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.7222222222222222,
+          "bidirectional_score": 0.875,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_020",
+          "anchor_text": "Se a compressao for alta e a sustentacao baixa, a leveza real continua limitada.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.0,
+          "bidirectional_score": 0.55,
+          "direction": "regressive"
+        },
+        {
+          "context_id": "ctx_006",
+          "anchor_text": "O output precisa carregar metricas junto da resposta:",
+          "regressive_score": 1.0,
+          "progressive_score": 0.6875,
+          "bidirectional_score": 0.859375,
+          "direction": "bidirectional"
+        }
+      ]
+    },
+    "judge_metrics": {
+      "semantic_sustainment_score_avg": 0.501735,
+      "semantic_power_avg": 0.41395,
+      "progressive_potentialization_avg": 0.22729499999999997,
+      "active_context_ratio": 0.25,
+      "audit_context_ratio": 0.35,
+      "discard_context_ratio": 0.4,
+      "active_progressive_potentialization_avg": 0.43162,
+      "audit_progressive_potentialization_avg": 0.24172857142857143,
+      "decisions": {
+        "promote": 0,
+        "compact": 5,
+        "audit": 7,
+        "discard": 8
+      }
+    },
+    "contexts": [
+      {
+        "context_id": "ctx_001",
+        "judge_score": 0.6732,
+        "decision": "compact",
+        "color_state": "yellow_green",
+        "terms": {
+          "relevance": 0.1473,
+          "coherence": 1.0,
+          "confidence": 0.5785,
+          "recency": 0.0,
+          "semantic_power": 0.6485,
+          "redundancy_penalty": 0.0,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0368,
+          "coherence": 0.2,
+          "confidence": 0.1446,
+          "recency": 0.0,
+          "semantic_power": 0.2918,
+          "redundancy_penalty": -0.0,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.67; decision=compact; strongest_positive=semantic_power:0.65; strongest_penalty=redundancy_penalty:0.00.",
+        "repair_instruction": "Compact while preserving semantic anchors and progressive links.",
+        "progressive_potentialization": 0.4366
+      },
+      {
+        "context_id": "ctx_002",
+        "judge_score": 0.5929,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.0692,
+          "coherence": 1.0,
+          "confidence": 0.5143,
+          "recency": 0.0526,
+          "semantic_power": 0.543,
+          "redundancy_penalty": 0.0,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0173,
+          "coherence": 0.2,
+          "confidence": 0.1286,
+          "recency": 0.0026,
+          "semantic_power": 0.2444,
+          "redundancy_penalty": -0.0,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.59; decision=audit; strongest_positive=semantic_power:0.54; strongest_penalty=redundancy_penalty:0.00.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.3219
+      },
+      {
+        "context_id": "ctx_003",
+        "judge_score": 0.5617,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.0375,
+          "coherence": 1.0,
+          "confidence": 0.4906,
+          "recency": 0.1053,
+          "semantic_power": 0.507,
+          "redundancy_penalty": 0.0469,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0094,
+          "coherence": 0.2,
+          "confidence": 0.1226,
+          "recency": 0.0053,
+          "semantic_power": 0.2282,
+          "redundancy_penalty": -0.0037,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.56; decision=audit; strongest_positive=semantic_power:0.51; strongest_penalty=redundancy_penalty:0.05.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.2848
+      },
+      {
+        "context_id": "ctx_004",
+        "judge_score": 0.7869,
+        "decision": "compact",
+        "color_state": "yellow_green",
+        "terms": {
+          "relevance": 0.3418,
+          "coherence": 1.0,
+          "confidence": 0.6753,
+          "recency": 0.1579,
+          "semantic_power": 0.7305,
+          "redundancy_penalty": 0.05,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0855,
+          "coherence": 0.2,
+          "confidence": 0.1688,
+          "recency": 0.0079,
+          "semantic_power": 0.3287,
+          "redundancy_penalty": -0.004,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.79; decision=compact; strongest_positive=semantic_power:0.73; strongest_penalty=redundancy_penalty:0.05.",
+        "repair_instruction": "Compact while preserving semantic anchors and progressive links.",
+        "progressive_potentialization": 0.5748
+      },
+      {
+        "context_id": "ctx_005",
+        "judge_score": 0.6214,
+        "decision": "compact",
+        "color_state": "yellow_green",
+        "terms": {
+          "relevance": 0.1398,
+          "coherence": 1.0,
+          "confidence": 0.5467,
+          "recency": 0.2105,
+          "semantic_power": 0.565,
+          "redundancy_penalty": 0.1875,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0349,
+          "coherence": 0.2,
+          "confidence": 0.1367,
+          "recency": 0.0105,
+          "semantic_power": 0.2542,
+          "redundancy_penalty": -0.015,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.62; decision=compact; strongest_positive=semantic_power:0.56; strongest_penalty=redundancy_penalty:0.19.",
+        "repair_instruction": "Compact while preserving semantic anchors and progressive links.",
+        "progressive_potentialization": 0.3511
+      },
+      {
+        "context_id": "ctx_006",
+        "judge_score": 0.6413,
+        "decision": "compact",
+        "color_state": "yellow_green",
+        "terms": {
+          "relevance": 0.075,
+          "coherence": 1.0,
+          "confidence": 0.5592,
+          "recency": 0.2632,
+          "semantic_power": 0.6657,
+          "redundancy_penalty": 0.375,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0187,
+          "coherence": 0.2,
+          "confidence": 0.1398,
+          "recency": 0.0132,
+          "semantic_power": 0.2995,
+          "redundancy_penalty": -0.03,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.64; decision=compact; strongest_positive=semantic_power:0.67; strongest_penalty=redundancy_penalty:0.38.",
+        "repair_instruction": "Compact while preserving semantic anchors and progressive links.",
+        "progressive_potentialization": 0.4269
+      },
+      {
+        "context_id": "ctx_007",
+        "judge_score": 0.6219,
+        "decision": "compact",
+        "color_state": "yellow_green",
+        "terms": {
+          "relevance": 0.075,
+          "coherence": 1.0,
+          "confidence": 0.5337,
+          "recency": 0.3158,
+          "semantic_power": 0.5929,
+          "redundancy_penalty": 0.1607,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0187,
+          "coherence": 0.2,
+          "confidence": 0.1334,
+          "recency": 0.0158,
+          "semantic_power": 0.2668,
+          "redundancy_penalty": -0.0129,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.62; decision=compact; strongest_positive=semantic_power:0.59; strongest_penalty=redundancy_penalty:0.16.",
+        "repair_instruction": "Compact while preserving semantic anchors and progressive links.",
+        "progressive_potentialization": 0.3687
+      },
+      {
+        "context_id": "ctx_008",
+        "judge_score": 0.5122,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.1463,
+          "coherence": 1.0,
+          "confidence": 0.4762,
+          "recency": 0.3684,
+          "semantic_power": 0.357,
+          "redundancy_penalty": 0.2812,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0366,
+          "coherence": 0.2,
+          "confidence": 0.119,
+          "recency": 0.0184,
+          "semantic_power": 0.1607,
+          "redundancy_penalty": -0.0225,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.51; decision=audit; strongest_positive=coherence:1.00; strongest_penalty=redundancy_penalty:0.28.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.1829
+      },
+      {
+        "context_id": "ctx_009",
+        "judge_score": 0.5393,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.1094,
+          "coherence": 1.0,
+          "confidence": 0.4838,
+          "recency": 0.4211,
+          "semantic_power": 0.4157,
+          "redundancy_penalty": 0.2143,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0274,
+          "coherence": 0.2,
+          "confidence": 0.1209,
+          "recency": 0.0211,
+          "semantic_power": 0.1871,
+          "redundancy_penalty": -0.0171,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.54; decision=audit; strongest_positive=coherence:1.00; strongest_penalty=redundancy_penalty:0.21.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.2242
+      },
+      {
+        "context_id": "ctx_010",
+        "judge_score": 0.5201,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.0346,
+          "coherence": 1.0,
+          "confidence": 0.4607,
+          "recency": 0.4737,
+          "semantic_power": 0.4245,
+          "redundancy_penalty": 0.2308,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0087,
+          "coherence": 0.2,
+          "confidence": 0.1152,
+          "recency": 0.0237,
+          "semantic_power": 0.191,
+          "redundancy_penalty": -0.0185,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.52; decision=audit; strongest_positive=coherence:1.00; strongest_penalty=redundancy_penalty:0.23.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.2208
+      },
+      {
+        "context_id": "ctx_011",
+        "judge_score": 0.4966,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.2014,
+          "coherence": 0.9475,
+          "confidence": 0.5089,
+          "recency": 0.5263,
+          "semantic_power": 0.4405,
+          "redundancy_penalty": 0.0938,
+          "noise_penalty": 0.35,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0504,
+          "coherence": 0.1895,
+          "confidence": 0.1272,
+          "recency": 0.0263,
+          "semantic_power": 0.1982,
+          "redundancy_penalty": -0.0075,
+          "noise_penalty": -0.0875,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.50; decision=audit; strongest_positive=semantic_power:0.44; strongest_penalty=noise_penalty:0.35.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.2188
+      },
+      {
+        "context_id": "ctx_012",
+        "judge_score": 0.3553,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.0591,
+          "coherence": 0.5792,
+          "confidence": 0.3059,
+          "recency": 0.5789,
+          "semantic_power": 0.3185,
+          "redundancy_penalty": 0.3,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0148,
+          "coherence": 0.1158,
+          "confidence": 0.0765,
+          "recency": 0.0289,
+          "semantic_power": 0.1433,
+          "redundancy_penalty": -0.024,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.36; decision=discard; strongest_positive=semantic_power:0.32; strongest_penalty=redundancy_penalty:0.30.",
+        "repair_instruction": "Discard for this query unless new evidence raises relevance.",
+        "progressive_potentialization": 0.1132
+      },
+      {
+        "context_id": "ctx_013",
+        "judge_score": 0.4637,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.2345,
+          "coherence": 0.95,
+          "confidence": 0.5473,
+          "recency": 0.6316,
+          "semantic_power": 0.5148,
+          "redundancy_penalty": 0.25,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.55
+        },
+        "weighted_terms": {
+          "relevance": 0.0586,
+          "coherence": 0.19,
+          "confidence": 0.1368,
+          "recency": 0.0316,
+          "semantic_power": 0.2317,
+          "redundancy_penalty": -0.02,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.165
+        },
+        "audit_reason": "Semantic Sustainment Score=0.46; decision=audit; strongest_positive=semantic_power:0.51; strongest_penalty=contradiction_penalty:0.55.",
+        "repair_instruction": "Isolate contradiction before generation and request resolution.",
+        "progressive_potentialization": 0.2387
+      },
+      {
+        "context_id": "ctx_014",
+        "judge_score": 0.3186,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.1463,
+          "coherence": 0.95,
+          "confidence": 0.4485,
+          "recency": 0.6842,
+          "semantic_power": 0.3209,
+          "redundancy_penalty": 0.4219,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.55
+        },
+        "weighted_terms": {
+          "relevance": 0.0366,
+          "coherence": 0.19,
+          "confidence": 0.1121,
+          "recency": 0.0342,
+          "semantic_power": 0.1444,
+          "redundancy_penalty": -0.0338,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.165
+        },
+        "audit_reason": "Semantic Sustainment Score=0.32; decision=discard; strongest_positive=coherence:0.95; strongest_penalty=contradiction_penalty:0.55.",
+        "repair_instruction": "Isolate contradiction before generation and request resolution.",
+        "progressive_potentialization": 0.1022
+      },
+      {
+        "context_id": "ctx_015",
+        "judge_score": 0.4216,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.0187,
+          "coherence": 1.0,
+          "confidence": 0.3861,
+          "recency": 0.7368,
+          "semantic_power": 0.2272,
+          "redundancy_penalty": 0.2344,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0047,
+          "coherence": 0.2,
+          "confidence": 0.0965,
+          "recency": 0.0368,
+          "semantic_power": 0.1023,
+          "redundancy_penalty": -0.0187,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.42; decision=discard; strongest_positive=coherence:1.00; strongest_penalty=redundancy_penalty:0.23.",
+        "repair_instruction": "Discard for this query unless new evidence raises relevance.",
+        "progressive_potentialization": 0.0958
+      },
+      {
+        "context_id": "ctx_016",
+        "judge_score": 0.3901,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.0,
+          "coherence": 0.9042,
+          "confidence": 0.3554,
+          "recency": 0.7895,
+          "semantic_power": 0.2405,
+          "redundancy_penalty": 0.3409,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0,
+          "coherence": 0.1808,
+          "confidence": 0.0889,
+          "recency": 0.0395,
+          "semantic_power": 0.1082,
+          "redundancy_penalty": -0.0273,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.39; decision=discard; strongest_positive=coherence:0.90; strongest_penalty=redundancy_penalty:0.34.",
+        "repair_instruction": "Discard for this query unless new evidence raises relevance.",
+        "progressive_potentialization": 0.0938
+      },
+      {
+        "context_id": "ctx_017",
+        "judge_score": 0.318,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.0679,
+          "coherence": 0.8975,
+          "confidence": 0.3632,
+          "recency": 0.8421,
+          "semantic_power": 0.2005,
+          "redundancy_penalty": 0.1765,
+          "noise_penalty": 0.35,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.017,
+          "coherence": 0.1795,
+          "confidence": 0.0908,
+          "recency": 0.0421,
+          "semantic_power": 0.0902,
+          "redundancy_penalty": -0.0141,
+          "noise_penalty": -0.0875,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.32; decision=discard; strongest_positive=coherence:0.90; strongest_penalty=noise_penalty:0.35.",
+        "repair_instruction": "Discard for this query unless new evidence raises relevance.",
+        "progressive_potentialization": 0.0638
+      },
+      {
+        "context_id": "ctx_018",
+        "judge_score": 0.389,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.0591,
+          "coherence": 0.95,
+          "confidence": 0.363,
+          "recency": 0.8947,
+          "semantic_power": 0.1639,
+          "redundancy_penalty": 0.3125,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0148,
+          "coherence": 0.19,
+          "confidence": 0.0908,
+          "recency": 0.0447,
+          "semantic_power": 0.0737,
+          "redundancy_penalty": -0.025,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.39; decision=discard; strongest_positive=coherence:0.95; strongest_penalty=redundancy_penalty:0.31.",
+        "repair_instruction": "Discard for this query unless new evidence raises relevance.",
+        "progressive_potentialization": 0.0638
+      },
+      {
+        "context_id": "ctx_019",
+        "judge_score": 0.4051,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.0231,
+          "coherence": 0.95,
+          "confidence": 0.3719,
+          "recency": 0.9474,
+          "semantic_power": 0.2251,
+          "redundancy_penalty": 0.4038,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0058,
+          "coherence": 0.19,
+          "confidence": 0.093,
+          "recency": 0.0474,
+          "semantic_power": 0.1013,
+          "redundancy_penalty": -0.0323,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.41; decision=discard; strongest_positive=coherence:0.95; strongest_penalty=redundancy_penalty:0.40.",
+        "repair_instruction": "Discard for this query unless new evidence raises relevance.",
+        "progressive_potentialization": 0.0912
+      },
+      {
+        "context_id": "ctx_020",
+        "judge_score": 0.4058,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.0591,
+          "coherence": 0.9542,
+          "confidence": 0.369,
+          "recency": 1.0,
+          "semantic_power": 0.1773,
+          "redundancy_penalty": 0.2727,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0148,
+          "coherence": 0.1908,
+          "confidence": 0.0922,
+          "recency": 0.05,
+          "semantic_power": 0.0798,
+          "redundancy_penalty": -0.0218,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.41; decision=discard; strongest_positive=coherence:0.95; strongest_penalty=redundancy_penalty:0.27.",
+        "repair_instruction": "Discard for this query unless new evidence raises relevance.",
+        "progressive_potentialization": 0.0719
+      }
+    ]
+  },
+  {
+    "size": 40,
+    "judge_profile": "llm_continuous",
+    "bankmap_metrics": {
+      "mode": "balanced",
+      "contexts_processed": 40.0,
+      "calls_required": 1.0,
+      "contextual_throughput": 40.0,
+      "raw_tokens_est": 907.0,
+      "compact_tokens_est": 666.0,
+      "token_compression": 0.2657111356119074,
+      "anchors_selected": 40.0,
+      "context_coverage": 1.0,
+      "semantic_sustentation": 0.8125,
+      "structural_lightness": 0.21589029768467477
+    },
+    "bidirectional_metrics": {
+      "anchors_evaluated": 40,
+      "bidirectional_stability": 0.725,
+      "regressive_score_avg": 1.0,
+      "progressive_score_avg": 0.45114692926612426,
+      "bidirectional_score_avg": 0.753016118169756,
+      "anchors": [
+        {
+          "context_id": "ctx_002",
+          "anchor_text": "O final pode ser o comeco quando o objetivo e entender o que sustenta o todo.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.7777777777777778,
+          "bidirectional_score": 0.9000000000000001,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_015",
+          "anchor_text": "o modelo ideal nao apenas responde, ele convive, percebe pequenas frases e instiga reflexao sem ser invasivo.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.42857142857142855,
+          "bidirectional_score": 0.7428571428571429,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_025",
+          "anchor_text": "nomes de arquivos temporarios podem confundir, mas nao carregam a tese semantica principal.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.3157894736842105,
+          "bidirectional_score": 0.6921052631578948,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_031",
+          "anchor_text": "esta frase existe para aumentar densidade, mas nao adiciona nova tese estrutural ao sistema.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.25,
+          "bidirectional_score": 0.6625000000000001,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_008",
+          "anchor_text": "Ambiguidade fertil nao deve ser removida cedo demais.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.7857142857142857,
+          "bidirectional_score": 0.9035714285714287,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_010",
+          "anchor_text": "Ele recalcula o peso das partes depois que o objetivo ou final esta conhecido.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.6666666666666666,
+          "bidirectional_score": 0.8500000000000001,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_011",
+          "anchor_text": "este trecho fala de configuracao de terminal, arquivos locais e execucao de scripts, mas nao muda a tese do Bankmap.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.5714285714285714,
+          "bidirectional_score": 0.8071428571428572,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_014",
+          "anchor_text": "Mas corte agressivo pode apagar contexto sustentador.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.625,
+          "bidirectional_score": 0.83125,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_009",
+          "anchor_text": "O maior risco do Bankmap e reconstruir errado a partir de poucas ancoras.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.6470588235294118,
+          "bidirectional_score": 0.8411764705882354,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_024",
+          "anchor_text": "a cor da janela do terminal nao altera a avaliacao da arquitetura Bankmap.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.3333333333333333,
+          "bidirectional_score": 0.7000000000000001,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_003",
+          "anchor_text": "Uma ancora pequena pode reativar uma cadeia longa de significado se estiver bem posicionada.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.631578947368421,
+          "bidirectional_score": 0.8342105263157895,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_029",
+          "anchor_text": "uma LLM de convivio deve ser util, sutil, reflexiva e nao intrusiva.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.3125,
+          "bidirectional_score": 0.690625,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_017",
+          "anchor_text": "hoje o servico de API pode retornar erro 500, timeout ou texto antes do JSON.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.631578947368421,
+          "bidirectional_score": 0.8342105263157895,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_013",
+          "anchor_text": "talvez o Bankmap deva preservar tudo, porque descartar qualquer coisa pode ser perigoso.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.7,
+          "bidirectional_score": 0.865,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_035",
+          "anchor_text": "token_compression mede a diferenca entre tokens brutos e contexto final compacto.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.10526315789473684,
+          "bidirectional_score": 0.5973684210526317,
+          "direction": "regressive"
+        },
+        {
+          "context_id": "ctx_023",
+          "anchor_text": "tomar um belo banho pode ser literal, pausa mental, simbolo de transicao ou gatilho de reflexao contextual.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.19047619047619047,
+          "bidirectional_score": 0.6357142857142858,
+          "direction": "regressive"
+        },
+        {
+          "context_id": "ctx_004",
+          "anchor_text": "Nao basta cortar firula textual.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.7857142857142857,
+          "bidirectional_score": 0.9035714285714287,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_019",
+          "anchor_text": "A sustentacao semantica baixa indica que o sistema comprimiu, mas talvez ainda nao preservou estrutura suficiente.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.6666666666666666,
+          "bidirectional_score": 0.8500000000000001,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_018",
+          "anchor_text": "A carga contextual deve considerar centralidade, desambiguacao, dependencia do objetivo, capacidade de reconstrucao, risco e redundancia.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.5238095238095238,
+          "bidirectional_score": 0.7857142857142858,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_005",
+          "anchor_text": "Se algum contexto essencial desaparecer, a compressao vira perda de entendimento.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.7222222222222222,
+          "bidirectional_score": 0.875,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_037",
+          "anchor_text": "semantic_quality ainda precisa ser validada por comparacao humana ou por julgador externo.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.1111111111111111,
+          "bidirectional_score": 0.6000000000000001,
+          "direction": "regressive"
+        },
+        {
+          "context_id": "ctx_022",
+          "anchor_text": "ancoras semanticas permitem reduzir tokens sem perder o fio principal da resposta.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.5,
+          "bidirectional_score": 0.775,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_007",
+          "anchor_text": "Ela transforma contexto bruto em estrutura auditavel com ancoras, scores, decisoes e trilha.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.7368421052631579,
+          "bidirectional_score": 0.881578947368421,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_030",
+          "anchor_text": "a abordagem precisa de baseline com prompt bruto, prompt compacto e julgamento de qualidade.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.3333333333333333,
+          "bidirectional_score": 0.7000000000000001,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_039",
+          "anchor_text": "auditability mede se conseguimos explicar por que uma ancora foi usada e outra foi descartada.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.0,
+          "bidirectional_score": 0.55,
+          "direction": "regressive"
+        },
+        {
+          "context_id": "ctx_021",
+          "anchor_text": "o grafo visual mostra entrada, Bankmap, contexto regressivo, ancoras, bootloader, LLM e output multi-fluxo.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.47619047619047616,
+          "bidirectional_score": 0.7642857142857143,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_020",
+          "anchor_text": "Se a compressao for alta e a sustentacao baixa, a leveza real continua limitada.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.5882352941176471,
+          "bidirectional_score": 0.8147058823529412,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_040",
+          "anchor_text": "Fechamento:",
+          "regressive_score": 1.0,
+          "progressive_score": 0.0,
+          "bidirectional_score": 0.55,
+          "direction": "regressive"
+        },
+        {
+          "context_id": "ctx_033",
+          "anchor_text": "separability_output mede se os blocos de resposta voltam organizados e validaveis.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.11764705882352941,
+          "bidirectional_score": 0.6029411764705883,
+          "direction": "regressive"
+        },
+        {
+          "context_id": "ctx_036",
+          "anchor_text": "context_coverage mede se todos os contextos tiveram ao menos uma representacao sustentadora.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.1111111111111111,
+          "bidirectional_score": 0.6000000000000001,
+          "direction": "regressive"
+        },
+        {
+          "context_id": "ctx_016",
+          "anchor_text": "Metricas precisam ficar no output para o usuario avaliar a resposta sem abrir arquivos auxiliares.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.6190476190476191,
+          "bidirectional_score": 0.8285714285714286,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_001",
+          "anchor_text": "A reducao de tokens precisa preservar sentido e separar o output em fluxos.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.8888888888888888,
+          "bidirectional_score": 0.95,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_032",
+          "anchor_text": "outra frase de enchimento para testar se o Bankmap consegue descartar baixa carga semantica.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.15789473684210525,
+          "bidirectional_score": 0.6210526315789474,
+          "direction": "regressive"
+        },
+        {
+          "context_id": "ctx_026",
+          "anchor_text": "O Bankmap deve separar memoria, resposta, noemas, axiomas, auditoria, proximas acoes e metricas.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.3,
+          "bidirectional_score": 0.685,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_034",
+          "anchor_text": "contextual_throughput mede quantos contextos foram processados por uma chamada de LLM.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.17647058823529413,
+          "bidirectional_score": 0.6294117647058824,
+          "direction": "regressive"
+        },
+        {
+          "context_id": "ctx_028",
+          "anchor_text": "A arquitetura ganha forca quando o output deixa de ser texto plano e vira uma estrutura operacional verificavel.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.22727272727272727,
+          "bidirectional_score": 0.6522727272727273,
+          "direction": "regressive"
+        },
+        {
+          "context_id": "ctx_038",
+          "anchor_text": "prompt_quality deve medir clareza, completude operacional, baixo ruido e capacidade de induzir JSON correto.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.0,
+          "bidirectional_score": 0.55,
+          "direction": "regressive"
+        },
+        {
+          "context_id": "ctx_027",
+          "anchor_text": "Se a LLM mistura explicacao antes do JSON, o parser precisa localizar o objeto valido dentro da resposta mista.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.3181818181818182,
+          "bidirectional_score": 0.6931818181818182,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_006",
+          "anchor_text": "compressao, cobertura, sustentacao semantica, auditabilidade e separabilidade.",
+          "regressive_score": 1.0,
+          "progressive_score": 0.8125,
+          "bidirectional_score": 0.9156250000000001,
+          "direction": "bidirectional"
+        },
+        {
+          "context_id": "ctx_012",
+          "anchor_text": "Repeticao:",
+          "regressive_score": 1.0,
+          "progressive_score": 0.9,
+          "bidirectional_score": 0.9550000000000001,
+          "direction": "bidirectional"
+        }
+      ]
+    },
+    "judge_metrics": {
+      "semantic_sustainment_score_avg": 0.508295,
+      "semantic_power_avg": 0.43879999999999997,
+      "progressive_potentialization_avg": 0.2440325,
+      "active_context_ratio": 0.225,
+      "audit_context_ratio": 0.425,
+      "discard_context_ratio": 0.35,
+      "active_progressive_potentialization_avg": 0.45817777777777774,
+      "audit_progressive_potentialization_avg": 0.2504705882352941,
+      "decisions": {
+        "promote": 1,
+        "compact": 8,
+        "audit": 17,
+        "discard": 14
+      }
+    },
+    "contexts": [
+      {
+        "context_id": "ctx_001",
+        "judge_score": 0.738,
+        "decision": "compact",
+        "color_state": "yellow_green",
+        "terms": {
+          "relevance": 0.1673,
+          "coherence": 1.0,
+          "confidence": 0.6233,
+          "recency": 0.0,
+          "semantic_power": 0.7565,
+          "redundancy_penalty": 0.0,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0418,
+          "coherence": 0.2,
+          "confidence": 0.1558,
+          "recency": 0.0,
+          "semantic_power": 0.3404,
+          "redundancy_penalty": -0.0,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.74; decision=compact; strongest_positive=semantic_power:0.76; strongest_penalty=redundancy_penalty:0.00.",
+        "repair_instruction": "Compact while preserving semantic anchors and progressive links.",
+        "progressive_potentialization": 0.5583
+      },
+      {
+        "context_id": "ctx_002",
+        "judge_score": 0.6206,
+        "decision": "compact",
+        "color_state": "yellow_green",
+        "terms": {
+          "relevance": 0.0692,
+          "coherence": 1.0,
+          "confidence": 0.5332,
+          "recency": 0.0256,
+          "semantic_power": 0.5972,
+          "redundancy_penalty": 0.0,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0173,
+          "coherence": 0.2,
+          "confidence": 0.1333,
+          "recency": 0.0013,
+          "semantic_power": 0.2687,
+          "redundancy_penalty": -0.0,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.62; decision=compact; strongest_positive=semantic_power:0.60; strongest_penalty=redundancy_penalty:0.00.",
+        "repair_instruction": "Compact while preserving semantic anchors and progressive links.",
+        "progressive_potentialization": 0.3706
+      },
+      {
+        "context_id": "ctx_003",
+        "judge_score": 0.6191,
+        "decision": "compact",
+        "color_state": "yellow_green",
+        "terms": {
+          "relevance": 0.0562,
+          "coherence": 1.0,
+          "confidence": 0.5322,
+          "recency": 0.0513,
+          "semantic_power": 0.6071,
+          "redundancy_penalty": 0.0469,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0141,
+          "coherence": 0.2,
+          "confidence": 0.133,
+          "recency": 0.0026,
+          "semantic_power": 0.2732,
+          "redundancy_penalty": -0.0037,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.62; decision=compact; strongest_positive=semantic_power:0.61; strongest_penalty=redundancy_penalty:0.05.",
+        "repair_instruction": "Compact while preserving semantic anchors and progressive links.",
+        "progressive_potentialization": 0.3759
+      },
+      {
+        "context_id": "ctx_004",
+        "judge_score": 0.8329,
+        "decision": "promote",
+        "color_state": "green",
+        "terms": {
+          "relevance": 0.3518,
+          "coherence": 1.0,
+          "confidence": 0.7092,
+          "recency": 0.0769,
+          "semantic_power": 0.8173,
+          "redundancy_penalty": 0.05,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.088,
+          "coherence": 0.2,
+          "confidence": 0.1773,
+          "recency": 0.0038,
+          "semantic_power": 0.3678,
+          "redundancy_penalty": -0.004,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.83; decision=promote; strongest_positive=semantic_power:0.82; strongest_penalty=redundancy_penalty:0.05.",
+        "repair_instruction": "Use as high-sustainment context.",
+        "progressive_potentialization": 0.6807
+      },
+      {
+        "context_id": "ctx_005",
+        "judge_score": 0.6692,
+        "decision": "compact",
+        "color_state": "yellow_green",
+        "terms": {
+          "relevance": 0.1523,
+          "coherence": 1.0,
+          "confidence": 0.5829,
+          "recency": 0.1026,
+          "semantic_power": 0.6561,
+          "redundancy_penalty": 0.1875,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0381,
+          "coherence": 0.2,
+          "confidence": 0.1457,
+          "recency": 0.0051,
+          "semantic_power": 0.2953,
+          "redundancy_penalty": -0.015,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.67; decision=compact; strongest_positive=semantic_power:0.66; strongest_penalty=redundancy_penalty:0.19.",
+        "repair_instruction": "Compact while preserving semantic anchors and progressive links.",
+        "progressive_potentialization": 0.4391
+      },
+      {
+        "context_id": "ctx_006",
+        "judge_score": 0.6856,
+        "decision": "compact",
+        "color_state": "yellow_green",
+        "terms": {
+          "relevance": 0.0875,
+          "coherence": 1.0,
+          "confidence": 0.5942,
+          "recency": 0.1282,
+          "semantic_power": 0.7529,
+          "redundancy_penalty": 0.375,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0219,
+          "coherence": 0.2,
+          "confidence": 0.1485,
+          "recency": 0.0064,
+          "semantic_power": 0.3388,
+          "redundancy_penalty": -0.03,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.69; decision=compact; strongest_positive=semantic_power:0.75; strongest_penalty=redundancy_penalty:0.38.",
+        "repair_instruction": "Compact while preserving semantic anchors and progressive links.",
+        "progressive_potentialization": 0.5162
+      },
+      {
+        "context_id": "ctx_007",
+        "judge_score": 0.6605,
+        "decision": "compact",
+        "color_state": "yellow_green",
+        "terms": {
+          "relevance": 0.0857,
+          "coherence": 1.0,
+          "confidence": 0.5655,
+          "recency": 0.1538,
+          "semantic_power": 0.673,
+          "redundancy_penalty": 0.1607,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0214,
+          "coherence": 0.2,
+          "confidence": 0.1414,
+          "recency": 0.0077,
+          "semantic_power": 0.3029,
+          "redundancy_penalty": -0.0129,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.66; decision=compact; strongest_positive=semantic_power:0.67; strongest_penalty=redundancy_penalty:0.16.",
+        "repair_instruction": "Compact while preserving semantic anchors and progressive links.",
+        "progressive_potentialization": 0.4445
+      },
+      {
+        "context_id": "ctx_008",
+        "judge_score": 0.5932,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.1926,
+          "coherence": 1.0,
+          "confidence": 0.5411,
+          "recency": 0.1795,
+          "semantic_power": 0.4963,
+          "redundancy_penalty": 0.2812,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0482,
+          "coherence": 0.2,
+          "confidence": 0.1353,
+          "recency": 0.009,
+          "semantic_power": 0.2233,
+          "redundancy_penalty": -0.0225,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.59; decision=audit; strongest_positive=semantic_power:0.50; strongest_penalty=redundancy_penalty:0.28.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.2944
+      },
+      {
+        "context_id": "ctx_009",
+        "judge_score": 0.5915,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.1201,
+          "coherence": 1.0,
+          "confidence": 0.5262,
+          "recency": 0.2051,
+          "semantic_power": 0.5262,
+          "redundancy_penalty": 0.2143,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.03,
+          "coherence": 0.2,
+          "confidence": 0.1316,
+          "recency": 0.0103,
+          "semantic_power": 0.2368,
+          "redundancy_penalty": -0.0171,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.59; decision=audit; strongest_positive=semantic_power:0.53; strongest_penalty=redundancy_penalty:0.21.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.3112
+      },
+      {
+        "context_id": "ctx_010",
+        "judge_score": 0.591,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.0577,
+          "coherence": 1.0,
+          "confidence": 0.5178,
+          "recency": 0.2308,
+          "semantic_power": 0.5646,
+          "redundancy_penalty": 0.2308,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0144,
+          "coherence": 0.2,
+          "confidence": 0.1294,
+          "recency": 0.0115,
+          "semantic_power": 0.254,
+          "redundancy_penalty": -0.0185,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.59; decision=audit; strongest_positive=semantic_power:0.56; strongest_penalty=redundancy_penalty:0.23.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.3337
+      },
+      {
+        "context_id": "ctx_011",
+        "judge_score": 0.5795,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.2295,
+          "coherence": 0.9475,
+          "confidence": 0.5753,
+          "recency": 0.2564,
+          "semantic_power": 0.6022,
+          "redundancy_penalty": 0.0938,
+          "noise_penalty": 0.35,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0574,
+          "coherence": 0.1895,
+          "confidence": 0.1438,
+          "recency": 0.0128,
+          "semantic_power": 0.271,
+          "redundancy_penalty": -0.0075,
+          "noise_penalty": -0.0875,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.58; decision=audit; strongest_positive=semantic_power:0.60; strongest_penalty=noise_penalty:0.35.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.349
+      },
+      {
+        "context_id": "ctx_012",
+        "judge_score": 0.5284,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.1673,
+          "coherence": 0.5792,
+          "confidence": 0.4423,
+          "recency": 0.2821,
+          "semantic_power": 0.6001,
+          "redundancy_penalty": 0.3,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0418,
+          "coherence": 0.1158,
+          "confidence": 0.1106,
+          "recency": 0.0141,
+          "semantic_power": 0.2701,
+          "redundancy_penalty": -0.024,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.53; decision=audit; strongest_positive=semantic_power:0.60; strongest_penalty=redundancy_penalty:0.30.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.3171
+      },
+      {
+        "context_id": "ctx_013",
+        "judge_score": 0.5247,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.2445,
+          "coherence": 0.95,
+          "confidence": 0.5989,
+          "recency": 0.3077,
+          "semantic_power": 0.6522,
+          "redundancy_penalty": 0.25,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.55
+        },
+        "weighted_terms": {
+          "relevance": 0.0611,
+          "coherence": 0.19,
+          "confidence": 0.1497,
+          "recency": 0.0154,
+          "semantic_power": 0.2935,
+          "redundancy_penalty": -0.02,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.165
+        },
+        "audit_reason": "Semantic Sustainment Score=0.52; decision=audit; strongest_positive=semantic_power:0.65; strongest_penalty=contradiction_penalty:0.55.",
+        "repair_instruction": "Isolate contradiction before generation and request resolution.",
+        "progressive_potentialization": 0.3422
+      },
+      {
+        "context_id": "ctx_014",
+        "judge_score": 0.4013,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.1832,
+          "coherence": 0.95,
+          "confidence": 0.5186,
+          "recency": 0.3333,
+          "semantic_power": 0.4843,
+          "redundancy_penalty": 0.4219,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.55
+        },
+        "weighted_terms": {
+          "relevance": 0.0458,
+          "coherence": 0.19,
+          "confidence": 0.1297,
+          "recency": 0.0167,
+          "semantic_power": 0.2179,
+          "redundancy_penalty": -0.0338,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.165
+        },
+        "audit_reason": "Semantic Sustainment Score=0.40; decision=discard; strongest_positive=semantic_power:0.48; strongest_penalty=contradiction_penalty:0.55.",
+        "repair_instruction": "Isolate contradiction before generation and request resolution.",
+        "progressive_potentialization": 0.1943
+      },
+      {
+        "context_id": "ctx_015",
+        "judge_score": 0.4845,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.0281,
+          "coherence": 1.0,
+          "confidence": 0.4406,
+          "recency": 0.359,
+          "semantic_power": 0.3736,
+          "redundancy_penalty": 0.2344,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.007,
+          "coherence": 0.2,
+          "confidence": 0.1101,
+          "recency": 0.0179,
+          "semantic_power": 0.1681,
+          "redundancy_penalty": -0.0187,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.48; decision=audit; strongest_positive=coherence:1.00; strongest_penalty=redundancy_penalty:0.23.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.181
+      },
+      {
+        "context_id": "ctx_016",
+        "judge_score": 0.559,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.0682,
+          "coherence": 0.9042,
+          "confidence": 0.4875,
+          "recency": 0.3846,
+          "semantic_power": 0.5495,
+          "redundancy_penalty": 0.3409,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.017,
+          "coherence": 0.1808,
+          "confidence": 0.1219,
+          "recency": 0.0192,
+          "semantic_power": 0.2473,
+          "redundancy_penalty": -0.0273,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.56; decision=audit; strongest_positive=semantic_power:0.55; strongest_penalty=redundancy_penalty:0.34.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.3072
+      },
+      {
+        "context_id": "ctx_017",
+        "judge_score": 0.4704,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.139,
+          "coherence": 0.8975,
+          "confidence": 0.4858,
+          "recency": 0.4103,
+          "semantic_power": 0.4796,
+          "redundancy_penalty": 0.1765,
+          "noise_penalty": 0.35,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0348,
+          "coherence": 0.1795,
+          "confidence": 0.1214,
+          "recency": 0.0205,
+          "semantic_power": 0.2158,
+          "redundancy_penalty": -0.0141,
+          "noise_penalty": -0.0875,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.47; decision=audit; strongest_positive=semantic_power:0.48; strongest_penalty=noise_penalty:0.35.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.2256
+      },
+      {
+        "context_id": "ctx_018",
+        "judge_score": 0.5552,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.1273,
+          "coherence": 0.95,
+          "confidence": 0.4951,
+          "recency": 0.4359,
+          "semantic_power": 0.473,
+          "redundancy_penalty": 0.3125,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0318,
+          "coherence": 0.19,
+          "confidence": 0.1238,
+          "recency": 0.0218,
+          "semantic_power": 0.2128,
+          "redundancy_penalty": -0.025,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.56; decision=audit; strongest_positive=semantic_power:0.47; strongest_penalty=redundancy_penalty:0.31.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.2626
+      },
+      {
+        "context_id": "ctx_019",
+        "judge_score": 0.6008,
+        "decision": "compact",
+        "color_state": "yellow_green",
+        "terms": {
+          "relevance": 0.0923,
+          "coherence": 0.95,
+          "confidence": 0.5242,
+          "recency": 0.4615,
+          "semantic_power": 0.591,
+          "redundancy_penalty": 0.4038,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0231,
+          "coherence": 0.19,
+          "confidence": 0.131,
+          "recency": 0.0231,
+          "semantic_power": 0.266,
+          "redundancy_penalty": -0.0323,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.60; decision=compact; strongest_positive=semantic_power:0.59; strongest_penalty=redundancy_penalty:0.40.",
+        "repair_instruction": "Compact while preserving semantic anchors and progressive links.",
+        "progressive_potentialization": 0.3551
+      },
+      {
+        "context_id": "ctx_020",
+        "judge_score": 0.5874,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.1136,
+          "coherence": 0.9542,
+          "confidence": 0.5111,
+          "recency": 0.4872,
+          "semantic_power": 0.5287,
+          "redundancy_penalty": 0.2727,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0284,
+          "coherence": 0.1908,
+          "confidence": 0.1278,
+          "recency": 0.0244,
+          "semantic_power": 0.2379,
+          "redundancy_penalty": -0.0218,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.59; decision=audit; strongest_positive=semantic_power:0.53; strongest_penalty=redundancy_penalty:0.27.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.3106
+      },
+      {
+        "context_id": "ctx_021",
+        "judge_score": 0.6435,
+        "decision": "compact",
+        "color_state": "yellow_green",
+        "terms": {
+          "relevance": 0.1308,
+          "coherence": 1.0,
+          "confidence": 0.5542,
+          "recency": 0.5128,
+          "semantic_power": 0.5955,
+          "redundancy_penalty": 0.2679,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0327,
+          "coherence": 0.2,
+          "confidence": 0.1386,
+          "recency": 0.0256,
+          "semantic_power": 0.268,
+          "redundancy_penalty": -0.0214,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.64; decision=compact; strongest_positive=semantic_power:0.60; strongest_penalty=redundancy_penalty:0.27.",
+        "repair_instruction": "Compact while preserving semantic anchors and progressive links.",
+        "progressive_potentialization": 0.3832
+      },
+      {
+        "context_id": "ctx_022",
+        "judge_score": 0.517,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.0966,
+          "coherence": 1.0,
+          "confidence": 0.4721,
+          "recency": 0.5385,
+          "semantic_power": 0.3952,
+          "redundancy_penalty": 0.375,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0241,
+          "coherence": 0.2,
+          "confidence": 0.118,
+          "recency": 0.0269,
+          "semantic_power": 0.1779,
+          "redundancy_penalty": -0.03,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.52; decision=audit; strongest_positive=coherence:1.00; strongest_penalty=redundancy_penalty:0.38.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.2043
+      },
+      {
+        "context_id": "ctx_023",
+        "judge_score": 0.4755,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.1182,
+          "coherence": 1.0,
+          "confidence": 0.4396,
+          "recency": 0.5641,
+          "semantic_power": 0.2807,
+          "redundancy_penalty": 0.2308,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0295,
+          "coherence": 0.2,
+          "confidence": 0.1099,
+          "recency": 0.0282,
+          "semantic_power": 0.1263,
+          "redundancy_penalty": -0.0185,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.48; decision=audit; strongest_positive=coherence:1.00; strongest_penalty=redundancy_penalty:0.23.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.1335
+      },
+      {
+        "context_id": "ctx_024",
+        "judge_score": 0.4328,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.1523,
+          "coherence": 0.8558,
+          "confidence": 0.4625,
+          "recency": 0.5897,
+          "semantic_power": 0.4355,
+          "redundancy_penalty": 0.375,
+          "noise_penalty": 0.35,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0381,
+          "coherence": 0.1712,
+          "confidence": 0.1156,
+          "recency": 0.0295,
+          "semantic_power": 0.196,
+          "redundancy_penalty": -0.03,
+          "noise_penalty": -0.0875,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.43; decision=discard; strongest_positive=semantic_power:0.44; strongest_penalty=noise_penalty:0.35.",
+        "repair_instruction": "Discard for this query unless new evidence raises relevance.",
+        "progressive_potentialization": 0.1885
+      },
+      {
+        "context_id": "ctx_025",
+        "judge_score": 0.3814,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.0577,
+          "coherence": 0.9475,
+          "confidence": 0.4344,
+          "recency": 0.6154,
+          "semantic_power": 0.3714,
+          "redundancy_penalty": 0.5192,
+          "noise_penalty": 0.35,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0144,
+          "coherence": 0.1895,
+          "confidence": 0.1086,
+          "recency": 0.0308,
+          "semantic_power": 0.1671,
+          "redundancy_penalty": -0.0415,
+          "noise_penalty": -0.0875,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.38; decision=discard; strongest_positive=coherence:0.95; strongest_penalty=noise_penalty:0.35.",
+        "repair_instruction": "Merge with prior context or keep only novel anchors.",
+        "progressive_potentialization": 0.1417
+      },
+      {
+        "context_id": "ctx_026",
+        "judge_score": 0.4874,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.1182,
+          "coherence": 0.9042,
+          "confidence": 0.439,
+          "recency": 0.641,
+          "semantic_power": 0.3612,
+          "redundancy_penalty": 0.3409,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0295,
+          "coherence": 0.1808,
+          "confidence": 0.1098,
+          "recency": 0.0321,
+          "semantic_power": 0.1625,
+          "redundancy_penalty": -0.0273,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.49; decision=audit; strongest_positive=coherence:0.90; strongest_penalty=redundancy_penalty:0.34.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.176
+      },
+      {
+        "context_id": "ctx_027",
+        "judge_score": 0.4581,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.0462,
+          "coherence": 0.95,
+          "confidence": 0.4125,
+          "recency": 0.6667,
+          "semantic_power": 0.3182,
+          "redundancy_penalty": 0.2885,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0115,
+          "coherence": 0.19,
+          "confidence": 0.1031,
+          "recency": 0.0333,
+          "semantic_power": 0.1432,
+          "redundancy_penalty": -0.0231,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.46; decision=audit; strongest_positive=coherence:0.95; strongest_penalty=redundancy_penalty:0.29.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.1458
+      },
+      {
+        "context_id": "ctx_028",
+        "judge_score": 0.3948,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.0125,
+          "coherence": 0.95,
+          "confidence": 0.3738,
+          "recency": 0.6923,
+          "semantic_power": 0.2413,
+          "redundancy_penalty": 0.4375,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0031,
+          "coherence": 0.19,
+          "confidence": 0.0935,
+          "recency": 0.0346,
+          "semantic_power": 0.1086,
+          "redundancy_penalty": -0.035,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.39; decision=discard; strongest_positive=coherence:0.95; strongest_penalty=redundancy_penalty:0.44.",
+        "repair_instruction": "Discard for this query unless new evidence raises relevance.",
+        "progressive_potentialization": 0.0953
+      },
+      {
+        "context_id": "ctx_029",
+        "judge_score": 0.4887,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.06,
+          "coherence": 0.9083,
+          "confidence": 0.4281,
+          "recency": 0.7179,
+          "semantic_power": 0.3846,
+          "redundancy_penalty": 0.3,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.015,
+          "coherence": 0.1817,
+          "confidence": 0.107,
+          "recency": 0.0359,
+          "semantic_power": 0.1731,
+          "redundancy_penalty": -0.024,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.49; decision=audit; strongest_positive=coherence:0.91; strongest_penalty=redundancy_penalty:0.30.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.188
+      },
+      {
+        "context_id": "ctx_030",
+        "judge_score": 0.4807,
+        "decision": "audit",
+        "color_state": "yellow",
+        "terms": {
+          "relevance": 0.045,
+          "coherence": 0.9083,
+          "confidence": 0.4162,
+          "recency": 0.7436,
+          "semantic_power": 0.3657,
+          "redundancy_penalty": 0.225,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0112,
+          "coherence": 0.1817,
+          "confidence": 0.1041,
+          "recency": 0.0372,
+          "semantic_power": 0.1646,
+          "redundancy_penalty": -0.018,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.48; decision=audit; strongest_positive=coherence:0.91; strongest_penalty=redundancy_penalty:0.22.",
+        "repair_instruction": "Keep out of generation path until reviewed or repaired.",
+        "progressive_potentialization": 0.1758
+      },
+      {
+        "context_id": "ctx_031",
+        "judge_score": 0.3824,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.1739,
+          "coherence": 0.9475,
+          "confidence": 0.4377,
+          "recency": 0.7692,
+          "semantic_power": 0.2645,
+          "redundancy_penalty": 0.375,
+          "noise_penalty": 0.35,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0435,
+          "coherence": 0.1895,
+          "confidence": 0.1094,
+          "recency": 0.0385,
+          "semantic_power": 0.119,
+          "redundancy_penalty": -0.03,
+          "noise_penalty": -0.0875,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.38; decision=discard; strongest_positive=coherence:0.95; strongest_penalty=noise_penalty:0.35.",
+        "repair_instruction": "Discard for this query unless new evidence raises relevance.",
+        "progressive_potentialization": 0.1011
+      },
+      {
+        "context_id": "ctx_032",
+        "judge_score": 0.3893,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.2364,
+          "coherence": 0.9017,
+          "confidence": 0.4493,
+          "recency": 0.7949,
+          "semantic_power": 0.2744,
+          "redundancy_penalty": 0.4773,
+          "noise_penalty": 0.35,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0591,
+          "coherence": 0.1803,
+          "confidence": 0.1123,
+          "recency": 0.0397,
+          "semantic_power": 0.1235,
+          "redundancy_penalty": -0.0382,
+          "noise_penalty": -0.0875,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.39; decision=discard; strongest_positive=coherence:0.90; strongest_penalty=noise_penalty:0.35.",
+        "repair_instruction": "Merge with prior context or keep only novel anchors.",
+        "progressive_potentialization": 0.1068
+      },
+      {
+        "context_id": "ctx_033",
+        "judge_score": 0.4005,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.0375,
+          "coherence": 0.8167,
+          "confidence": 0.3426,
+          "recency": 0.8205,
+          "semantic_power": 0.2414,
+          "redundancy_penalty": 0.0938,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0094,
+          "coherence": 0.1633,
+          "confidence": 0.0857,
+          "recency": 0.041,
+          "semantic_power": 0.1086,
+          "redundancy_penalty": -0.0075,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.40; decision=discard; strongest_positive=coherence:0.82; strongest_penalty=redundancy_penalty:0.09.",
+        "repair_instruction": "Discard for this query unless new evidence raises relevance.",
+        "progressive_potentialization": 0.0967
+      },
+      {
+        "context_id": "ctx_034",
+        "judge_score": 0.3897,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.05,
+          "coherence": 0.8625,
+          "confidence": 0.3544,
+          "recency": 0.8462,
+          "semantic_power": 0.2233,
+          "redundancy_penalty": 0.3333,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0125,
+          "coherence": 0.1725,
+          "confidence": 0.0886,
+          "recency": 0.0423,
+          "semantic_power": 0.1005,
+          "redundancy_penalty": -0.0267,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.39; decision=discard; strongest_positive=coherence:0.86; strongest_penalty=redundancy_penalty:0.33.",
+        "repair_instruction": "Discard for this query unless new evidence raises relevance.",
+        "progressive_potentialization": 0.087
+      },
+      {
+        "context_id": "ctx_035",
+        "judge_score": 0.3717,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.03,
+          "coherence": 0.9083,
+          "confidence": 0.3508,
+          "recency": 0.8718,
+          "semantic_power": 0.1939,
+          "redundancy_penalty": 0.45,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0075,
+          "coherence": 0.1817,
+          "confidence": 0.0877,
+          "recency": 0.0436,
+          "semantic_power": 0.0872,
+          "redundancy_penalty": -0.036,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.37; decision=discard; strongest_positive=coherence:0.91; strongest_penalty=redundancy_penalty:0.45.",
+        "repair_instruction": "Discard for this query unless new evidence raises relevance.",
+        "progressive_potentialization": 0.0721
+      },
+      {
+        "context_id": "ctx_036",
+        "judge_score": 0.3692,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.0375,
+          "coherence": 0.8167,
+          "confidence": 0.3295,
+          "recency": 0.8974,
+          "semantic_power": 0.2039,
+          "redundancy_penalty": 0.2812,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0094,
+          "coherence": 0.1633,
+          "confidence": 0.0824,
+          "recency": 0.0449,
+          "semantic_power": 0.0917,
+          "redundancy_penalty": -0.0225,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.37; decision=discard; strongest_positive=coherence:0.82; strongest_penalty=redundancy_penalty:0.28.",
+        "repair_instruction": "Discard for this query unless new evidence raises relevance.",
+        "progressive_potentialization": 0.0753
+      },
+      {
+        "context_id": "ctx_037",
+        "judge_score": 0.3843,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.0333,
+          "coherence": 0.8625,
+          "confidence": 0.3419,
+          "recency": 0.9231,
+          "semantic_power": 0.2042,
+          "redundancy_penalty": 0.25,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0083,
+          "coherence": 0.1725,
+          "confidence": 0.0855,
+          "recency": 0.0462,
+          "semantic_power": 0.0919,
+          "redundancy_penalty": -0.02,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.38; decision=discard; strongest_positive=coherence:0.86; strongest_penalty=redundancy_penalty:0.25.",
+        "repair_instruction": "Discard for this query unless new evidence raises relevance.",
+        "progressive_potentialization": 0.0785
+      },
+      {
+        "context_id": "ctx_038",
+        "judge_score": 0.272,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.0706,
+          "coherence": 0.9475,
+          "confidence": 0.348,
+          "recency": 0.9487,
+          "semantic_power": 0.1116,
+          "redundancy_penalty": 0.4038,
+          "noise_penalty": 0.35,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0177,
+          "coherence": 0.1895,
+          "confidence": 0.087,
+          "recency": 0.0474,
+          "semantic_power": 0.0502,
+          "redundancy_penalty": -0.0323,
+          "noise_penalty": -0.0875,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.27; decision=discard; strongest_positive=coherence:0.95; strongest_penalty=noise_penalty:0.35.",
+        "repair_instruction": "Discard for this query unless new evidence raises relevance.",
+        "progressive_potentialization": 0.0304
+      },
+      {
+        "context_id": "ctx_039",
+        "judge_score": 0.3228,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.0,
+          "coherence": 0.8625,
+          "confidence": 0.3002,
+          "recency": 0.9744,
+          "semantic_power": 0.1183,
+          "redundancy_penalty": 0.3333,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0,
+          "coherence": 0.1725,
+          "confidence": 0.075,
+          "recency": 0.0487,
+          "semantic_power": 0.0532,
+          "redundancy_penalty": -0.0267,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.32; decision=discard; strongest_positive=coherence:0.86; strongest_penalty=redundancy_penalty:0.33.",
+        "repair_instruction": "Discard for this query unless new evidence raises relevance.",
+        "progressive_potentialization": 0.0382
+      },
+      {
+        "context_id": "ctx_040",
+        "judge_score": 0.3972,
+        "decision": "discard",
+        "color_state": "red",
+        "terms": {
+          "relevance": 0.0,
+          "coherence": 1.0,
+          "confidence": 0.365,
+          "recency": 1.0,
+          "semantic_power": 0.1858,
+          "redundancy_penalty": 0.3462,
+          "noise_penalty": 0.0,
+          "contradiction_penalty": 0.0
+        },
+        "weighted_terms": {
+          "relevance": 0.0,
+          "coherence": 0.2,
+          "confidence": 0.0913,
+          "recency": 0.05,
+          "semantic_power": 0.0836,
+          "redundancy_penalty": -0.0277,
+          "noise_penalty": -0.0,
+          "contradiction_penalty": -0.0
+        },
+        "audit_reason": "Semantic Sustainment Score=0.40; decision=discard; strongest_positive=coherence:1.00; strongest_penalty=redundancy_penalty:0.35.",
+        "repair_instruction": "Discard for this query unless new evidence raises relevance.",
+        "progressive_potentialization": 0.0738
+      }
+    ]
+  }
+]

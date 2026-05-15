@@ -1,0 +1,329 @@
+{
+  "anchors_evaluated": 40,
+  "bidirectional_stability": 0.725,
+  "regressive_score_avg": 1.0,
+  "progressive_score_avg": 0.45114692926612426,
+  "bidirectional_score_avg": 0.753016118169756,
+  "anchors": [
+    {
+      "context_id": "ctx_002",
+      "anchor_text": "O final pode ser o comeco quando o objetivo e entender o que sustenta o todo.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.7777777777777778,
+      "bidirectional_score": 0.9000000000000001,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_015",
+      "anchor_text": "o modelo ideal nao apenas responde, ele convive, percebe pequenas frases e instiga reflexao sem ser invasivo.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.42857142857142855,
+      "bidirectional_score": 0.7428571428571429,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_025",
+      "anchor_text": "nomes de arquivos temporarios podem confundir, mas nao carregam a tese semantica principal.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.3157894736842105,
+      "bidirectional_score": 0.6921052631578948,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_031",
+      "anchor_text": "esta frase existe para aumentar densidade, mas nao adiciona nova tese estrutural ao sistema.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.25,
+      "bidirectional_score": 0.6625000000000001,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_008",
+      "anchor_text": "Ambiguidade fertil nao deve ser removida cedo demais.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.7857142857142857,
+      "bidirectional_score": 0.9035714285714287,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_010",
+      "anchor_text": "Ele recalcula o peso das partes depois que o objetivo ou final esta conhecido.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.6666666666666666,
+      "bidirectional_score": 0.8500000000000001,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_011",
+      "anchor_text": "este trecho fala de configuracao de terminal, arquivos locais e execucao de scripts, mas nao muda a tese do Bankmap.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.5714285714285714,
+      "bidirectional_score": 0.8071428571428572,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_014",
+      "anchor_text": "Mas corte agressivo pode apagar contexto sustentador.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.625,
+      "bidirectional_score": 0.83125,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_009",
+      "anchor_text": "O maior risco do Bankmap e reconstruir errado a partir de poucas ancoras.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.6470588235294118,
+      "bidirectional_score": 0.8411764705882354,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_024",
+      "anchor_text": "a cor da janela do terminal nao altera a avaliacao da arquitetura Bankmap.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.3333333333333333,
+      "bidirectional_score": 0.7000000000000001,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_003",
+      "anchor_text": "Uma ancora pequena pode reativar uma cadeia longa de significado se estiver bem posicionada.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.631578947368421,
+      "bidirectional_score": 0.8342105263157895,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_029",
+      "anchor_text": "uma LLM de convivio deve ser util, sutil, reflexiva e nao intrusiva.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.3125,
+      "bidirectional_score": 0.690625,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_017",
+      "anchor_text": "hoje o servico de API pode retornar erro 500, timeout ou texto antes do JSON.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.631578947368421,
+      "bidirectional_score": 0.8342105263157895,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_013",
+      "anchor_text": "talvez o Bankmap deva preservar tudo, porque descartar qualquer coisa pode ser perigoso.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.7,
+      "bidirectional_score": 0.865,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_035",
+      "anchor_text": "token_compression mede a diferenca entre tokens brutos e contexto final compacto.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.10526315789473684,
+      "bidirectional_score": 0.5973684210526317,
+      "direction": "regressive"
+    },
+    {
+      "context_id": "ctx_023",
+      "anchor_text": "tomar um belo banho pode ser literal, pausa mental, simbolo de transicao ou gatilho de reflexao contextual.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.19047619047619047,
+      "bidirectional_score": 0.6357142857142858,
+      "direction": "regressive"
+    },
+    {
+      "context_id": "ctx_004",
+      "anchor_text": "Nao basta cortar firula textual.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.7857142857142857,
+      "bidirectional_score": 0.9035714285714287,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_019",
+      "anchor_text": "A sustentacao semantica baixa indica que o sistema comprimiu, mas talvez ainda nao preservou estrutura suficiente.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.6666666666666666,
+      "bidirectional_score": 0.8500000000000001,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_018",
+      "anchor_text": "A carga contextual deve considerar centralidade, desambiguacao, dependencia do objetivo, capacidade de reconstrucao, risco e redundancia.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.5238095238095238,
+      "bidirectional_score": 0.7857142857142858,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_005",
+      "anchor_text": "Se algum contexto essencial desaparecer, a compressao vira perda de entendimento.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.7222222222222222,
+      "bidirectional_score": 0.875,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_037",
+      "anchor_text": "semantic_quality ainda precisa ser validada por comparacao humana ou por julgador externo.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.1111111111111111,
+      "bidirectional_score": 0.6000000000000001,
+      "direction": "regressive"
+    },
+    {
+      "context_id": "ctx_022",
+      "anchor_text": "ancoras semanticas permitem reduzir tokens sem perder o fio principal da resposta.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.5,
+      "bidirectional_score": 0.775,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_007",
+      "anchor_text": "Ela transforma contexto bruto em estrutura auditavel com ancoras, scores, decisoes e trilha.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.7368421052631579,
+      "bidirectional_score": 0.881578947368421,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_030",
+      "anchor_text": "a abordagem precisa de baseline com prompt bruto, prompt compacto e julgamento de qualidade.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.3333333333333333,
+      "bidirectional_score": 0.7000000000000001,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_039",
+      "anchor_text": "auditability mede se conseguimos explicar por que uma ancora foi usada e outra foi descartada.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.0,
+      "bidirectional_score": 0.55,
+      "direction": "regressive"
+    },
+    {
+      "context_id": "ctx_021",
+      "anchor_text": "o grafo visual mostra entrada, Bankmap, contexto regressivo, ancoras, bootloader, LLM e output multi-fluxo.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.47619047619047616,
+      "bidirectional_score": 0.7642857142857143,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_020",
+      "anchor_text": "Se a compressao for alta e a sustentacao baixa, a leveza real continua limitada.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.5882352941176471,
+      "bidirectional_score": 0.8147058823529412,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_040",
+      "anchor_text": "Fechamento:",
+      "regressive_score": 1.0,
+      "progressive_score": 0.0,
+      "bidirectional_score": 0.55,
+      "direction": "regressive"
+    },
+    {
+      "context_id": "ctx_033",
+      "anchor_text": "separability_output mede se os blocos de resposta voltam organizados e validaveis.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.11764705882352941,
+      "bidirectional_score": 0.6029411764705883,
+      "direction": "regressive"
+    },
+    {
+      "context_id": "ctx_036",
+      "anchor_text": "context_coverage mede se todos os contextos tiveram ao menos uma representacao sustentadora.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.1111111111111111,
+      "bidirectional_score": 0.6000000000000001,
+      "direction": "regressive"
+    },
+    {
+      "context_id": "ctx_016",
+      "anchor_text": "Metricas precisam ficar no output para o usuario avaliar a resposta sem abrir arquivos auxiliares.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.6190476190476191,
+      "bidirectional_score": 0.8285714285714286,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_001",
+      "anchor_text": "A reducao de tokens precisa preservar sentido e separar o output em fluxos.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.8888888888888888,
+      "bidirectional_score": 0.95,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_032",
+      "anchor_text": "outra frase de enchimento para testar se o Bankmap consegue descartar baixa carga semantica.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.15789473684210525,
+      "bidirectional_score": 0.6210526315789474,
+      "direction": "regressive"
+    },
+    {
+      "context_id": "ctx_026",
+      "anchor_text": "O Bankmap deve separar memoria, resposta, noemas, axiomas, auditoria, proximas acoes e metricas.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.3,
+      "bidirectional_score": 0.685,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_034",
+      "anchor_text": "contextual_throughput mede quantos contextos foram processados por uma chamada de LLM.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.17647058823529413,
+      "bidirectional_score": 0.6294117647058824,
+      "direction": "regressive"
+    },
+    {
+      "context_id": "ctx_028",
+      "anchor_text": "A arquitetura ganha forca quando o output deixa de ser texto plano e vira uma estrutura operacional verificavel.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.22727272727272727,
+      "bidirectional_score": 0.6522727272727273,
+      "direction": "regressive"
+    },
+    {
+      "context_id": "ctx_038",
+      "anchor_text": "prompt_quality deve medir clareza, completude operacional, baixo ruido e capacidade de induzir JSON correto.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.0,
+      "bidirectional_score": 0.55,
+      "direction": "regressive"
+    },
+    {
+      "context_id": "ctx_027",
+      "anchor_text": "Se a LLM mistura explicacao antes do JSON, o parser precisa localizar o objeto valido dentro da resposta mista.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.3181818181818182,
+      "bidirectional_score": 0.6931818181818182,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_006",
+      "anchor_text": "compressao, cobertura, sustentacao semantica, auditabilidade e separabilidade.",
+      "regressive_score": 1.0,
+      "progressive_score": 0.8125,
+      "bidirectional_score": 0.9156250000000001,
+      "direction": "bidirectional"
+    },
+    {
+      "context_id": "ctx_012",
+      "anchor_text": "Repeticao:",
+      "regressive_score": 1.0,
+      "progressive_score": 0.9,
+      "bidirectional_score": 0.9550000000000001,
+      "direction": "bidirectional"
+    }
+  ]
+}

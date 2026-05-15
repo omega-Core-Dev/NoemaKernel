@@ -1,0 +1,142 @@
+{
+  "objective": "Prototipar Bankmap para reduzir tokens preservando contexto e output separado.",
+  "anchors": [
+    {
+      "context_id": "ctx_003",
+      "text": "o final de um livro pode ser o comeco para quem quer compreender a estrutura.",
+      "score": 0.6267,
+      "decision": "open_noema",
+      "reasons": {
+        "centrality": 0.0,
+        "disambiguation": 0.6667,
+        "reconstruction": 0.9167,
+        "novelty": 1.0,
+        "risk": 0.0,
+        "open_noema": 0.3333,
+        "redundancy": 0.0
+      }
+    },
+    {
+      "context_id": "ctx_004",
+      "text": "Reducao de tokens so importa se preservar o sentido.",
+      "score": 0.5642,
+      "decision": "summarize",
+      "reasons": {
+        "centrality": 0.125,
+        "disambiguation": 0.3333,
+        "reconstruction": 0.6667,
+        "novelty": 1.0,
+        "risk": 0.0,
+        "open_noema": 0.3333,
+        "redundancy": 0.0
+      }
+    },
+    {
+      "context_id": "ctx_001",
+      "text": "Nao quero apenas uma ferramenta que responde.",
+      "score": 0.524,
+      "decision": "summarize",
+      "reasons": {
+        "centrality": 0.0,
+        "disambiguation": 0.3333,
+        "reconstruction": 0.6667,
+        "novelty": 0.6,
+        "risk": 0.6667,
+        "open_noema": 0.0,
+        "redundancy": 0.0
+      }
+    },
+    {
+      "context_id": "ctx_003",
+      "text": "Frases curtas podem carregar o contexto inteiro.",
+      "score": 0.5142,
+      "decision": "summarize",
+      "reasons": {
+        "centrality": 0.125,
+        "disambiguation": 0.3333,
+        "reconstruction": 0.75,
+        "novelty": 0.8333,
+        "risk": 0.0,
+        "open_noema": 0.0,
+        "redundancy": 0.0
+      }
+    },
+    {
+      "context_id": "ctx_004",
+      "text": "e preciso medir carga contextual e ambiguidade fertil.",
+      "score": 0.5,
+      "decision": "summarize",
+      "reasons": {
+        "centrality": 0.0,
+        "disambiguation": 0.3333,
+        "reconstruction": 0.75,
+        "novelty": 1.0,
+        "risk": 0.0,
+        "open_noema": 0.0,
+        "redundancy": 0.0
+      }
+    },
+    {
+      "context_id": "ctx_002",
+      "text": "O Bankmap deve tratar muitos contextos em uma unica inferencia.",
+      "score": 0.4908,
+      "decision": "summarize",
+      "reasons": {
+        "centrality": 0.125,
+        "disambiguation": 0.0,
+        "reconstruction": 0.8333,
+        "novelty": 1.0,
+        "risk": 0.0,
+        "open_noema": 0.0,
+        "redundancy": 0.0
+      }
+    }
+  ],
+  "compact_context": "- o final de um livro pode ser o comeco para quem quer compreender a estrutura.\n- Reducao de tokens so importa se preservar o sentido.\n- Nao quero apenas uma ferramenta que responde.\n- Frases curtas podem carregar o contexto inteiro.\n- e preciso medir carga contextual e ambiguidade fertil.\n- O Bankmap deve tratar muitos contextos em uma unica inferencia.",
+  "metrics": {
+    "contexts_processed": 4.0,
+    "calls_required": 1.0,
+    "contextual_throughput": 4.0,
+    "raw_tokens_est": 124.0,
+    "compact_tokens_est": 73.0,
+    "token_compression": 0.4113,
+    "anchors_selected": 6.0,
+    "context_coverage": 1.0,
+    "semantic_sustentation": 0.5455,
+    "structural_lightness": 0.2243
+  },
+  "audit_trail": [
+    {
+      "context_id": "ctx_001",
+      "input_tokens_est": 32,
+      "anchors_found": 3,
+      "preserved": 0,
+      "summarized": 3,
+      "open_noemas": 0
+    },
+    {
+      "context_id": "ctx_002",
+      "input_tokens_est": 29,
+      "anchors_found": 2,
+      "preserved": 0,
+      "summarized": 2,
+      "open_noemas": 0
+    },
+    {
+      "context_id": "ctx_003",
+      "input_tokens_est": 36,
+      "anchors_found": 3,
+      "preserved": 0,
+      "summarized": 2,
+      "open_noemas": 1
+    },
+    {
+      "context_id": "ctx_004",
+      "input_tokens_est": 27,
+      "anchors_found": 3,
+      "preserved": 0,
+      "summarized": 3,
+      "open_noemas": 0
+    }
+  ]
+}
