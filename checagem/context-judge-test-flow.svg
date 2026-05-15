@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="520" viewBox="0 0 1180 520" role="img" aria-labelledby="title desc">
+  <title id="title">NoemaKernel ContextJudge Test Flow</title>
+  <desc id="desc">Simple test flow showing Bankmap, bidirectional metrics, ContextJudge decisions and LLM packet preparation.</desc>
+  <defs>
+    <style>
+      .bg { fill: #fbfaf4; }
+      .box { stroke: #3f4a4d; stroke-width: 2; rx: 8; }
+      .input { fill: #d8efe7; }
+      .core { fill: #f5d98b; }
+      .judge { fill: #ece3f2; }
+      .llm { fill: #ffd7c2; }
+      .out { fill: #d7ecd0; }
+      .risk { fill: #f3c9c9; }
+      .text { fill: #1e2528; font-family: Arial, Helvetica, sans-serif; font-size: 15px; }
+      .title { font-weight: 700; font-size: 17px; }
+      .small { fill: #4f5a5d; font-size: 13px; }
+      .edge { stroke: #5e686b; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+      .dash { stroke: #8d7a9f; stroke-width: 2.2; fill: none; stroke-dasharray: 8 7; marker-end: url(#arrow); }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5e686b"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1180" height="520"/>
+  <text class="text title" x="40" y="42">NoemaKernel: simple runtime test flow</text>
+  <text class="text small" x="40" y="66">Goal: decide what context reaches the LLM, what is compacted, what needs audit, and what is discarded.</text>
+
+  <rect class="box input" x="40" y="110" width="180" height="92"/>
+  <text class="text title" x="62" y="143">Contexts</text>
+  <text class="text small" x="62" y="168">C1..Cn</text>
+  <text class="text small" x="62" y="187">text blocks</text>
+
+  <rect class="box input" x="40" y="250" width="180" height="92"/>
+  <text class="text title" x="62" y="283">Query / State</text>
+  <text class="text small" x="62" y="308">objective</text>
+  <text class="text small" x="62" y="327">runtime state</text>
+
+  <rect class="box core" x="280" y="160" width="180" height="110"/>
+  <text class="text title" x="302" y="194">Bankmap</text>
+  <text class="text small" x="302" y="220">anchors</text>
+  <text class="text small" x="302" y="240">compact signals</text>
+
+  <rect class="box core" x="520" y="110" width="200" height="92"/>
+  <text class="text title" x="542" y="143">Bidirectional</text>
+  <text class="text small" x="542" y="168">regressive +</text>
+  <text class="text small" x="542" y="187">progressive score</text>
+
+  <rect class="box judge" x="520" y="250" width="200" height="116"/>
+  <text class="text title" x="542" y="283">ContextJudge</text>
+  <text class="text small" x="542" y="308">Semantic Sustainment</text>
+  <text class="text small" x="542" y="327">weighted terms</text>
+  <text class="text small" x="542" y="346">repair instruction</text>
+
+  <rect class="box out" x="780" y="100" width="180" height="76"/>
+  <text class="text title" x="802" y="132">promote</text>
+  <text class="text small" x="802" y="155">high value</text>
+
+  <rect class="box out" x="780" y="196" width="180" height="76"/>
+  <text class="text title" x="802" y="228">compact</text>
+  <text class="text small" x="802" y="251">use compressed</text>
+
+  <rect class="box judge" x="780" y="292" width="180" height="76"/>
+  <text class="text title" x="802" y="324">audit</text>
+  <text class="text small" x="802" y="347">quarantine</text>
+
+  <rect class="box risk" x="780" y="388" width="180" height="76"/>
+  <text class="text title" x="802" y="420">discard</text>
+  <text class="text small" x="802" y="443">do not use</text>
+
+  <rect class="box llm" x="1010" y="160" width="130" height="110"/>
+  <text class="text title" x="1032" y="194">LLM</text>
+  <text class="text small" x="1032" y="220">Gemma /</text>
+  <text class="text small" x="1032" y="240">OpenAI</text>
+
+  <rect class="box judge" x="1010" y="316" width="130" height="92"/>
+  <text class="text title" x="1032" y="349">Audit</text>
+  <text class="text small" x="1032" y="374">metrics</text>
+  <text class="text small" x="1032" y="393">trace</text>
+
+  <path class="edge" d="M220 156 C250 156 250 204 280 204"/>
+  <path class="edge" d="M220 296 C250 296 250 232 280 232"/>
+  <path class="edge" d="M460 202 C490 202 490 156 520 156"/>
+  <path class="edge" d="M460 226 C490 226 490 308 520 308"/>
+  <path class="edge" d="M720 302 C750 302 750 138 780 138"/>
+  <path class="edge" d="M720 308 C750 308 750 234 780 234"/>
+  <path class="edge" d="M720 322 C750 322 750 330 780 330"/>
+  <path class="edge" d="M720 338 C750 338 750 426 780 426"/>
+  <path class="edge" d="M960 138 C990 138 990 198 1010 198"/>
+  <path class="edge" d="M960 234 C990 234 990 230 1010 230"/>
+  <path class="dash" d="M960 330 C990 330 990 362 1010 362"/>
+  <path class="dash" d="M960 426 C990 426 990 390 1010 390"/>
+
+  <text class="text small" x="44" y="480">Current local calibration: active 22.50%, audit 42.50%, discard 35.00%, active progressive potentialization 45.82%.</text>
+</svg>

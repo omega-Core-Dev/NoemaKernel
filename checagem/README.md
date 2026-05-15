@@ -19,6 +19,7 @@ testes, manifesto de dependencias ou repositorio Git inicializado.
 - `openai-api.md`: integracao opcional com OpenAI/GPT via Responses API.
 - `grafo-arquitetura.html`: grafo visual autocontido da arquitetura.
 - `grafo-arquitetura-mermaid.md`: versao Mermaid do grafo.
+- `context-judge-test-flow.svg`: fluxo simples de teste do ContextJudge.
 - `stress-test.md`: resultado do teste local com 4, 10, 20 e 40 contextos.
 - `modos-bankmap.md`: comparacao dos modos aggressive, balanced e coverage.
 - `reativacao-reconstrucao.md`: metricas de reativacao contextual e reconstrucao cognitiva.
