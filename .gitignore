@@ -9,3 +9,13 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+
+# Private research notes / cognitive metric drafts
+RETOMADA.md
+ROADMAP.md
+noemaKernel-llm.md
+Arquitetura de Dados.txt
+Metrica de comprensao de complexidades.pdf
+Metrica de comprensao de perplexidades.pdf
+modulo julgador  de contextos.md
+modulo julgador.md
