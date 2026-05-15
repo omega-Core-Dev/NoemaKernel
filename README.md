@@ -1,5 +1,9 @@
 # NoemaKernel
 
+Experimental runtime for auditable semantic context routing before LLM inference.
+
+![NoemaKernel architecture graph](checagem/grafo-arquitetura.svg)
+
 NoemaKernel is an experimental architecture for contextual navigation in LLM
 workflows.
 
@@ -31,6 +35,20 @@ NoemaKernel currently implements:
 
 The system takes many context blocks and tries to produce a smaller, auditable
 context package for one LLM call.
+
+## Minimal Example
+
+```python
+from noemakernel import BankmapEngine, ContextItem
+from noemakernel.context_judge import ContextJudge
+contexts = [ContextItem("c1", "Bankmap preserves semantic anchors.")]
+objective = "Route useful context before inference."
+packet = BankmapEngine().build_packet(contexts, objective)
+judge = ContextJudge(profile="llm_continuous")
+result = judge.judge_context(contexts[0], objective, {"future_contexts": []})
+print(packet.compact_context)
+print(result.to_dict()["decision"])
+```
 
 ## Why It Exists
 
@@ -100,6 +118,39 @@ active progressive potentialization: 45.82%
 ```
 
 These are heuristic development metrics, not benchmark results.
+
+## Claims
+
+### Research Claim
+
+Context quality can be evaluated before inference by combining semantic anchors,
+regressive/progressive relationships and auditable context decisions.
+
+This is a research direction. It still needs external judges, stronger semantic
+evaluation and human-labeled comparisons.
+
+### Engineering Claim
+
+NoemaKernel provides a working Python prototype that:
+
+- accepts multiple context blocks;
+- extracts and scores anchors;
+- evaluates bidirectional context signals;
+- judges context with `promote`, `compact`, `audit` and `discard`;
+- emits JSON-serializable audit data;
+- runs with standard-library Python.
+
+### What It Does Not Claim
+
+NoemaKernel does not claim:
+
+- benchmark-level quality;
+- guaranteed compression;
+- replacement for agents;
+- replacement for retrieval systems;
+- model-level memory optimization;
+- validated cognitive metrics;
+- production readiness.
 
 ## Relation To TurboQuant
 
