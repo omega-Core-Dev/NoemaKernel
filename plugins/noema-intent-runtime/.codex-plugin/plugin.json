@@ -1,0 +1,28 @@
+{
+  "name": "noema-intent-runtime",
+  "version": "0.1.0",
+  "description": "Structure complex intent before execution and measure its token overhead locally.",
+  "author": {
+    "name": "omega-Core-Dev",
+    "url": "https://github.com/omega-Core-Dev"
+  },
+  "homepage": "https://github.com/omega-Core-Dev/NoemaKernel",
+  "repository": "https://github.com/omega-Core-Dev/NoemaKernel",
+  "license": "MIT",
+  "keywords": ["intent", "prompt-structure", "telemetry", "tokens"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Noema Intent Runtime",
+    "shortDescription": "Structure intent and measure execution overhead.",
+    "longDescription": "Adds a local intent contract to complex prompts and records privacy-preserving telemetry for A/B token comparisons.",
+    "developerName": "omega-Core-Dev",
+    "category": "Productivity",
+    "capabilities": ["Intent structuring", "Local telemetry", "Token comparison"],
+    "websiteURL": "https://github.com/omega-Core-Dev/NoemaKernel",
+    "defaultPrompt": [
+      "Structure this implementation request before coding.",
+      "Compare baseline and Noema-assisted token usage.",
+      "Report the local Noema telemetry summary."
+    ]
+  }
+}

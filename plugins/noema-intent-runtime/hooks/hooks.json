@@ -1,0 +1,43 @@
+{
+  "description": "Inject Noema intent contracts and collect opt-in local telemetry.",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$PLUGIN_ROOT/scripts/noema_runtime.py\" hook",
+            "commandWindows": "python \"%PLUGIN_ROOT%\\scripts\\noema_runtime.py\" hook",
+            "timeout": 10,
+            "statusMessage": "Structuring intent with Noema",
+            "additionalContextLimit": 6000
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$PLUGIN_ROOT/scripts/noema_runtime.py\" hook",
+            "commandWindows": "python \"%PLUGIN_ROOT%\\scripts\\noema_runtime.py\" hook",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$PLUGIN_ROOT/scripts/noema_runtime.py\" hook",
+            "commandWindows": "python \"%PLUGIN_ROOT%\\scripts\\noema_runtime.py\" hook",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

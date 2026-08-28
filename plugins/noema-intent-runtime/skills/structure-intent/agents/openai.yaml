@@ -1,0 +1,4 @@
+interface:
+  display_name: "Structure Intent"
+  short_description: "Structure prompts into verifiable intent contracts"
+  default_prompt: "Use $structure-intent to turn this request into a verifiable execution contract."
